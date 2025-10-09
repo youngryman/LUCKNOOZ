@@ -362,6 +362,10 @@
                 
                 headlineComponents = JSON.parse(text);
                 showDebug(`Found ${headlineComponents.subjects?.length || 0} subjects`);
+                showDebug(`Found ${headlineComponents.verbs?.length || 0} verbs`);
+                showDebug(`Found ${headlineComponents.objects?.length || 0} objects`);
+                showDebug(`Found ${headlineComponents.qualifiers?.length || 0} qualifiers`);
+                showDebug(`Found ${headlineComponents.contexts?.length || 0} contexts`);
                 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('headlines-section').style.display = 'block';
@@ -410,6 +414,10 @@
         
         function getRandomComponent(category) {
             const items = headlineComponents[category];
+            if (!items || items.length === 0) {
+                showDebug(`Warning: No items found for category "${category}"`, true);
+                return { text: `[${category}]`, original: 'Missing data', source: 'Error' };
+            }
             return items[Math.floor(Math.random() * items.length)];
         }
         
