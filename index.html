@@ -69,7 +69,6 @@
             font-size: 0.95em;
         }
         
-
         .headlines-section {
             margin: 30px 0;
         }
@@ -307,36 +306,31 @@
         window.addEventListener('DOMContentLoaded', loadHeadlinesFromGitHub);
         
         async function loadHeadlinesFromGitHub() {
-            showDebug('Starting to load headlines...');
-            
             try {
                 const response = await fetch(GITHUB_RAW_URL);
-                showDebug(`Response status: ${response.status}`);
                 
                 if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
+                    throw new Error('Could not load headline data');
                 }
                 
                 const text = await response.text();
-                showDebug(`Loaded ${text.length} characters`);
-                
                 headlineComponents = JSON.parse(text);
-                showDebug(`Found ${headlineComponents.subjects?.length || 0} subjects`);
-                showDebug(`Found ${headlineComponents.predicates?.length || 0} predicates`);
+                
+                if (!headlineComponents.subjects || !headlineComponents.predicates) {
+                    throw new Error('Missing data in headline file');
+                }
                 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('headlines-section').style.display = 'block';
                 
                 generateInitialHeadlines();
-                showDebug('✅ Success! Headlines loaded!');
                 
             } catch (error) {
-                showDebug(`Failed: ${error.message}`, true);
+                console.error('Error:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error-container').innerHTML = `
-                    <div class="error-message">
-                        <strong>Error:</strong> Could not load headlines.<br>
-                        <strong>Details:</strong> ${error.message}
+                    <div style="color: #721c24; background: #f8d7da; padding: 15px; margin: 20px 0; border-radius: 5px;">
+                        <strong>Error loading headlines.</strong> Please refresh the page.
                     </div>
                 `;
             }
@@ -356,14 +350,13 @@
             
             if (!subject || !predicate) {
                 return {
-                    text: "Error loading headline",
+                    text: "Error creating headline",
                     original: "Missing data",
                     source: "Error",
                     isUserContribution: false
                 };
             }
             
-            // Combine subject + predicate
             const headline = `${subject.text} ${predicate.text}`;
             
             return {
