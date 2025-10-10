@@ -264,8 +264,8 @@
         
         <div class="intro-text">
             <p><strong>Welcome to LUCKNOOZ!</strong></p>
-            <p>Here are ten of the latest remixed headlines. Vote for your favorites by checking the boxes - your choices help shape tomorrow's "Best of Yesterday" collection.</p>
-            <p>Want to influence the remix? Add your own headline components below and watch them appear in the "Influenced By You" section!</p>
+            <p>Here are ten of the latest remixed headlines - surreal combinations of subjects and predicates from recent news. Vote for your favorites by checking the boxes - your choices help shape tomorrow's "Best of Yesterday" collection.</p>
+            <p>Want to influence the remix? Add your own subject and predicate below and watch them appear in the "Influenced By You" section!</p>
         </div>
         
         <div class="note">
@@ -289,20 +289,8 @@
                 <input type="text" id="subject-input" placeholder="e.g., Biden, Tesla, Scientists">
             </div>
             <div class="input-group">
-                <label>Verb (action):</label>
-                <input type="text" id="verb-input" placeholder="e.g., announces, crashes, discover">
-            </div>
-            <div class="input-group">
-                <label>Object (what about):</label>
-                <input type="text" id="object-input" placeholder="e.g., new policy, into tree, ancient ruins">
-            </div>
-            <div class="input-group">
-                <label>Qualifier (optional detail):</label>
-                <input type="text" id="qualifier-input" placeholder="e.g., in shocking turn, unexpectedly, for third time">
-            </div>
-            <div class="input-group">
-                <label>Context (optional background):</label>
-                <input type="text" id="context-input" placeholder="e.g., amid controversy, after investigation, sources say">
+                <label>Predicate (what they did/what happened):</label>
+                <input type="text" id="predicate-input" placeholder="e.g., announces new climate policy, crashes into building, discover ancient artifact">
             </div>
             
             <button class="button" onclick="addToRemix()">Add to Remix</button>
@@ -362,10 +350,7 @@
                 
                 headlineComponents = JSON.parse(text);
                 showDebug(`Found ${headlineComponents.subjects?.length || 0} subjects`);
-                showDebug(`Found ${headlineComponents.verbs?.length || 0} verbs`);
-                showDebug(`Found ${headlineComponents.objects?.length || 0} objects`);
-                showDebug(`Found ${headlineComponents.qualifiers?.length || 0} qualifiers`);
-                showDebug(`Found ${headlineComponents.contexts?.length || 0} contexts`);
+                showDebug(`Found ${headlineComponents.predicates?.length || 0} predicates`);
                 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('headlines-section').style.display = 'block';
@@ -395,20 +380,25 @@
         
         function generateSingleHeadline() {
             const subject = getRandomComponent('subjects');
-            const verb = getRandomComponent('verbs');
-            const obj = getRandomComponent('objects');
-            const qualifier = Math.random() > 0.5 ? getRandomComponent('qualifiers') : null;
-            const context = Math.random() > 0.3 ? getRandomComponent('contexts') : null;
+            const predicate = getRandomComponent('predicates');
             
-            let headline = `${subject.text} ${verb.text} ${obj.text}`;
-            if (qualifier) headline += ` ${qualifier.text}`;
-            if (context) headline += ` ${context.text}`;
+            if (!subject || !predicate) {
+                return {
+                    text: "Error loading headline",
+                    original: "Missing data",
+                    source: "Error",
+                    isUserContribution: false
+                };
+            }
+            
+            // Combine subject + predicate
+            const headline = `${subject.text} ${predicate.text}`;
             
             return {
                 text: headline,
-                original: subject.original || 'User contributed',
-                source: subject.source || 'User input',
-                isUserContribution: subject.isUserContribution || false
+                original: `Subject: ${subject.original || subject.text} | Predicate: ${predicate.original || predicate.text}`,
+                source: subject.source || 'Unknown',
+                isUserContribution: subject.isUserContribution || predicate.isUserContribution || false
             };
         }
         
@@ -416,7 +406,7 @@
             const items = headlineComponents[category];
             if (!items || items.length === 0) {
                 showDebug(`Warning: No items found for category "${category}"`, true);
-                return { text: `[${category}]`, original: 'Missing data', source: 'Error' };
+                return null;
             }
             return items[Math.floor(Math.random() * items.length)];
         }
@@ -449,18 +439,15 @@
         
         function addToRemix() {
             const subject = document.getElementById('subject-input').value.trim();
-            const verb = document.getElementById('verb-input').value.trim();
-            const obj = document.getElementById('object-input').value.trim();
-            const qualifier = document.getElementById('qualifier-input').value.trim();
-            const context = document.getElementById('context-input').value.trim();
+            const predicate = document.getElementById('predicate-input').value.trim();
             
-            if (!subject || !verb || !obj) {
-                alert('Please fill in at least Subject, Verb, and Object!');
+            if (!subject || !predicate) {
+                alert('Please fill in both Subject and Predicate!');
                 return;
             }
             
             if (!headlineComponents.subjects) {
-                headlineComponents = {subjects: [], verbs: [], objects: [], qualifiers: [], contexts: []};
+                headlineComponents = {subjects: [], predicates: []};
             }
             
             headlineComponents.subjects.push({
@@ -470,20 +457,19 @@
                 isUserContribution: true
             });
             
-            headlineComponents.verbs.push({ text: verb, isUserContribution: true });
-            headlineComponents.objects.push({ text: obj, isUserContribution: true });
-            if (qualifier) headlineComponents.qualifiers.push({ text: qualifier, isUserContribution: true });
-            if (context) headlineComponents.contexts.push({ text: context, isUserContribution: true });
+            headlineComponents.predicates.push({
+                text: predicate,
+                original: 'User contribution',
+                source: 'User input',
+                isUserContribution: true
+            });
             
-            const userHeadline = `${subject} ${verb} ${obj}${qualifier ? ' ' + qualifier : ''}${context ? ' ' + context : ''}`;
+            const userHeadline = `${subject} ${predicate}`;
             userContributions.push(userHeadline);
             updateUserContributionsDisplay();
             
             document.getElementById('subject-input').value = '';
-            document.getElementById('verb-input').value = '';
-            document.getElementById('object-input').value = '';
-            document.getElementById('qualifier-input').value = '';
-            document.getElementById('context-input').value = '';
+            document.getElementById('predicate-input').value = '';
             
             alert('✅ Added to remix! Click "REMIX HEADLINES" to see your contribution in action!');
         }
