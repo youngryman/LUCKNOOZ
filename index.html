@@ -69,25 +69,7 @@
             font-size: 0.95em;
         }
         
-        .error-message {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 5px;
-            border: 1px solid #f5c6cb;
-        }
-        
-        .debug-info {
-            background: #e8f5e9;
-            border: 1px solid #4caf50;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 5px;
-            font-family: monospace;
-            font-size: 0.9em;
-        }
-        
+
         .headlines-section {
             margin: 30px 0;
         }
@@ -272,9 +254,7 @@
             <strong>Note:</strong> Voting is saved in your browser session. Cross-user vote tracking and "Best of Yesterday" calculation require database backend (Phase 2, coming soon).
         </div>
         
-        <div id="debug-container"></div>
-        <div id="error-container"></div>
-        <div id="loading">🔍 Loading headlines...</div>
+        <div id="loading" style="text-align: center; padding: 20px; color: #7f8c8d;">Loading headlines...</div>
         
         <div class="headlines-section" id="headlines-section" style="display:none;">
             <div id="headlines-list"></div>
@@ -322,15 +302,6 @@
         let headlineComponents = null;
         let userContributions = [];
         let currentHeadlines = [];
-        
-        function showDebug(message, isError = false) {
-            console.log('DEBUG:', message);
-            const container = document.getElementById('debug-container');
-            const div = document.createElement('div');
-            div.className = isError ? 'error-message' : 'debug-info';
-            div.innerHTML = `<strong>${isError ? '❌' : '✓'}:</strong> ${message}`;
-            container.appendChild(div);
-        }
         
         window.addEventListener('DOMContentLoaded', loadHeadlinesFromGitHub);
         
@@ -405,7 +376,6 @@
         function getRandomComponent(category) {
             const items = headlineComponents[category];
             if (!items || items.length === 0) {
-                showDebug(`Warning: No items found for category "${category}"`, true);
                 return null;
             }
             return items[Math.floor(Math.random() * items.length)];
