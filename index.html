@@ -307,19 +307,23 @@
             const modalBody = document.getElementById('modalBody');
             
             modalBody.innerHTML = `
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                    <strong style="display: block; margin-bottom: 10px; font-size: 1.1em;">LUCKNOOZ Headline:</strong>
+                    <div style="font-size: 1.2em; line-height: 1.5;">${item.text}</div>
+                </div>
                 <div class="original-headline">
                     <strong>Subject From:</strong>
-                    <div class="original-text">"${item.subject.original}"</div>
-                    <div class="source-info">
+                    <div class="source-info" style="margin-top: 5px;">
                         <span class="source-label">Source:</span> ${item.subject.source}
                     </div>
+                    <div class="original-text">"${item.subject.original}"</div>
                 </div>
                 <div class="original-headline">
                     <strong>Predicate From:</strong>
-                    <div class="original-text">"${item.predicate.original}"</div>
-                    <div class="source-info">
+                    <div class="source-info" style="margin-top: 5px;">
                         <span class="source-label">Source:</span> ${item.predicate.source}
                     </div>
+                    <div class="original-text">"${item.predicate.original}"</div>
                 </div>
             `;
             
