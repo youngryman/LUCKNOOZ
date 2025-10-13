@@ -1,375 +1,1152 @@
 {
   "subjects": [
     {
-      "text": "Some Americans",
+      "text": "Original Creators Strike Deal With Banijay U.K.",
+      "verb": "Pave",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "‘The Inbetweeners’ Are Back: Original Creators Strike Deal With Banijay U.K. to ‘Pave the Way’ for Return of Brit Comedy"
+    },
+    {
+      "text": "Warner Bros. Discovery",
+      "verb": "Rejected",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "Warner Bros. Discovery Rejected Paramount Skydance Acquisition Offer of $20 per Share as Too Low (Report)"
+    },
+    {
+      "text": "I",
+      "verb": "Know",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "Laurence Fishburne on if He Would Return as Morpheus in ‘Matrix 5’: ‘I Don’t Know if it Makes Sense’"
+    },
+    {
+      "text": "‘ Sunday Night Football ’ : How to",
+      "verb": "Watch",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "‘Sunday Night Football’: How to Watch Lions vs. Chiefs Live Online Without Cable for Free"
+    },
+    {
+      "text": "The Odyssey ’ Star Elliot Page",
+      "verb": "Says",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "‘The Odyssey’ Star Elliot Page Says It Was ‘Such a Joy’ Reuniting With Christopher Nolan and Being ‘More Comfortable in Yourself’ Post-Transition: ‘Meant So Much to Me’"
+    },
+    {
+      "text": "I",
+      "verb": "Hope",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "Keira Knightley Was ‘Not Aware’ of J.K. Rowling Boycott Before Joining ‘Harry Potter: The Full Cast Audio Editions’: ‘I Hope That We Can All Find Respect’"
+    },
+    {
+      "text": "The Last Airbender ’",
+      "verb": "Gets",
+      "source": "variety.com",
+      "category": "core_news",
+      "original": "‘Avatar: The Last Airbender’ Gets 2026 Fighting Video Game and Animated YouTube Series"
+    },
+    {
+      "text": "n’t Cards Against Humanity",
+      "verb": "print",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Why doesn’t Cards Against Humanity print its game in the US? It’s complicated."
+    },
+    {
+      "text": "Apple",
+      "verb": "ups",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Apple ups the reward for finding major exploits to $2 million"
+    },
+    {
+      "text": "Putin OKs",
+      "verb": "plan",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Putin OKs plan to turn Russian spacecraft into flying billboards"
+    },
+    {
+      "text": "People",
+      "verb": "regret",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "People regret buying Amazon smart displays after being bombarded with ads"
+    },
+    {
+      "text": "Marvel",
+      "verb": "gets",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Marvel gets meta with Wonder Man trailer [UPDATED]"
+    },
+    {
+      "text": "Extremely angry ” Trump",
+      "verb": "threatens",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "“Extremely angry” Trump threatens “massive” tariff on all Chinese exports"
+    },
+    {
+      "text": "Microsoft",
+      "verb": "warns",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Microsoft warns of new “Payroll Pirate” scam stealing employees’ direct deposits"
+    },
+    {
+      "text": "UK regulators",
+      "verb": "plan",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "UK regulators plan to force Google changes under new competition law"
+    },
+    {
+      "text": "AMD and Sony ’s PS6 chipset",
+      "verb": "aims",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "AMD and Sony’s PS6 chipset aims to rethink the current graphics pipeline"
+    },
+    {
+      "text": "OpenAI",
+      "verb": "stop",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "OpenAI will stop saving most ChatGPT users’ deleted chats"
+    },
+    {
+      "text": "Boring Company",
+      "verb": "cited",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Boring Company cited for almost 800 environmental violations in Las Vegas"
+    },
+    {
+      "text": "Bezos ’ firm",
+      "verb": "package",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Rocket Report: Bezos’ firm will package satellites for launch; Starship on deck"
+    },
+    {
+      "text": "“ Like",
+      "verb": "putting",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "“Like putting on glasses for the first time”—how AI improves earthquake detection"
+    },
+    {
+      "text": "CDC",
+      "verb": "cancels",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Childhood vaccines safe for a little longer as CDC cancels advisory meeting"
+    },
+    {
+      "text": "Trump",
+      "verb": "says",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Trump says 'war is over' in Gaza as he flies to Israel for release of hostages"
+    },
+    {
+      "text": "China",
+      "verb": "accuses",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "China accuses US of 'double standards' over tariff threat"
+    },
+    {
+      "text": "Afghan Taliban",
+      "verb": "says",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Afghan Taliban says Pakistani troops killed in 'retaliatory' border attacks"
+    },
+    {
+      "text": "Madagascar presidency",
+      "verb": "says",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Madagascar presidency says attempt to seize power under way"
+    },
+    {
+      "text": "Mali",
+      "verb": "imposes",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Mali imposes $10,000 visa bond on US visitors in tit-for-tat move"
+    },
+    {
+      "text": "Drone",
+      "verb": "captures",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Drone captures huge fire engulfing homes in Peru"
+    },
+    {
+      "text": "Seychelles ' opposition leader",
+      "verb": "wins",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Seychelles' opposition leader wins presidential poll"
+    },
+    {
+      "text": "Nobel winner",
+      "verb": "tells",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "We're grateful for what Trump is doing for peace, Nobel winner tells BBC"
+    },
+    {
+      "text": "Tributes",
+      "verb": "pour",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "'She left trail of fairy dust': Tributes pour in for Diane Keaton"
+    },
+    {
+      "text": "Israelis praise",
+      "verb": "Trump",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Israelis praise Trump at huge rally ahead of expected hostage release by Hamas in Gaza"
+    },
+    {
+      "text": "Trump",
+      "verb": "directs",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Trump directs Pentagon to 'use all available funds' to pay troops during shutdown"
+    },
+    {
+      "text": "Hamas",
+      "verb": "mobilises",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Hamas mobilises fighters in Gaza as fears of internal violence mount"
+    },
+    {
+      "text": "mother",
+      "verb": "says",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Indian student captured by Ukraine joined Russian army to avoid drug charges, says mother"
+    },
+    {
+      "text": "Drone strike in besieged Sudan city",
+      "verb": "kills",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Drone strike in besieged Sudan city kills dozens"
+    },
+    {
+      "text": "Biden",
+      "verb": "receiving",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Biden receiving radiation therapy for prostate cancer"
+    },
+    {
+      "text": "Hamas",
+      "verb": "presses",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "Hamas presses Israel to free prominent prisoners as part of Gaza deal"
+    },
+    {
+      "text": "Hospital",
+      "verb": "prepares",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "'We are inventing captivity medicine': Hospital prepares for freed Israeli hostages"
+    },
+    {
+      "text": "shutdown axe",
+      "verb": "looms",
+      "source": "feeds.bbci.co.uk",
+      "category": "core_news",
+      "original": "'We're in limbo': A town in Trump country where shutdown axe looms"
+    },
+    {
+      "text": "Vance",
+      "verb": "says",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "Vance says administration will keep fighting to send National Guard to Chicago"
+    },
+    {
+      "text": "sheriff",
+      "verb": "says",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "4 killed and 20 more injured in shooting at a bar in South Carolina, sheriff says"
+    },
+    {
+      "text": "Afghanistan",
+      "verb": "says",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "Afghanistan says it has killed 58 Pakistani soldiers in overnight border operations"
+    },
+    {
+      "text": "China",
+      "verb": "vows",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "China vows to stand firm against Trump's 100% tariff threat"
+    },
+    {
+      "text": "5 things to",
+      "verb": "know",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "5 things to know about the health care fight behind the shutdown"
+    },
+    {
+      "text": "Preparations",
+      "verb": "begin",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "Preparations begin to ramp up aid in Gaza as ceasefire brings hope for end to 2-year war"
+    },
+    {
+      "text": "Hollywood 's quirky leading lady , Diane Keaton ,",
+      "verb": "dies",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "Hollywood's quirky leading lady, Diane Keaton, dies aged 79"
+    },
+    {
+      "text": "sheriff",
+      "verb": "says",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "16 people died in a blast at a Tennessee explosives factory early Friday, sheriff says"
+    },
+    {
+      "text": "Diane Keaton , Oscar - winning star of ' Annie Hall ' and ' The Godfather , '",
+      "verb": "dies",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "Diane Keaton, Oscar-winning star of 'Annie Hall' and 'The Godfather,' dies at 79"
+    },
+    {
+      "text": "Trump",
+      "verb": "says",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "LIVE: Israel, Hamas set to free captives; Trump says Gaza ‘war is over’"
+    },
+    {
+      "text": "France ’s Macron",
+      "verb": "unveils",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "France’s Macron unveils new government ahead of budget deadline"
+    },
+    {
+      "text": "Palestinian journalist Saleh Aljafarawi",
+      "verb": "shot",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Palestinian journalist Saleh Aljafarawi shot dead in Gaza City clashes"
+    },
+    {
+      "text": "Death toll from Mexico flooding",
+      "verb": "rises",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Death toll from Mexico flooding rises to 44, dozens more missing"
+    },
+    {
+      "text": "Israel",
+      "verb": "arrest",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Why does Israel arrest thousands of Palestinians?"
+    },
+    {
+      "text": "Far - right AfD party",
+      "verb": "fails",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Far-right AfD party fails to secure first German city mayor post in run-off"
+    },
+    {
+      "text": "Australia",
+      "verb": "beat",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Australia beat India by three wickets in Women’s Cricket World Cup 2025"
+    },
+    {
+      "text": "Zelenskyy",
+      "verb": "promises",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Zelenskyy promises to only use Tomahawks against Russian military targets"
+    },
+    {
+      "text": "NATO",
+      "verb": "prepared",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "NATO is not prepared for war"
+    },
+    {
+      "text": "Israel",
+      "verb": "expects",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Israel expects to receive all living captives from Gaza on Monday"
+    },
+    {
+      "text": "Madagascar president",
+      "verb": "warns",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Madagascar president warns of attempt to ‘seize power’: What to know"
+    },
+    {
+      "text": "Mali",
+      "verb": "imposes",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Mali imposes retaliatory visa bond fees on US travellers"
+    },
+    {
+      "text": "Palestinians in Gaza",
+      "verb": "need",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Palestinians in Gaza need access to “nutritional food”"
+    },
+    {
+      "text": "New Zealand",
+      "verb": "recognised",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Why hasn’t New Zealand recognised Palestine?"
+    },
+    {
+      "text": "Taliban and Pakistani forces",
+      "verb": "exchange",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Taliban and Pakistani forces exchange heavy fire across Afghanistan border"
+    },
+    {
+      "text": "Madagascar president",
+      "verb": "alleges",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Madagascar president alleges coup attempt as soldiers support protesters"
+    },
+    {
+      "text": "Bangladesh",
+      "verb": "rolls",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Bangladesh rolls out typhoid immunisation drive for 50 million children"
+    },
+    {
+      "text": "Estimated cost to rebuild Gaza",
+      "verb": "rebuild",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Estimated cost to rebuild Gaza not “sufficient”"
+    },
+    {
+      "text": "Jays vs. Mariners Livestream : How to",
+      "verb": "Watch",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Jays vs. Mariners Livestream: How to Watch the ALCS Baseball Games Online Free"
+    },
+    {
+      "text": "Keira Knightley",
+      "verb": "Was",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Keira Knightley ‘Was Not Aware’ of ‘Harry Potter’ Boycott Prior to Joining Audiobook Cast"
+    },
+    {
+      "text": "Trump",
+      "verb": "Letting",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Trump Is Letting Qatar Build a Military Facility in the U.S. and MAGA Is Not Happy"
+    },
+    {
+      "text": "J.D. Vance",
+      "verb": "Tried",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "J.D. Vance Tried to Evade Journalists’ Questions. It Did Not Go Well"
+    },
+    {
+      "text": "Chappell Roan",
+      "verb": "Gets",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Chappell Roan Gets Emotional Talking About Uplifting Queer Joy During L.A. Show"
+    },
+    {
+      "text": "Two Men",
+      "verb": "Arrested",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Two Men Arrested in Stabbing Death of Lostprophets Singer Ian Watkins"
+    },
+    {
+      "text": "The Ed Gein Story",
+      "verb": "Listen",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "7 Podcasts to Listen to After Watching ‘Monster: The Ed Gein Story’"
+    },
+    {
+      "text": "Trump and Vance open door to China",
+      "verb": "deal",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Trump and Vance open door to China deal as trade spat drags on"
+    },
+    {
+      "text": "China markets under threat from risk of",
+      "verb": "renewed",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "China markets under threat from risk of renewed U.S. trade war"
+    },
+    {
+      "text": "World economy",
+      "verb": "faces",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "World economy faces triple risk of tariffs, AI bubble and soaring debt"
+    },
+    {
+      "text": "Trump",
+      "verb": "says",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Trump says he may warn Putin U.S. to mull tomahawks for Ukraine"
+    },
+    {
+      "text": "Trump",
+      "verb": "says",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Trump says Gaza war has ended; Israel awaits release of hostages"
+    },
+    {
+      "text": "Thirty people",
+      "verb": "enter",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Thirty people enter Ito Municipal Assembly race over controversial mayor"
+    },
+    {
+      "text": "BayStars",
+      "verb": "reach",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "BayStars reach final stage of Climax Series after dramatic sayonara win over Giants"
+    },
+    {
+      "text": "Pakistan - Afghan border crossings",
+      "verb": "closed",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Pakistan-Afghan border crossings closed after heavy clashes"
+    },
+    {
+      "text": "Osaka Expo androids",
+      "verb": "moved",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Osaka Expo androids to be moved to Kyoto"
+    },
+    {
+      "text": "Australian airline Qantas",
+      "verb": "says",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Australian airline Qantas says millions of customers' data leaked online"
+    },
+    {
+      "text": "Schauffele",
+      "verb": "ends",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Schauffele ends title drought at PGA Tour's Yokohama tourney"
+    },
+    {
+      "text": "Machado",
+      "verb": "receives",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Machado receives the Nobel Peace Prize as Trump’s attempts to secure award fall short"
+    },
+    {
+      "text": "Trump ’s dealmaking diplomacy",
+      "verb": "grows",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Trump’s dealmaking diplomacy grows fragile as China fires back"
+    },
+    {
+      "text": "China",
+      "verb": "blames",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "China blames U.S. for raising trade tensions and defends rare earth curbs"
+    },
+    {
+      "text": "the Osaka Expo",
+      "verb": "comes",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "As the Osaka Expo comes to a close, what will its legacy be?"
+    },
+    {
+      "text": "LDP and opposition",
+      "verb": "scramble",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "After ruling bloc collapses, LDP and opposition scramble to find needed votes for PM"
+    },
+    {
+      "text": "Las Vegas Aces",
+      "verb": "flip",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Las Vegas Aces flip the odds to cap WNBA season comeback for the ages"
+    },
+    {
+      "text": "8 Best Cat Water Fountains ,",
+      "verb": "WIRED",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "8 Best Cat Water Fountains, WIRED Tested and Reviewed (2025)"
+    },
+    {
+      "text": "4 Best Website Builders ( 2025 ) ,",
+      "verb": "Tested",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "4 Best Website Builders (2025), Tested and Reviewed"
+    },
+    {
+      "text": "16 Best Laptops ( 2025 ) , WIRED -",
+      "verb": "Tested",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "16 Best Laptops (2025), WIRED-Tested and Approved"
+    },
+    {
+      "text": "A New Algorithm",
+      "verb": "Makes",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "A New Algorithm Makes It Faster to Find the Shortest Paths"
+    },
+    {
+      "text": "You",
+      "verb": "Know",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "Should You Cancel Xbox Game Pass? Everything to Know on the Price Hikes and New Features"
+    },
+    {
+      "text": "6 Best Carpet Cleaners ( 2025 ) ,",
+      "verb": "Tested",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "6 Best Carpet Cleaners (2025), Tested and Reviewed"
+    },
+    {
+      "text": "That",
+      "verb": "Work",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "Amazfit T-Rex 3 Pro Review: An Outdoor Watch That Doesn't Work"
+    },
+    {
+      "text": "Roundup :",
+      "verb": "Are",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "WIRED Roundup: Are We In An AI Bubble?"
+    },
+    {
+      "text": "These SteelSeries Earbuds",
+      "verb": "Are",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "These SteelSeries Earbuds Are Great for Gaming and Are 35% Off Right Now"
+    },
+    {
+      "text": "The Best Google Pixel Phones of 2025 ,",
+      "verb": "Tested",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "The Best Google Pixel Phones of 2025, Tested and Reviewed"
+    },
+    {
+      "text": "Google Search",
+      "verb": "Change",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "Google Search Could Change Forever in the UK"
+    },
+    {
+      "text": "Blue Planet Red",
+      "verb": "is",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Blue Planet Red is wrong about Mars – but it's surprisingly poignant"
+    },
+    {
+      "text": "Physicists",
+      "verb": "uncovering",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Physicists are uncovering when nature’s strongest force falters"
+    },
+    {
+      "text": "Serum based on plant extracts",
+      "verb": "boosts",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Serum based on plant extracts boosts hair growth in weeks"
+    },
+    {
+      "text": "Evolution of intelligence in our ancestors",
+      "verb": "come",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Evolution of intelligence in our ancestors may have come at a cost"
+    },
+    {
+      "text": "Therapy",
+      "verb": "be",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Therapy may be the most effective way to ease irritable bowel syndrome"
+    },
+    {
+      "text": "Stunning images",
+      "verb": "save",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Stunning images highlight fight to save Earth’s rich biodiversity"
+    },
+    {
+      "text": "Sword Dragon ' ichthyosaur",
+      "verb": "had",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "'Sword Dragon' ichthyosaur had enormous eyes and a lethal snout"
+    },
+    {
+      "text": "Robotic underwater glider",
+      "verb": "sets",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Robotic underwater glider sets out to circumnavigate the globe"
+    },
+    {
+      "text": "Hannah Ritchie 's new book on net zero",
+      "verb": "is",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Hannah Ritchie's new book on net zero is a breath of fresh air"
+    },
+    {
+      "text": "Swirly lasers",
+      "verb": "control",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Swirly lasers can control an ungovernable cousin of magnetism"
+    },
+    {
+      "text": "Hidden ecosystem of the ovaries",
+      "verb": "plays",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Hidden ecosystem of the ovaries plays a surprising role in fertility"
+    },
+    {
+      "text": "Top 250 oil and gas firms",
+      "verb": "own",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Top 250 oil and gas firms own just 1.5% of the world's renewable power"
+    },
+    {
+      "text": "not all ultra - processed foods",
+      "verb": "are",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Why not all ultra-processed foods are bad for you"
+    },
+    {
+      "text": "Selfish sperm",
+      "verb": "see",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Selfish sperm see older fathers pass on more disease-causing mutations"
+    },
+    {
+      "text": "The Whispers of Rock",
+      "verb": "is",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "The Whispers of Rock is a personal journey through aeons of geology"
+    },
+    {
+      "text": "Jaguars star 's ' cancer warrior ' son",
+      "verb": "becomes",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Jaguars star's 'cancer warrior' son becomes honorary captain for game vs Seahawks"
+    },
+    {
+      "text": "Dozens",
+      "verb": "killed",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Dozens killed in Gaza as violence erupts between Hamas and armed clans"
+    },
+    {
+      "text": "Colin Hanks",
+      "verb": "calls",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Colin Hanks calls interview questions about John Candy's weight 'heartbreaking'"
+    },
+    {
+      "text": "Popular travel destination to",
+      "verb": "charge",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Popular travel destination to charge 'tourist tax' upwards of $65 per night"
+    },
+    {
+      "text": "Trump starts week in Middle East ,",
+      "verb": "overseeing",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Trump starts week in Middle East, overseeing historic peace agreement"
+    },
+    {
+      "text": "Bengals ' Evan McPherson",
+      "verb": "has",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Bengals' Evan McPherson has NFL-record field goal called back in heartbreaking fashion vs Packers"
+    },
+    {
+      "text": "Small plane",
+      "verb": "crashes",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Small plane crashes near Hicks Airfield in Texas, reportedly causing multiple semi-truck fires"
+    },
+    {
+      "text": "Pam Bondi",
+      "verb": "responds",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Pam Bondi responds to 'Saturday Night Live' parody of herself and Kristi Noem"
+    },
+    {
+      "text": "Panthers",
+      "verb": "stun",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Panthers stun Cowboys as Tetairoa McMillan scores first career touchdowns in win"
+    },
+    {
+      "text": "Teen",
+      "verb": "arrested",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Teen arrested for murder in shooting of 11-year-old boy in New York: 'An unimaginable tragedy'"
+    },
+    {
+      "text": "49ers star linebacker Fred Warner",
+      "verb": "carted",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "49ers star linebacker Fred Warner carted off field with gruesome ankle injury against Buccaneers"
+    },
+    {
+      "text": "Trump",
+      "verb": "says",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Trump says Hamas may release 20 hostages ‘a little bit early’ as he heads to Middle East"
+    },
+    {
+      "text": "Charlie Sheen",
+      "verb": "opens",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Charlie Sheen opens up about feeling excluded during brother Emilio Estevez's Brat Pack era"
+    },
+    {
+      "text": "20 others",
+      "verb": "injured",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Shooting at crowded South Carolina bar leaves at least 4 dead, 20 others injured"
+    },
+    {
+      "text": "Katy Perry and Justin Trudeau PDA session",
+      "verb": "confirms",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Katy Perry and Justin Trudeau PDA session confirms romance rumors"
+    },
+    {
+      "text": "Vance",
+      "verb": "says",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Vance says Pritzker should 'face some consequences' for Chicago crime rate"
+    },
+    {
+      "text": "NFL legend JJ Watt",
+      "verb": "roasts",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "NFL legend JJ Watt roasts himself during Steelers-Browns broadcast"
+    },
+    {
+      "text": "Scientists",
+      "verb": "crack",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Scientists crack code on how dietary fiber shields your body from harmful sugar damage"
+    },
+    {
+      "text": "Jets star Garrett Wilson",
+      "verb": "sounds",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Jets star Garrett Wilson sounds off after 'disappointing' play-calling in loss to Broncos"
+    },
+    {
+      "text": "Seahawks ' defensive penalty",
+      "verb": "raises",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Seahawks' defensive penalty raises eyebrows among NFL fans"
+    },
+    {
+      "text": "The Lost Chances to Reach a Hostage Deal , and a Cease - Fire ,",
+      "verb": "Reach",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Why Now? The Lost Chances to Reach a Hostage Deal, and a Cease-Fire, Months Ago"
+    },
+    {
+      "text": "Mediator",
+      "verb": "Says",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Israel and Hamas Were Not Ready for a Comprehensive Peace Deal, Mediator Says"
+    },
+    {
+      "text": "Trump Heads to Israel and",
+      "verb": "Nears",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Trump Heads to Israel and Then Egypt as Hostage-Prisoner Swap Nears"
+    },
+    {
+      "text": "These Students",
+      "verb": "Are",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "These Students Are Scared. Friends and Teachers Are Their Protectors."
+    },
+    {
+      "text": "Vance",
+      "verb": "Says",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Trump Has Not Ruled Out Invoking Insurrection Act to Deploy National Guard, Vance Says"
+    },
+    {
+      "text": "Las Vegas Sands",
+      "verb": "Helped",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "How Las Vegas Sands Helped Get the N.B.A. Back Into China"
+    },
+    {
+      "text": "California Orders Insurers",
+      "verb": "Pay",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "California Orders Insurers to Pay More for Wildfire Victims’ Lost Items"
+    },
+    {
+      "text": "Diane Keaton",
+      "verb": "Was",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Diane Keaton Was the Definition of a Style Icon"
+    },
+    {
+      "text": "Orban ’s ‘ Propaganda State ’ in Hungary",
       "verb": "Starting",
       "source": "rss.nytimes.com",
       "category": "core_news",
-      "original": "Some Americans Are Starting to Feel the Impact of the Government Shutdown"
+      "original": "Orban’s ‘Propaganda State’ in Hungary Is Starting to Show Cracks"
     },
     {
-      "text": "Trump ’s Aides and Officials",
-      "verb": "Take",
-      "source": "rss.nytimes.com",
+      "text": "Madagascar ’s president",
+      "verb": "says",
+      "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Trump’s Aides and Officials Take Political Battles Online"
+      "original": "Madagascar’s president says illegal power grab by military is under way"
+    },
+    {
+      "text": "Cameroon ’s 92 - year - old president",
+      "verb": "set",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Cameroon’s 92-year-old president set for another term as country goes to polls"
+    },
+    {
+      "text": "Soldiers from elite Capsat unit",
+      "verb": "join",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Soldiers from elite Capsat unit join protests against Madagascar’s president"
+    },
+    {
+      "text": "El Fasher group",
+      "verb": "says",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Militia strikes kill at least 60 in Sudan displacement camp, says El Fasher group"
+    },
+    {
+      "text": "peace prize",
+      "verb": "boost",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "In Venezuela’s ‘darkest hours’, will peace prize boost opposition or backfire?"
+    },
+    {
+      "text": "Venezuelan politician María Corina Machado",
+      "verb": "wins",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Venezuelan politician María Corina Machado wins Nobel peace prize"
+    },
+    {
+      "text": "Peru lawmakers",
+      "verb": "vote",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis"
+    },
+    {
+      "text": "President Petro",
+      "verb": "accuses",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
+    },
+    {
+      "text": "Cristina Fernández de Kirchner : Argentinian court",
+      "verb": "sentences",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Cristina Fernández de Kirchner: Argentinian court sentences man to 10 years for attempted assassination"
+    },
+    {
+      "text": "senior minister",
+      "verb": "says",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Jonathan Powell had no role in dropping of China spy case, senior minister says"
+    },
+    {
+      "text": "China",
+      "verb": "warns",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "China warns US of retaliation over Trump’s 100% tariffs threat"
+    },
+    {
+      "text": "Trump",
+      "verb": "threatens",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Trump threatens 100% China tariffs as Beijing restricts rare-earth exports"
+    },
+    {
+      "text": "Seven people",
+      "verb": "killed",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Seven people killed after twin earthquakes off coast of Philippines"
+    },
+    {
+      "text": "Google",
+      "verb": "says",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Australia news live: Thorpe says ‘burn down parliament’ comment was a metaphor; Google says social media ban won’t make children safer"
+    },
+    {
+      "text": "Planet ’s first catastrophic climate tipping point",
+      "verb": "reached",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Planet’s first catastrophic climate tipping point reached, report says, with coral reefs facing ‘widespread dieback’"
+    },
+    {
+      "text": "modelling",
+      "verb": "suggests",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "Australia’s household energy bills will halve by 2050, modelling suggests"
     },
     {
       "text": "Thousands",
-      "verb": "Return",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Thousands Return to Northern Gaza, Hopeful, but Faced With Devastation"
-    },
-    {
-      "text": "Families of Palestinian Prisoners",
-      "verb": "Await",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "‘Over the Clouds’: Families of Palestinian Prisoners Await Their Release"
-    },
-    {
-      "text": "Columbus Statues",
-      "verb": "Get",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Beheaded and Sent to Watery Graves, Columbus Statues Get New Life"
-    },
-    {
-      "text": "We",
-      "verb": "Know",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "What We Know About the Explosion in Central Tennessee"
-    },
-    {
-      "text": "Hamas",
-      "verb": "presses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Hamas presses Israel to free prominent prisoners as part of Gaza deal"
-    },
-    {
-      "text": "Trump",
-      "verb": "threatens",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Trump threatens to impose additional 100% tariff on China"
-    },
-    {
-      "text": "Mexico floods",
-      "verb": "leave",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Mexico floods leave at least 27 dead and more missing"
-    },
-    {
-      "text": "Trump administration",
-      "verb": "starts",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Trump administration starts laying off thousands of workers"
-    },
-    {
-      "text": "the world 's oldest president",
-      "verb": "keep",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Can the world's oldest president keep his title and woo a nation of young voters?"
-    },
-    {
-      "text": "US",
-      "verb": "says",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Qatar to build air force facility in Idaho, US says"
-    },
-    {
-      "text": "Rare wildflowers",
-      "verb": "blanket",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Rare wildflowers blanket Atacama desert"
-    },
-    {
-      "text": "Macron",
-      "verb": "reappoints",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Macron reappoints Lecornu as French PM after days of turmoil"
-    },
-    {
-      "text": "Melania Trump",
-      "verb": "says",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Melania Trump says she has 'open communication channel' with Putin about Ukrainian children"
-    },
-    {
-      "text": "Venezuelan opposition leader María Corina Machado",
-      "verb": "wins",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Venezuelan opposition leader María Corina Machado wins Nobel Peace Prize"
-    },
-    {
-      "text": "Major Russian strikes",
-      "verb": "cut",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Major Russian strikes cut power in Kyiv and across Ukraine"
-    },
-    {
-      "text": "US",
-      "verb": "send",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "US to send 200 troops to Israel to monitor Gaza ceasefire"
-    },
-    {
-      "text": "Burkina Faso",
-      "verb": "refuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Burkina Faso refuses to take deportees as US stops issuing visas"
-    },
-    {
-      "text": "Afghanistan",
-      "verb": "accuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Afghanistan accuses Pakistan of 'violating sovereign territory'"
-    },
-    {
-      "text": "Peru 's president",
-      "verb": "removed",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Peru's president removed from office amid soaring crime"
-    },
-    {
-      "text": "Zimbabwe MP",
-      "verb": "dies",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Zimbabwe MP dies after his car hits an elephant"
-    },
-    {
-      "text": "Palestinians",
-      "verb": "Stream",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Palestinians Stream Back to Northern Gaza on Foot"
-    },
-    {
-      "text": "Leading China Property Developer",
-      "verb": "Reports",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes"
-    },
-    {
-      "text": "Freed Israeli Hostages",
-      "verb": "Had",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack"
-    },
-    {
-      "text": "Suspected Sabotage of Deep - Sea Cable",
-      "verb": "Triggers",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response"
-    },
-    {
-      "text": "Cocaine - Funded Gangs",
-      "verb": "Shake",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact"
-    },
-    {
-      "text": "Joining Fighter - Jet Program ,",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says"
-    },
-    {
-      "text": "Kim Jong Un",
-      "verb": "Doing",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line"
-    },
-    {
-      "text": "Trump",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff"
-    },
-    {
-      "text": "Jeju Air Crash Probe",
-      "verb": "Focuses",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Jeju Air Crash Probe Focuses On Engine Damage After Bird Strike"
-    },
-    {
-      "text": "Trump",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan"
-    },
-    {
-      "text": "Hamas",
-      "verb": "Took",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Hamas Took More Than 200 Hostages From Israel. Here's What We Know."
-    },
-    {
-      "text": "U.N. and Congolese Troops",
-      "verb": "Struggle",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "U.N. and Congolese Troops Struggle to Halt Lightning Rebel Attack"
-    },
-    {
-      "text": "Beijing Signals Readiness",
-      "verb": "Talk",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Beijing Signals Readiness to Talk to Trump's Team, Even Old Foes"
-    },
-    {
-      "text": "Canada",
-      "verb": "Becoming",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Canada Is Becoming a Fentanyl Exporter, and a Target for Trump"
-    },
-    {
-      "text": "El Fasher group",
-      "verb": "says",
+      "verb": "attend",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Militia strikes kill at least 60 in Sudan displacement camp, says El Fasher group"
+      "original": "Thousands attend pro-Palestine rallies across Australia as organisers vow to keep protesting after Gaza ceasefire"
     },
     {
-      "text": "Baby giant tortoises",
-      "verb": "thrive",
+      "text": "Australian Madeleine Habib",
+      "verb": "released",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Baby giant tortoises thrive in Seychelles after first successful artificial incubation"
+      "original": "Australian Madeleine Habib released from Israeli jail after aid flotilla intercepted en route to Gaza"
     },
     {
-      "text": "DRC",
-      "verb": "says",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "DRC says EU’s minerals deal with Rwanda is ‘obvious double standard’"
-    },
-    {
-      "text": "ICC",
-      "verb": "convicts",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "ICC convicts former Sudan militia leader for war crimes in Darfur"
-    },
-    {
-      "text": "Eswatini",
-      "verb": "confirms",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Eswatini confirms arrival of 10 more people as part of US deportation deal"
-    },
-    {
-      "text": "Venezuelan politician María Corina Machado",
-      "verb": "wins",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Venezuelan politician María Corina Machado wins Nobel peace prize"
-    },
-    {
-      "text": "Peru lawmakers",
-      "verb": "vote",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis"
-    },
-    {
-      "text": "President Petro",
-      "verb": "accuses",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
-    },
-    {
-      "text": "Senate Republicans",
-      "verb": "vote",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Senate Republicans vote against check on Trump using deadly force against cartels"
-    },
-    {
-      "text": "Trump",
-      "verb": "threatens",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Trump threatens 100% China tariffs as Beijing restricts rare-earth exports"
-    },
-    {
-      "text": "Weather tracker : South - east China",
-      "verb": "swelters",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Weather tracker: South-east China swelters in summer-like heat"
-    },
-    {
-      "text": "Tsunami threat",
-      "verb": "lifted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Tsunami threat lifted after Philippine earthquake – as it happened"
-    },
-    {
-      "text": "Hackers",
-      "verb": "leak",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Hackers leak Qantas data containing 5 million customer records after ransom deadline passes"
-    },
-    {
-      "text": "Three people dead",
-      "verb": "crashes",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Three people dead after light plane crashes on take-off near Wollongong"
-    },
-    {
-      "text": "Baby numbats",
-      "verb": "spotted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby numbats spotted at two wildlife sanctuaries in hopeful sign for one of Australia’s rarest marsupials"
-    },
-    {
-      "text": "traditional owners",
+      "text": "scientists",
       "verb": "say",
-      "source": "www.theguardian.com",
+      "source": "www.nature.com",
       "category": "core_news",
-      "original": "Crocodile made famous by Steve Irwin ‘wrongfully arrested’ and should be returned to wild, traditional owners say"
-    },
-    {
-      "text": "Rebel Wilson using US court proceedings to ‘ harass and intimidate ’ star of The Deb",
-      "verb": "told",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Rebel Wilson using US court proceedings to ‘harass and intimidate’ star of The Deb, court told"
+      "original": "Coral die-off marks Earth’s first climate ‘tipping point’, scientists say"
     },
     {
       "text": "Author Correction :",
@@ -407,11 +1184,18 @@
       "original": "Rebuilding Gaza: don’t sideline Palestinian scientists, say experts"
     },
     {
-      "text": "it",
-      "verb": "salvaged",
+      "text": "researchers",
+      "verb": "are",
       "source": "www.nature.com",
       "category": "core_news",
-      "original": "The world’s first plastics treaty is in crisis: can it be salvaged?"
+      "original": "Dangerous ‘nitazene’ opioids are on the rise: researchers are worried"
+    },
+    {
+      "text": "Scientists",
+      "verb": "modified",
+      "source": "www.nature.com",
+      "category": "core_news",
+      "original": "Should genetically modified wildlife be banned? Scientists weigh the risks"
     },
     {
       "text": "genetic tweaks",
@@ -428,11 +1212,39 @@
       "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys"
     },
     {
+      "text": "scientists",
+      "verb": "proposed",
+      "source": "www.nature.com",
+      "category": "core_news",
+      "original": "First proposed blood test for chronic fatigue syndrome: what scientists think"
+    },
+    {
       "text": "This list of non - negotiables",
       "verb": "helped",
       "source": "www.nature.com",
       "category": "core_news",
       "original": "This list of non-negotiables helped me to defeat PhD-student guilt"
+    },
+    {
+      "text": "Daily briefing : Chronic pain",
+      "verb": "linked",
+      "source": "www.nature.com",
+      "category": "core_news",
+      "original": "Daily briefing: Chronic pain linked to small cluster of brain cells"
+    },
+    {
+      "text": "Enzyme specificity prediction",
+      "verb": "using",
+      "source": "www.nature.com",
+      "category": "core_news",
+      "original": "Enzyme specificity prediction using cross attention graph neural networks"
+    },
+    {
+      "text": "that",
+      "verb": "shape",
+      "source": "www.nature.com",
+      "category": "core_news",
+      "original": "How stereotypes shape AI – and what that means for the future of hiring"
     },
     {
       "text": "Hippos",
@@ -442,981 +1254,419 @@
       "original": "Hippos still roamed Europe during the last ice age"
     },
     {
-      "text": "Toys ‘ R ’ Us   Loved ‘ Roofman , ’",
-      "verb": "Courted",
-      "source": "variety.com",
+      "text": "Haberman",
+      "verb": "reveals",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Toys ‘R’ Us Loved ‘Roofman,’ Courted Paramount and Channing Tatum With Social Media ‘Harassment Campaign’"
+      "original": "Haberman reveals why Trump attacked judge and his family in speech"
     },
     {
-      "text": "Brazilian Comedy Star Ingrid Guimarães",
-      "verb": "Take",
-      "source": "variety.com",
+      "text": "Russian authorities",
+      "verb": "detain",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Brazilian Comedy Star Ingrid Guimarães to Take First Dramatic Role With ‘Minha Criança Trans?’ For Matizar and Vitrine Filmes (EXCLUSIVE)"
+      "original": "Russian authorities detain suspect over St. Petersburg cafe blast"
     },
     {
-      "text": "Karolis Kaupinis ( EXCLUSIVE",
-      "verb": "Says",
-      "source": "variety.com",
+      "text": "Video",
+      "verb": "shows",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Lithuania’s M Films Bows Trailer of Warsaw-Selected ‘Hunger Strike Breakfast’: ’I Used to Watch Russian Tanks From My Friend’s Flat,’ Says Karolis Kaupinis (EXCLUSIVE)"
+      "original": "Video shows moment of deadly explosion at cafe in Russia"
     },
     {
-      "text": "Whodunits and Comedies Lead",
-      "verb": "Hits",
-      "source": "variety.com",
+      "text": "Russian state media",
+      "verb": "says",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Whodunits and Comedies Lead Breakout Australian TV Hits"
+      "original": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says"
     },
     {
-      "text": "‘ The Vampire Lestat ’",
-      "verb": "Adds",
-      "source": "variety.com",
+      "text": "Suspected Chinese spy balloon",
+      "verb": "was",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "‘The Vampire Lestat’ Adds Five to Cast, ‘Walking Dead: Daryl Dixon’ Drops Season 4 Behind the Scenes Teaser"
+      "original": "Suspected Chinese spy balloon was able to transmit information back to Beijing"
+    },
+    {
+      "text": "Beijing",
+      "verb": "promised",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose"
+    },
+    {
+      "text": "Volunteer soldier",
+      "verb": "shares",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "'Scary, cold, hungry and lonely': Volunteer soldier shares experience on front line"
+    },
+    {
+      "text": "NASA",
+      "verb": "picked",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years"
+    },
+    {
+      "text": "Finland 's PM",
+      "verb": "lose",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Why did Finland's PM lose? Reporter explains the key issue voters cared about"
+    },
+    {
+      "text": "Britain 's pound",
+      "verb": "beating",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Britain's pound is beating every other major currency this year"
+    },
+    {
+      "text": "Finland 's Prime Minister Sanna Marin",
+      "verb": "concedes",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Finland's Prime Minister Sanna Marin concedes election"
+    },
+    {
+      "text": "The $ 500 billion beauty industry 's ' green ' ambitions",
+      "verb": "are",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "The $500 billion beauty industry's 'green' ambitions are a patchwork at best. And they're falling short"
+    },
+    {
+      "text": "A new approach to a Covid-19 nasal vaccine",
+      "verb": "shows",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "A new approach to a Covid-19 nasal vaccine shows early promise"
+    },
+    {
+      "text": "Video",
+      "verb": "shows",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Video shows moment man throws yogurt on two women in Iran"
+    },
+    {
+      "text": "Israeli military veterans , a backbone of protest movement ,",
+      "verb": "keep",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Israeli military veterans, a backbone of protest movement, vow to keep demonstrating"
+    },
+    {
+      "text": "The Moon ’s south pole",
+      "verb": "hides",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "The Moon’s south pole hides a 4-billion-year-old secret"
+    },
+    {
+      "text": "Closest alien civilization",
+      "verb": "be",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Closest alien civilization could be 33,000 light years away"
+    },
+    {
+      "text": "Two common drugs",
+      "verb": "reverse",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Two common drugs could reverse fatty liver disease"
+    },
+    {
+      "text": "Archaeologists",
+      "verb": "uncover",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Archaeologists uncover lost land bridge that may rewrite human history"
+    },
+    {
+      "text": "New simulation",
+      "verb": "reveals",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "New simulation reveals how Earth’s magnetic field first sparked to life"
+    },
+    {
+      "text": "Scientists",
+      "verb": "unearth",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Scientists unearth a 112-million-year-old time capsule filled with ancient insects"
+    },
+    {
+      "text": "Dolphins",
+      "verb": "getting",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms"
+    },
+    {
+      "text": "Scientists",
+      "verb": "find",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Scientists find gold hiding in food waste"
+    },
+    {
+      "text": "once needed supercomputers",
+      "verb": "needed",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Quantum simulations that once needed supercomputers now run on laptops"
+    },
+    {
+      "text": "A million - sun - mass mystery object",
+      "verb": "found",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "A million-sun-mass mystery object found lurking in deep space"
+    },
+    {
+      "text": "Breakthrough compounds",
+      "verb": "reverse",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis"
+    },
+    {
+      "text": "MIT ’s “ stealth ” immune cells",
+      "verb": "change",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "MIT’s “stealth” immune cells could change cancer treatment forever"
+    },
+    {
+      "text": "1 in 4 older adults",
+      "verb": "regain",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "How 1 in 4 older adults regain happiness after struggling"
+    },
+    {
+      "text": "scientists",
+      "verb": "pinpoint",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "For the first time, scientists pinpoint brain cells linked to depression"
+    },
+    {
+      "text": "12,000 - year - old rock art found in Arabia",
+      "verb": "reveals",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "12,000-year-old rock art found in Arabia reveals a lost civilization"
+    },
+    {
+      "text": "A toxic Alzheimer ’s protein",
+      "verb": "be",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "A toxic Alzheimer’s protein could be the key to fighting cancer"
+    },
+    {
+      "text": "MIT ’s new precision gene editing tool",
+      "verb": "transform",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "MIT’s new precision gene editing tool could transform medicine"
+    },
+    {
+      "text": "USC engineers",
+      "verb": "made",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "USC engineers just made light smarter with “optical thermodynamics”"
     }
   ],
   "predicates": [
     {
-      "text": "Are Starting to Feel the Impact of the Government Shutdown",
-      "verb": "Starting",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Some Americans Are Starting to Feel the Impact of the Government Shutdown"
-    },
-    {
-      "text": "Take Political Battles Online",
-      "verb": "take",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Trump’s Aides and Officials Take Political Battles Online"
-    },
-    {
-      "text": "Return to Northern Gaza, Hopeful, but Faced With Devastation",
-      "verb": "return",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Thousands Return to Northern Gaza, Hopeful, but Faced With Devastation"
-    },
-    {
-      "text": "Await Their Release",
-      "verb": "await",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "‘Over the Clouds’: Families of Palestinian Prisoners Await Their Release"
-    },
-    {
-      "text": "Get New Life",
-      "verb": "Get",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Beheaded and Sent to Watery Graves, Columbus Statues Get New Life"
-    },
-    {
-      "text": "Know About the Explosion in Central Tennessee",
-      "verb": "know",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "What We Know About the Explosion in Central Tennessee"
-    },
-    {
-      "text": "presses Israel to free prominent prisoners as part of Gaza deal",
-      "verb": "presses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Hamas presses Israel to free prominent prisoners as part of Gaza deal"
-    },
-    {
-      "text": "threatens to impose additional 100% tariff on China",
-      "verb": "threatens",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Trump threatens to impose additional 100% tariff on China"
-    },
-    {
-      "text": "leave at least 27 dead and more missing",
-      "verb": "leave",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Mexico floods leave at least 27 dead and more missing"
-    },
-    {
-      "text": "starts laying off thousands of workers",
-      "verb": "starts",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Trump administration starts laying off thousands of workers"
-    },
-    {
-      "text": "dent keep his title and woo a nation of young voters?",
-      "verb": "keep",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Can the world's oldest president keep his title and woo a nation of young voters?"
-    },
-    {
-      "text": "blanket Atacama desert",
-      "verb": "blanket",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Rare wildflowers blanket Atacama desert"
-    },
-    {
-      "text": "reappoints Lecornu as French PM after days of turmoil",
-      "verb": "unknown",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Macron reappoints Lecornu as French PM after days of turmoil"
-    },
-    {
-      "text": "says she has 'open communication channel' with Putin about Ukrainian children",
-      "verb": "says",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Melania Trump says she has 'open communication channel' with Putin about Ukrainian children"
-    },
-    {
-      "text": "wins Nobel Peace Prize",
-      "verb": "wins",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Venezuelan opposition leader María Corina Machado wins Nobel Peace Prize"
-    },
-    {
-      "text": "cut power in Kyiv and across Ukraine",
-      "verb": "cut",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Major Russian strikes cut power in Kyiv and across Ukraine"
-    },
-    {
-      "text": "to send 200 troops to Israel to monitor Gaza ceasefire",
-      "verb": "send",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "US to send 200 troops to Israel to monitor Gaza ceasefire"
-    },
-    {
-      "text": "refuses to take deportees as US stops issuing visas",
-      "verb": "refuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Burkina Faso refuses to take deportees as US stops issuing visas"
-    },
-    {
-      "text": "accuses Pakistan of 'violating sovereign territory'",
-      "verb": "accuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Afghanistan accuses Pakistan of 'violating sovereign territory'"
-    },
-    {
-      "text": "removed from office amid soaring crime",
-      "verb": "removed",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Peru's president removed from office amid soaring crime"
-    },
-    {
-      "text": "dies after his car hits an elephant",
-      "verb": "dies",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Zimbabwe MP dies after his car hits an elephant"
-    },
-    {
-      "text": "Stream Back to Northern Gaza on Foot",
-      "verb": "stream",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Palestinians Stream Back to Northern Gaza on Foot"
-    },
-    {
-      "text": "Reports Huge loss, in Sign of Widening Real-Estate Woes",
-      "verb": "widens",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes"
-    },
-    {
-      "text": "Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
-      "verb": "Had",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack"
-    },
-    {
-      "text": "Triggers First NATO-Led Response",
-      "verb": "Triggers",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response"
-    },
-    {
-      "text": "Shake Colombia Years After Peace Pact",
-      "verb": "shake",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact"
-    },
-    {
-      "text": "ining Fighter-Jet Program, PM Meloni Says",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says"
-    },
-    {
-      "text": "Is Doing Everything He Can to Keep North Korea's Youth in Line",
-      "verb": "Doing",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line"
-    },
-    {
-      "text": "Says Colombia Will Accept Deportees, Ending Tariff Standoff",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff"
-    },
-    {
-      "text": "Focuses On Engine Damage After Bird Strike",
-      "verb": "Focuses",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Jeju Air Crash Probe Focuses On Engine Damage After Bird Strike"
-    },
-    {
-      "text": "Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan"
-    },
-    {
-      "text": "Took More Than 200 Hostages From Israel. Here's What We Know.",
-      "verb": "Took",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Hamas Took More Than 200 Hostages From Israel. Here's What We Know."
-    },
-    {
-      "text": "Struggle to Halt Lightning Rebel Attack",
-      "verb": "struggle",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "U.N. and Congolese Troops Struggle to Halt Lightning Rebel Attack"
-    },
-    {
-      "text": "to Talk to Trump's Team, Even Old Foes",
-      "verb": "Talk",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Beijing Signals Readiness to Talk to Trump's Team, Even Old Foes"
-    },
-    {
-      "text": "Is Becoming a Fentanyl Exporter, and a Target for Trump",
-      "verb": "Becoming",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Canada Is Becoming a Fentanyl Exporter, and a Target for Trump"
-    },
-    {
-      "text": "thrive in Seychelles after first successful artificial incubation",
-      "verb": "thrive",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby giant tortoises thrive in Seychelles after first successful artificial incubation"
-    },
-    {
-      "text": "says EU’s minerals deal with Rwanda is ‘obvious double standard’",
-      "verb": "says",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "DRC says EU’s minerals deal with Rwanda is ‘obvious double standard’"
-    },
-    {
-      "text": "convicts former Sudan militia leader for war crimes in Darfur",
-      "verb": "convicts",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "ICC convicts former Sudan militia leader for war crimes in Darfur"
-    },
-    {
-      "text": "confirms arrival of 10 more people as part of US deportation deal",
-      "verb": "confirms",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Eswatini confirms arrival of 10 more people as part of US deportation deal"
-    },
-    {
-      "text": "wins Nobel peace prize",
-      "verb": "wins",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Venezuelan politician María Corina Machado wins Nobel peace prize"
-    },
-    {
-      "text": "vote to oust president Dina Boluarte over crime crisis",
-      "verb": "vote",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis"
-    },
-    {
-      "text": "accuses US of killing Colombians in attacks on ‘narco-boats’",
-      "verb": "accuses",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
-    },
-    {
-      "text": "vote against check on Trump using deadly force against cartels",
-      "verb": "vote",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Senate Republicans vote against check on Trump using deadly force against cartels"
-    },
-    {
-      "text": "threatens 100% China tariffs as Beijing restricts rare-earth exports",
-      "verb": "threatens",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Trump threatens 100% China tariffs as Beijing restricts rare-earth exports"
-    },
-    {
-      "text": "welters in summer-like heat",
-      "verb": "unknown",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Weather tracker: South-east China swelters in summer-like heat"
-    },
-    {
-      "text": "lifted after Philippine earthquake – as it happened",
-      "verb": "lifted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Tsunami threat lifted after Philippine earthquake – as it happened"
-    },
-    {
-      "text": "leak Qantas data containing 5 million customer records after ransom deadline passes",
-      "verb": "leak",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Hackers leak Qantas data containing 5 million customer records after ransom deadline passes"
-    },
-    {
-      "text": "after light plane crashes on take-off near Wollongong",
-      "verb": "crashes",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Three people dead after light plane crashes on take-off near Wollongong"
-    },
-    {
-      "text": "spotted at two wildlife sanctuaries in hopeful sign for one of Australia’s rarest marsupials",
-      "verb": "spotted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby numbats spotted at two wildlife sanctuaries in hopeful sign for one of Australia’s rarest marsupials"
-    },
-    {
-      "text": "court told",
-      "verb": "told",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Rebel Wilson using US court proceedings to ‘harass and intimidate’ star of The Deb, court told"
-    },
-    {
-      "text": "Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus",
-      "verb": "lead",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus"
-    },
-    {
-      "text": "evolved more recently than previously thought",
-      "verb": "evolved",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Current mosquitoes evolved more recently than previously thought"
-    },
-    {
-      "text": "capture migrating birds and eat them on the wing",
-      "verb": "capture",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "European bats capture migrating birds and eat them on the wing"
-    },
-    {
-      "text": "could accelerate archaeology scans",
-      "verb": "accelerate",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Portable muon beam could accelerate archaeology scans"
-    },
-    {
-      "text": "say experts",
-      "verb": "say",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Rebuilding Gaza: don’t sideline Palestinian scientists, say experts"
-    },
-    {
-      "text": "be salvaged?",
-      "verb": "salvaged",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "The world’s first plastics treaty is in crisis: can it be salvaged?"
-    },
-    {
-      "text": "reveal insights into ageing",
-      "verb": "reveal",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing"
-    },
-    {
-      "text": "science Nobel prizewinners immigrated: see their journeys",
-      "verb": "immigrated",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys"
-    },
-    {
-      "text": "helped me to defeat PhD-student guilt",
-      "verb": "helped",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "This list of non-negotiables helped me to defeat PhD-student guilt"
-    },
-    {
-      "text": "still roamed Europe during the last ice age",
-      "verb": "roamed",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Hippos still roamed Europe during the last ice age"
-    },
-    {
-      "text": "ed Paramount and Channing Tatum With Social Media ‘Harassment Campaign’",
-      "verb": "unknown",
+      "text": "to ‘Pave the Way’ for Return of Brit Comedy",
+      "verb": "Pave",
       "source": "variety.com",
       "category": "core_news",
-      "original": "Toys ‘R’ Us Loved ‘Roofman,’ Courted Paramount and Channing Tatum With Social Media ‘Harassment Campaign’"
+      "original": "‘The Inbetweeners’ Are Back: Original Creators Strike Deal With Banijay U.K. to ‘Pave the Way’ for Return of Brit Comedy"
     },
     {
-      "text": "to Take First Dramatic Role With ‘Minha Criança Trans?’ For Matizar and Vitrine Filmes (EXCLUSIVE)",
-      "verb": "Take",
+      "text": "rejected Paramount Skydance Acquisition Offer of $20 per Share as Too Low (Report)",
+      "verb": "rejected",
       "source": "variety.com",
       "category": "core_news",
-      "original": "Brazilian Comedy Star Ingrid Guimarães to Take First Dramatic Role With ‘Minha Criança Trans?’ For Matizar and Vitrine Filmes (EXCLUSIVE)"
+      "original": "Warner Bros. Discovery Rejected Paramount Skydance Acquisition Offer of $20 per Share as Too Low (Report)"
     },
     {
-      "text": "ailer of Warsaw-Selected ‘Hunger Strike Breakfast’: ’I Used to Watch Russian Tanks From My Friend’s Flat,’ Says Karolis Kaupinis (EXCLUSIVE)",
-      "verb": "selects",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "Lithuania’s M Films Bows Trailer of Warsaw-Selected ‘Hunger Strike Breakfast’: ’I Used to Watch Russian Tanks From My Friend’s Flat,’ Says Karolis Kaupinis (EXCLUSIVE)"
-    },
-    {
-      "text": "Breakout Australian TV Hits",
-      "verb": "Hits",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "Whodunits and Comedies Lead Breakout Australian TV Hits"
-    },
-    {
-      "text": "Adds Five to Cast, ‘Walking Dead: Daryl Dixon’ Drops Season 4 Behind the Scenes Teaser",
-      "verb": "Adds",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "‘The Vampire Lestat’ Adds Five to Cast, ‘Walking Dead: Daryl Dixon’ Drops Season 4 Behind the Scenes Teaser"
-    },
-    {
-      "text": "We",
+      "text": "Don’t Know if it Makes Sense’",
       "verb": "Know",
-      "source": "rss.nytimes.com",
+      "source": "variety.com",
       "category": "core_news",
-      "original": "What We Know About the Explosion in Central Tennessee"
+      "original": "Laurence Fishburne on if He Would Return as Morpheus in ‘Matrix 5’: ‘I Don’t Know if it Makes Sense’"
     },
     {
-      "text": "Hamas",
-      "verb": "presses",
-      "source": "feeds.bbci.co.uk",
+      "text": "Hope That We Can All Find Respect’",
+      "verb": "Hope",
+      "source": "variety.com",
       "category": "core_news",
-      "original": "Hamas presses Israel to free prominent prisoners as part of Gaza deal"
+      "original": "Keira Knightley Was ‘Not Aware’ of J.K. Rowling Boycott Before Joining ‘Harry Potter: The Full Cast Audio Editions’: ‘I Hope That We Can All Find Respect’"
     },
     {
-      "text": "Trump",
-      "verb": "threatens",
-      "source": "feeds.bbci.co.uk",
+      "text": "print its game in the US? It’s complicated.",
+      "verb": "print",
+      "source": "feeds.arstechnica.com",
       "category": "core_news",
-      "original": "Trump threatens to impose additional 100% tariff on China"
+      "original": "Why doesn’t Cards Against Humanity print its game in the US? It’s complicated."
     },
     {
-      "text": "Mexico floods",
-      "verb": "leave",
-      "source": "feeds.bbci.co.uk",
+      "text": "ups the reward for finding major exploits to $2 million",
+      "verb": "ups",
+      "source": "feeds.arstechnica.com",
       "category": "core_news",
-      "original": "Mexico floods leave at least 27 dead and more missing"
+      "original": "Apple ups the reward for finding major exploits to $2 million"
     },
     {
-      "text": "Trump administration",
-      "verb": "starts",
-      "source": "feeds.bbci.co.uk",
+      "text": "plan to turn Russian spacecraft into flying billboards",
+      "verb": "plan",
+      "source": "feeds.arstechnica.com",
       "category": "core_news",
-      "original": "Trump administration starts laying off thousands of workers"
+      "original": "Putin OKs plan to turn Russian spacecraft into flying billboards"
     },
     {
-      "text": "the world 's oldest president",
-      "verb": "keep",
-      "source": "feeds.bbci.co.uk",
+      "text": "regret buy Amazon smart displays after being bombarded with ads",
+      "verb": "buy",
+      "source": "feeds.arstechnica.com",
       "category": "core_news",
-      "original": "Can the world's oldest president keep his title and woo a nation of young voters?"
+      "original": "People regret buying Amazon smart displays after being bombarded with ads"
     },
     {
-      "text": "US",
+      "text": "gets meta with Wonder Man trailer [UPDATED]",
+      "verb": "gets",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Marvel gets meta with Wonder Man trailer [UPDATED]"
+    },
+    {
+      "text": "warns of new “Payroll Pirate” scam stealing employees’ direct deposits",
+      "verb": "warns",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Microsoft warns of new “Payroll Pirate” scam stealing employees’ direct deposits"
+    },
+    {
+      "text": "plan to force Google changes under new competition law",
+      "verb": "plan",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "UK regulators plan to force Google changes under new competition law"
+    },
+    {
+      "text": "will stop saving most ChatGPT users’ deleted chats",
+      "verb": "stop",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "OpenAI will stop saving most ChatGPT users’ deleted chats"
+    },
+    {
+      "text": "cited for almost 800 environmental violations in Las Vegas",
+      "verb": "cited",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Boring Company cited for almost 800 environmental violations in Las Vegas"
+    },
+    {
+      "text": "cancels advisory meeting",
+      "verb": "cancels",
+      "source": "feeds.arstechnica.com",
+      "category": "core_news",
+      "original": "Childhood vaccines safe for a little longer as CDC cancels advisory meeting"
+    },
+    {
+      "text": "says 'war is over' in Gaza as he flies to Israel for release of hostages",
       "verb": "says",
       "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Qatar to build air force facility in Idaho, US says"
+      "original": "Trump says 'war is over' in Gaza as he flies to Israel for release of hostages"
     },
     {
-      "text": "Rare wildflowers",
-      "verb": "blanket",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Rare wildflowers blanket Atacama desert"
-    },
-    {
-      "text": "Macron",
-      "verb": "reappoints",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Macron reappoints Lecornu as French PM after days of turmoil"
-    },
-    {
-      "text": "Melania Trump",
-      "verb": "says",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Melania Trump says she has 'open communication channel' with Putin about Ukrainian children"
-    },
-    {
-      "text": "Venezuelan opposition leader María Corina Machado",
-      "verb": "wins",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Venezuelan opposition leader María Corina Machado wins Nobel Peace Prize"
-    },
-    {
-      "text": "Major Russian strikes",
-      "verb": "cut",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Major Russian strikes cut power in Kyiv and across Ukraine"
-    },
-    {
-      "text": "US",
-      "verb": "send",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "US to send 200 troops to Israel to monitor Gaza ceasefire"
-    },
-    {
-      "text": "Burkina Faso",
-      "verb": "refuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Burkina Faso refuses to take deportees as US stops issuing visas"
-    },
-    {
-      "text": "Afghanistan",
+      "text": "accuses US of 'double standards' over tariff threat",
       "verb": "accuses",
       "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Afghanistan accuses Pakistan of 'violating sovereign territory'"
+      "original": "China accuses US of 'double standards' over tariff threat"
     },
     {
-      "text": "Peru 's president",
-      "verb": "removed",
+      "text": "says Pakistani troops killed in 'retaliatory' border attacks",
+      "verb": "says",
       "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Peru's president removed from office amid soaring crime"
+      "original": "Afghan Taliban says Pakistani troops killed in 'retaliatory' border attacks"
     },
     {
-      "text": "Zimbabwe MP",
-      "verb": "dies",
+      "text": "says attempt to seize power under way",
+      "verb": "says",
       "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Zimbabwe MP dies after his car hits an elephant"
+      "original": "Madagascar presidency says attempt to seize power under way"
     },
     {
-      "text": "Palestinians",
-      "verb": "Stream",
-      "source": "feeds.a.dj.com",
+      "text": "imposes $10,000 visa bond on US visitors in tit-for-tat move",
+      "verb": "imposes",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Palestinians Stream Back to Northern Gaza on Foot"
+      "original": "Mali imposes $10,000 visa bond on US visitors in tit-for-tat move"
     },
     {
-      "text": "Leading China Property Developer",
-      "verb": "Reports",
-      "source": "feeds.a.dj.com",
+      "text": "captures huge fire engulfing homes in Peru",
+      "verb": "captures",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes"
+      "original": "Drone captures huge fire engulfing homes in Peru"
     },
     {
-      "text": "Freed Israeli Hostages",
-      "verb": "Had",
-      "source": "feeds.a.dj.com",
+      "text": "pour in for Diane Keaton",
+      "verb": "pour",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack"
+      "original": "'She left trail of fairy dust': Tributes pour in for Diane Keaton"
     },
     {
-      "text": "Suspected Sabotage of Deep - Sea Cable",
-      "verb": "Triggers",
-      "source": "feeds.a.dj.com",
+      "text": "trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+      "verb": "trump",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response"
+      "original": "Israelis praise Trump at huge rally ahead of expected hostage release by Hamas in Gaza"
     },
     {
-      "text": "Cocaine - Funded Gangs",
-      "verb": "Shake",
-      "source": "feeds.a.dj.com",
+      "text": "directs Pentagon to 'use all available funds' to pay troops during shutdown",
+      "verb": "directs",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact"
+      "original": "Trump directs Pentagon to 'use all available funds' to pay troops during shutdown"
     },
     {
-      "text": "Joining Fighter - Jet Program ,",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
+      "text": "mobilises fighters in Gaza as fears of internal violence mount",
+      "verb": "mobilises",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says"
+      "original": "Hamas mobilises fighters in Gaza as fears of internal violence mount"
     },
     {
-      "text": "Kim Jong Un",
-      "verb": "Doing",
-      "source": "feeds.a.dj.com",
+      "text": "kills dozens",
+      "verb": "kills",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line"
+      "original": "Drone strike in besieged Sudan city kills dozens"
     },
     {
-      "text": "Trump",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
+      "text": "receiving radiation therapy for prostate cancer",
+      "verb": "receiving",
+      "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff"
-    },
-    {
-      "text": "Jeju Air Crash Probe",
-      "verb": "Focuses",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Jeju Air Crash Probe Focuses On Engine Damage After Bird Strike"
-    },
-    {
-      "text": "Trump",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan"
-    },
-    {
-      "text": "Hamas",
-      "verb": "Took",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Hamas Took More Than 200 Hostages From Israel. Here's What We Know."
-    },
-    {
-      "text": "U.N. and Congolese Troops",
-      "verb": "Struggle",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "U.N. and Congolese Troops Struggle to Halt Lightning Rebel Attack"
-    },
-    {
-      "text": "Beijing Signals Readiness",
-      "verb": "Talk",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Beijing Signals Readiness to Talk to Trump's Team, Even Old Foes"
-    },
-    {
-      "text": "Canada",
-      "verb": "Becoming",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Canada Is Becoming a Fentanyl Exporter, and a Target for Trump"
-    },
-    {
-      "text": "El Fasher group",
-      "verb": "says",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Militia strikes kill at least 60 in Sudan displacement camp, says El Fasher group"
-    },
-    {
-      "text": "Baby giant tortoises",
-      "verb": "thrive",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby giant tortoises thrive in Seychelles after first successful artificial incubation"
-    },
-    {
-      "text": "DRC",
-      "verb": "says",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "DRC says EU’s minerals deal with Rwanda is ‘obvious double standard’"
-    },
-    {
-      "text": "ICC",
-      "verb": "convicts",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "ICC convicts former Sudan militia leader for war crimes in Darfur"
-    },
-    {
-      "text": "Eswatini",
-      "verb": "confirms",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Eswatini confirms arrival of 10 more people as part of US deportation deal"
-    },
-    {
-      "text": "Venezuelan politician María Corina Machado",
-      "verb": "wins",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Venezuelan politician María Corina Machado wins Nobel peace prize"
-    },
-    {
-      "text": "Peru lawmakers",
-      "verb": "vote",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis"
-    },
-    {
-      "text": "President Petro",
-      "verb": "accuses",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
-    },
-    {
-      "text": "Senate Republicans",
-      "verb": "vote",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Senate Republicans vote against check on Trump using deadly force against cartels"
-    },
-    {
-      "text": "Trump",
-      "verb": "threatens",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Trump threatens 100% China tariffs as Beijing restricts rare-earth exports"
-    },
-    {
-      "text": "Weather tracker : South - east China",
-      "verb": "swelters",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Weather tracker: South-east China swelters in summer-like heat"
-    },
-    {
-      "text": "Tsunami threat",
-      "verb": "lifted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Tsunami threat lifted after Philippine earthquake – as it happened"
-    },
-    {
-      "text": "Hackers",
-      "verb": "leak",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Hackers leak Qantas data containing 5 million customer records after ransom deadline passes"
-    },
-    {
-      "text": "Three people dead",
-      "verb": "crashes",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Three people dead after light plane crashes on take-off near Wollongong"
-    },
-    {
-      "text": "Baby numbats",
-      "verb": "spotted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby numbats spotted at two wildlife sanctuaries in hopeful sign for one of Australia’s rarest marsupials"
-    },
-    {
-      "text": "traditional owners",
-      "verb": "say",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Crocodile made famous by Steve Irwin ‘wrongfully arrested’ and should be returned to wild, traditional owners say"
-    },
-    {
-      "text": "Rebel Wilson using US court proceedings to ‘ harass and intimidate ’ star of The Deb",
-      "verb": "told",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Rebel Wilson using US court proceedings to ‘harass and intimidate’ star of The Deb, court told"
-    },
-    {
-      "text": "Author Correction :",
-      "verb": "lead",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus"
-    },
-    {
-      "text": "Current mosquitoes",
-      "verb": "evolved",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Current mosquitoes evolved more recently than previously thought"
-    },
-    {
-      "text": "European bats",
-      "verb": "capture",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "European bats capture migrating birds and eat them on the wing"
-    },
-    {
-      "text": "Portable muon beam",
-      "verb": "accelerate",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Portable muon beam could accelerate archaeology scans"
-    },
-    {
-      "text": "Rebuilding Gaza : do n’t sideline Palestinian scientists",
-      "verb": "say",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Rebuilding Gaza: don’t sideline Palestinian scientists, say experts"
-    },
-    {
-      "text": "it",
-      "verb": "salvaged",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "The world’s first plastics treaty is in crisis: can it be salvaged?"
-    },
-    {
-      "text": "genetic tweaks",
-      "verb": "reveal",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing"
-    },
-    {
-      "text": "More than 30 % of this century ’s",
-      "verb": "immigrated",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys"
-    },
-    {
-      "text": "This list of non - negotiables",
-      "verb": "helped",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "This list of non-negotiables helped me to defeat PhD-student guilt"
-    },
-    {
-      "text": "Hippos",
-      "verb": "roamed",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Hippos still roamed Europe during the last ice age"
-    },
-    {
-      "text": "Toys ‘ R ’ Us   Loved ‘ Roofman , ’",
-      "verb": "Courted",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "Toys ‘R’ Us Loved ‘Roofman,’ Courted Paramount and Channing Tatum With Social Media ‘Harassment Campaign’"
-    },
-    {
-      "text": "Brazilian Comedy Star Ingrid Guimarães",
-      "verb": "Take",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "Brazilian Comedy Star Ingrid Guimarães to Take First Dramatic Role With ‘Minha Criança Trans?’ For Matizar and Vitrine Filmes (EXCLUSIVE)"
-    },
-    {
-      "text": "Karolis Kaupinis ( EXCLUSIVE",
-      "verb": "Says",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "Lithuania’s M Films Bows Trailer of Warsaw-Selected ‘Hunger Strike Breakfast’: ’I Used to Watch Russian Tanks From My Friend’s Flat,’ Says Karolis Kaupinis (EXCLUSIVE)"
-    },
-    {
-      "text": "Whodunits and Comedies Lead",
-      "verb": "Hits",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "Whodunits and Comedies Lead Breakout Australian TV Hits"
-    },
-    {
-      "text": "‘ The Vampire Lestat ’",
-      "verb": "Adds",
-      "source": "variety.com",
-      "category": "core_news",
-      "original": "‘The Vampire Lestat’ Adds Five to Cast, ‘Walking Dead: Daryl Dixon’ Drops Season 4 Behind the Scenes Teaser"
-    }
-  ],
-  "predicates": [
-    {
-      "text": "Are Starting to Feel the Impact of the Government Shutdown",
-      "verb": "Starting",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Some Americans Are Starting to Feel the Impact of the Government Shutdown"
-    },
-    {
-      "text": "Take Political Battles Online",
-      "verb": "take",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Trump’s Aides and Officials Take Political Battles Online"
-    },
-    {
-      "text": "Return to Northern Gaza, Hopeful, but Faced With Devastation",
-      "verb": "return",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Thousands Return to Northern Gaza, Hopeful, but Faced With Devastation"
-    },
-    {
-      "text": "Await Their Release",
-      "verb": "await",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "‘Over the Clouds’: Families of Palestinian Prisoners Await Their Release"
-    },
-    {
-      "text": "Get New Life",
-      "verb": "Get",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "Beheaded and Sent to Watery Graves, Columbus Statues Get New Life"
-    },
-    {
-      "text": "Know About the Explosion in Central Tennessee",
-      "verb": "know",
-      "source": "rss.nytimes.com",
-      "category": "core_news",
-      "original": "What We Know About the Explosion in Central Tennessee"
+      "original": "Biden receiving radiation therapy for prostate cancer"
     },
     {
       "text": "presses Israel to free prominent prisoners as part of Gaza deal",
@@ -1426,228 +1676,571 @@
       "original": "Hamas presses Israel to free prominent prisoners as part of Gaza deal"
     },
     {
-      "text": "threatens to impose additional 100% tariff on China",
-      "verb": "threatens",
+      "text": "prepares for freed Israeli hostages",
+      "verb": "prepares",
       "source": "feeds.bbci.co.uk",
       "category": "core_news",
-      "original": "Trump threatens to impose additional 100% tariff on China"
+      "original": "'We are inventing captivity medicine': Hospital prepares for freed Israeli hostages"
     },
     {
-      "text": "leave at least 27 dead and more missing",
-      "verb": "leave",
-      "source": "feeds.bbci.co.uk",
+      "text": "says administration will keep fighting to send National Guard to Chicago",
+      "verb": "says",
+      "source": "feeds.npr.org",
       "category": "core_news",
-      "original": "Mexico floods leave at least 27 dead and more missing"
+      "original": "Vance says administration will keep fighting to send National Guard to Chicago"
     },
     {
-      "text": "starts laying off thousands of workers",
-      "verb": "starts",
-      "source": "feeds.bbci.co.uk",
+      "text": "says it has killed 58 Pakistani soldiers in overnight border operations",
+      "verb": "says",
+      "source": "feeds.npr.org",
       "category": "core_news",
-      "original": "Trump administration starts laying off thousands of workers"
+      "original": "Afghanistan says it has killed 58 Pakistani soldiers in overnight border operations"
     },
     {
-      "text": "dent keep his title and woo a nation of young voters?",
-      "verb": "keep",
-      "source": "feeds.bbci.co.uk",
+      "text": "vows to stand firm against Trump's 100% tariff threat",
+      "verb": "vows",
+      "source": "feeds.npr.org",
       "category": "core_news",
-      "original": "Can the world's oldest president keep his title and woo a nation of young voters?"
+      "original": "China vows to stand firm against Trump's 100% tariff threat"
     },
     {
-      "text": "blanket Atacama desert",
-      "verb": "blanket",
-      "source": "feeds.bbci.co.uk",
+      "text": "know about the health care fight behind the shutdown",
+      "verb": "know",
+      "source": "feeds.npr.org",
       "category": "core_news",
-      "original": "Rare wildflowers blanket Atacama desert"
+      "original": "5 things to know about the health care fight behind the shutdown"
     },
     {
-      "text": "reappoints Lecornu as French PM after days of turmoil",
+      "text": "begin to ramp up aid in Gaza as ceasefire brings hope for end to 2-year war",
+      "verb": "begin",
+      "source": "feeds.npr.org",
+      "category": "core_news",
+      "original": "Preparations begin to ramp up aid in Gaza as ceasefire brings hope for end to 2-year war"
+    },
+    {
+      "text": "says Gaza ‘war is over’",
+      "verb": "says",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "LIVE: Israel, Hamas set to free captives; Trump says Gaza ‘war is over’"
+    },
+    {
+      "text": "shot dead in Gaza City clashed",
+      "verb": "clashed",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Palestinian journalist Saleh Aljafarawi shot dead in Gaza City clashes"
+    },
+    {
+      "text": "rises to 44, dozens more missing",
+      "verb": "rises",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Death toll from Mexico flooding rises to 44, dozens more missing"
+    },
+    {
+      "text": "arrest thousands of Palestinians?",
+      "verb": "arrest",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Why does Israel arrest thousands of Palestinians?"
+    },
+    {
+      "text": "beat India by three wickets in Women’s Cricket World Cup 2025",
+      "verb": "beat",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Australia beat India by three wickets in Women’s Cricket World Cup 2025"
+    },
+    {
+      "text": "promises to only use Tomahawks against Russian military targets",
+      "verb": "promises",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Zelenskyy promises to only use Tomahawks against Russian military targets"
+    },
+    {
+      "text": "is not prepared for war",
+      "verb": "prepared",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "NATO is not prepared for war"
+    },
+    {
+      "text": "expects to receive all living captives from Gaza on Monday",
+      "verb": "expects",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Israel expects to receive all living captives from Gaza on Monday"
+    },
+    {
+      "text": "warns of attempt to ‘seize power’: What to know",
+      "verb": "warns",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Madagascar president warns of attempt to ‘seize power’: What to know"
+    },
+    {
+      "text": "imposes retaliatory visa bond fees on US travellers",
+      "verb": "imposes",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Mali imposes retaliatory visa bond fees on US travellers"
+    },
+    {
+      "text": "need access to “nutritional food”",
+      "verb": "need",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Palestinians in Gaza need access to “nutritional food”"
+    },
+    {
+      "text": "recognised Palestine?",
+      "verb": "recognised",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Why hasn’t New Zealand recognised Palestine?"
+    },
+    {
+      "text": "exchange heavy fire across Afghanistan border",
+      "verb": "exchange",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Taliban and Pakistani forces exchange heavy fire across Afghanistan border"
+    },
+    {
+      "text": "alleges coup attempt as soldiers support protesters",
+      "verb": "alleges",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Madagascar president alleges coup attempt as soldiers support protesters"
+    },
+    {
+      "text": "rolls out typhoid immunisation drive for 50 million children",
+      "verb": "rolls",
+      "source": "www.aljazeera.com",
+      "category": "core_news",
+      "original": "Bangladesh rolls out typhoid immunisation drive for 50 million children"
+    },
+    {
+      "text": "not “sufficient”",
       "verb": "unknown",
-      "source": "feeds.bbci.co.uk",
+      "source": "www.aljazeera.com",
       "category": "core_news",
-      "original": "Macron reappoints Lecornu as French PM after days of turmoil"
+      "original": "Estimated cost to rebuild Gaza not “sufficient”"
     },
     {
-      "text": "says she has 'open communication channel' with Putin about Ukrainian children",
+      "text": "‘Was Not Aware’ of ‘Harry Potter’ Boycott Prior to Joining Audiobook Cast",
+      "verb": "unknown",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Keira Knightley ‘Was Not Aware’ of ‘Harry Potter’ Boycott Prior to Joining Audiobook Cast"
+    },
+    {
+      "text": "Is Letting Qatar Build a Military Facility in the U.S. and MAGA Is Not Happy",
+      "verb": "Letting",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Trump Is Letting Qatar Build a Military Facility in the U.S. and MAGA Is Not Happy"
+    },
+    {
+      "text": "tried to Evade Journalists’ Questions. It Did Not Go Well",
+      "verb": "tried",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "J.D. Vance Tried to Evade Journalists’ Questions. It Did Not Go Well"
+    },
+    {
+      "text": "Gets Emotional Talking About Uplifting Queer Joy During L.A. Show",
+      "verb": "Gets",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Chappell Roan Gets Emotional Talking About Uplifting Queer Joy During L.A. Show"
+    },
+    {
+      "text": "Arrested in Stabbing Death of Lostprophets Singer Ian Watkins",
+      "verb": "Arrested",
+      "source": "www.rollingstone.com",
+      "category": "core_news",
+      "original": "Two Men Arrested in Stabbing Death of Lostprophets Singer Ian Watkins"
+    },
+    {
+      "text": "deal as trade spat drags on",
+      "verb": "deal",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Trump and Vance open door to China deal as trade spat drags on"
+    },
+    {
+      "text": "renewed U.S. trade war",
+      "verb": "renewed",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "China markets under threat from risk of renewed U.S. trade war"
+    },
+    {
+      "text": "faces triple risk of tariffs, AI bubble and soaring debt",
+      "verb": "faces",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "World economy faces triple risk of tariffs, AI bubble and soaring debt"
+    },
+    {
+      "text": "says he may warn Putin U.S. to mull tomahawks for Ukraine",
       "verb": "says",
-      "source": "feeds.bbci.co.uk",
+      "source": "www.japantimes.co.jp",
       "category": "core_news",
-      "original": "Melania Trump says she has 'open communication channel' with Putin about Ukrainian children"
+      "original": "Trump says he may warn Putin U.S. to mull tomahawks for Ukraine"
     },
     {
-      "text": "wins Nobel Peace Prize",
-      "verb": "wins",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Venezuelan opposition leader María Corina Machado wins Nobel Peace Prize"
-    },
-    {
-      "text": "cut power in Kyiv and across Ukraine",
-      "verb": "cut",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Major Russian strikes cut power in Kyiv and across Ukraine"
-    },
-    {
-      "text": "to send 200 troops to Israel to monitor Gaza ceasefire",
-      "verb": "send",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "US to send 200 troops to Israel to monitor Gaza ceasefire"
-    },
-    {
-      "text": "refuses to take deportees as US stops issuing visas",
-      "verb": "refuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Burkina Faso refuses to take deportees as US stops issuing visas"
-    },
-    {
-      "text": "accuses Pakistan of 'violating sovereign territory'",
-      "verb": "accuses",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Afghanistan accuses Pakistan of 'violating sovereign territory'"
-    },
-    {
-      "text": "removed from office amid soaring crime",
-      "verb": "removed",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Peru's president removed from office amid soaring crime"
-    },
-    {
-      "text": "dies after his car hits an elephant",
-      "verb": "dies",
-      "source": "feeds.bbci.co.uk",
-      "category": "core_news",
-      "original": "Zimbabwe MP dies after his car hits an elephant"
-    },
-    {
-      "text": "Stream Back to Northern Gaza on Foot",
-      "verb": "stream",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Palestinians Stream Back to Northern Gaza on Foot"
-    },
-    {
-      "text": "Reports Huge loss, in Sign of Widening Real-Estate Woes",
-      "verb": "widens",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes"
-    },
-    {
-      "text": "Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
-      "verb": "Had",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack"
-    },
-    {
-      "text": "Triggers First NATO-Led Response",
-      "verb": "Triggers",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response"
-    },
-    {
-      "text": "Shake Colombia Years After Peace Pact",
-      "verb": "shake",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact"
-    },
-    {
-      "text": "ining Fighter-Jet Program, PM Meloni Says",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Italy Supports Saudi Arabia Joining Fighter-Jet Program, PM Meloni Says"
-    },
-    {
-      "text": "Is Doing Everything He Can to Keep North Korea's Youth in Line",
-      "verb": "Doing",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line"
-    },
-    {
-      "text": "Says Colombia Will Accept Deportees, Ending Tariff Standoff",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff"
-    },
-    {
-      "text": "Focuses On Engine Damage After Bird Strike",
-      "verb": "Focuses",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Jeju Air Crash Probe Focuses On Engine Damage After Bird Strike"
-    },
-    {
-      "text": "Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan",
-      "verb": "Says",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Trump Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan"
-    },
-    {
-      "text": "Took More Than 200 Hostages From Israel. Here's What We Know.",
-      "verb": "Took",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Hamas Took More Than 200 Hostages From Israel. Here's What We Know."
-    },
-    {
-      "text": "Struggle to Halt Lightning Rebel Attack",
-      "verb": "struggle",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "U.N. and Congolese Troops Struggle to Halt Lightning Rebel Attack"
-    },
-    {
-      "text": "to Talk to Trump's Team, Even Old Foes",
-      "verb": "Talk",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Beijing Signals Readiness to Talk to Trump's Team, Even Old Foes"
-    },
-    {
-      "text": "Is Becoming a Fentanyl Exporter, and a Target for Trump",
-      "verb": "Becoming",
-      "source": "feeds.a.dj.com",
-      "category": "core_news",
-      "original": "Canada Is Becoming a Fentanyl Exporter, and a Target for Trump"
-    },
-    {
-      "text": "thrive in Seychelles after first successful artificial incubation",
-      "verb": "thrive",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby giant tortoises thrive in Seychelles after first successful artificial incubation"
-    },
-    {
-      "text": "says EU’s minerals deal with Rwanda is ‘obvious double standard’",
+      "text": "says Gaza war has ended; Israel awaits release of hostages",
       "verb": "says",
-      "source": "www.theguardian.com",
+      "source": "www.japantimes.co.jp",
       "category": "core_news",
-      "original": "DRC says EU’s minerals deal with Rwanda is ‘obvious double standard’"
+      "original": "Trump says Gaza war has ended; Israel awaits release of hostages"
     },
     {
-      "text": "convicts former Sudan militia leader for war crimes in Darfur",
-      "verb": "convicts",
-      "source": "www.theguardian.com",
+      "text": "enter Ito Municipal Assembly race over controversial mayor",
+      "verb": "enter",
+      "source": "www.japantimes.co.jp",
       "category": "core_news",
-      "original": "ICC convicts former Sudan militia leader for war crimes in Darfur"
+      "original": "Thirty people enter Ito Municipal Assembly race over controversial mayor"
     },
     {
-      "text": "confirms arrival of 10 more people as part of US deportation deal",
+      "text": "reach final stage of Climax Series after dramatic sayonara win over Giants",
+      "verb": "reach",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "BayStars reach final stage of Climax Series after dramatic sayonara win over Giants"
+    },
+    {
+      "text": "to be moved to Kyoto",
+      "verb": "moved",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Osaka Expo androids to be moved to Kyoto"
+    },
+    {
+      "text": "says millions of customers' data leaked online",
+      "verb": "says",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Australian airline Qantas says millions of customers' data leaked online"
+    },
+    {
+      "text": "ends title drought at PGA Tour's Yokohama tourney",
+      "verb": "ends",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Schauffele ends title drought at PGA Tour's Yokohama tourney"
+    },
+    {
+      "text": "receives the Nobel Peace Prize as Trump’s attempts to secure award fall short",
+      "verb": "receives",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Machado receives the Nobel Peace Prize as Trump’s attempts to secure award fall short"
+    },
+    {
+      "text": "blames U.S. for raising trade tensions and defends rare earth curbs",
+      "verb": "blames",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "China blames U.S. for raising trade tensions and defends rare earth curbs"
+    },
+    {
+      "text": "comes to a close, what will its legacy be?",
+      "verb": "comes",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "As the Osaka Expo comes to a close, what will its legacy be?"
+    },
+    {
+      "text": "scramble to find needed votes for PM",
+      "verb": "scramble",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "After ruling bloc collapses, LDP and opposition scramble to find needed votes for PM"
+    },
+    {
+      "text": "flip the odds to cap WNBA season comeback for the ages",
+      "verb": "flip",
+      "source": "www.japantimes.co.jp",
+      "category": "core_news",
+      "original": "Las Vegas Aces flip the odds to cap WNBA season comeback for the ages"
+    },
+    {
+      "text": "Makes It Faster to Find the Shortest Paths",
+      "verb": "Makes",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "A New Algorithm Makes It Faster to Find the Shortest Paths"
+    },
+    {
+      "text": "Cancel Xbox Game Pass? Everything to Know on the Price Hikes and New Features",
+      "verb": "Know",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "Should You Cancel Xbox Game Pass? Everything to Know on the Price Hikes and New Features"
+    },
+    {
+      "text": "Doesn't Work",
+      "verb": "Work",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "Amazfit T-Rex 3 Pro Review: An Outdoor Watch That Doesn't Work"
+    },
+    {
+      "text": "Are Great for Gaming and Are 35% Off Right Now",
+      "verb": "unknown",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "These SteelSeries Earbuds Are Great for Gaming and Are 35% Off Right Now"
+    },
+    {
+      "text": "Could Change Forever in the UK",
+      "verb": "Change",
+      "source": "www.wired.com",
+      "category": "core_news",
+      "original": "Google Search Could Change Forever in the UK"
+    },
+    {
+      "text": "is wrong about Mars – but it's surprisingly poignant",
+      "verb": "unknown",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Blue Planet Red is wrong about Mars – but it's surprisingly poignant"
+    },
+    {
+      "text": "are uncovering when nature’s strongest force falters",
+      "verb": "uncovering",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Physicists are uncovering when nature’s strongest force falters"
+    },
+    {
+      "text": "boosts hair growth in weeks",
+      "verb": "boosts",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Serum based on plant extracts boosts hair growth in weeks"
+    },
+    {
+      "text": "may have come at a cost",
+      "verb": "come",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Evolution of intelligence in our ancestors may have come at a cost"
+    },
+    {
+      "text": "may be the most effective way to ease irritable bowel syndrome",
+      "verb": "ease",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Therapy may be the most effective way to ease irritable bowel syndrome"
+    },
+    {
+      "text": "highlight fight to save Earth’s rich biodiversity",
+      "verb": "save",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Stunning images highlight fight to save Earth’s rich biodiversity"
+    },
+    {
+      "text": "sets out to circumnavigate the globe",
+      "verb": "sets",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Robotic underwater glider sets out to circumnavigate the globe"
+    },
+    {
+      "text": "can control an ungovernable cousin of magnetism",
+      "verb": "control",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Swirly lasers can control an ungovernable cousin of magnetism"
+    },
+    {
+      "text": "plays a surprising role in fertility",
+      "verb": "plays",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Hidden ecosystem of the ovaries plays a surprising role in fertility"
+    },
+    {
+      "text": "own just 1.5% of the world's renewable power",
+      "verb": "own",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Top 250 oil and gas firms own just 1.5% of the world's renewable power"
+    },
+    {
+      "text": "see older fathers pass on more disease-causing mutations",
+      "verb": "see",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "Selfish sperm see older fathers pass on more disease-causing mutations"
+    },
+    {
+      "text": "is a personal journey through aeons of geology",
+      "verb": "unknown",
+      "source": "www.newscientist.com",
+      "category": "core_news",
+      "original": "The Whispers of Rock is a personal journey through aeons of geology"
+    },
+    {
+      "text": "killed in Gaza as violence erupts between Hamas and armed clans",
+      "verb": "killed",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Dozens killed in Gaza as violence erupts between Hamas and armed clans"
+    },
+    {
+      "text": "calls interview questions about John Candy's weight 'heartbreaking'",
+      "verb": "calls",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Colin Hanks calls interview questions about John Candy's weight 'heartbreaking'"
+    },
+    {
+      "text": "charge 'tourist tax' upwards of $65 per night",
+      "verb": "charge",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Popular travel destination to charge 'tourist tax' upwards of $65 per night"
+    },
+    {
+      "text": "crashes near Hicks Airfield in Texas, reportedly causing multiple semi-truck fires",
+      "verb": "crashes",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Small plane crashes near Hicks Airfield in Texas, reportedly causing multiple semi-truck fires"
+    },
+    {
+      "text": "responds to 'Saturday Night Live' parody of herself and Kristi Noem",
+      "verb": "responds",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Pam Bondi responds to 'Saturday Night Live' parody of herself and Kristi Noem"
+    },
+    {
+      "text": "stun Cowboys as Tetairoa McMillan scores first career touchdowns in win",
+      "verb": "unknown",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Panthers stun Cowboys as Tetairoa McMillan scores first career touchdowns in win"
+    },
+    {
+      "text": "arrested for murder in shooting of 11-year-old boy in New York: 'An unimaginable tragedy'",
+      "verb": "arrested",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Teen arrested for murder in shooting of 11-year-old boy in New York: 'An unimaginable tragedy'"
+    },
+    {
+      "text": "carted off field with gruesome ankle injury against Buccaneers",
+      "verb": "carted",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "49ers star linebacker Fred Warner carted off field with gruesome ankle injury against Buccaneers"
+    },
+    {
+      "text": "says Hamas may release 20 hostages ‘a little bit early’ as he heads to Middle East",
+      "verb": "says",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Trump says Hamas may release 20 hostages ‘a little bit early’ as he heads to Middle East"
+    },
+    {
+      "text": "opens up about feeling excluded during brother Emilio Estevez's Brat Pack era",
+      "verb": "opens",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Charlie Sheen opens up about feeling excluded during brother Emilio Estevez's Brat Pack era"
+    },
+    {
+      "text": "confirms romance rumors",
       "verb": "confirms",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Katy Perry and Justin Trudeau PDA session confirms romance rumors"
+    },
+    {
+      "text": "says Pritzker should 'face some consequences' for Chicago crime rate",
+      "verb": "says",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Vance says Pritzker should 'face some consequences' for Chicago crime rate"
+    },
+    {
+      "text": "roasts himself during Steelers-Browns broadcast",
+      "verb": "roasts",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "NFL legend JJ Watt roasts himself during Steelers-Browns broadcast"
+    },
+    {
+      "text": "crack code on how dietary fiber shields your body from harmful sugar damage",
+      "verb": "crack",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Scientists crack code on how dietary fiber shields your body from harmful sugar damage"
+    },
+    {
+      "text": "sounds off after 'disappointing' play-calling in loss to Broncos",
+      "verb": "sounds",
+      "source": "moxie.foxnews.com",
+      "category": "core_news",
+      "original": "Jets star Garrett Wilson sounds off after 'disappointing' play-calling in loss to Broncos"
+    },
+    {
+      "text": "Then Egypt as Hostage-Prisoner Swap Nears",
+      "verb": "Nears",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Trump Heads to Israel and Then Egypt as Hostage-Prisoner Swap Nears"
+    },
+    {
+      "text": "Are Scared. Friends and Teachers Are Their Protectors.",
+      "verb": "unknown",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "These Students Are Scared. Friends and Teachers Are Their Protectors."
+    },
+    {
+      "text": "Helped geted the N.B.A. Back Into China",
+      "verb": "geted",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "How Las Vegas Sands Helped Get the N.B.A. Back Into China"
+    },
+    {
+      "text": "to Pay More for Wildfire Victims’ Lost Items",
+      "verb": "Pay",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "California Orders Insurers to Pay More for Wildfire Victims’ Lost Items"
+    },
+    {
+      "text": "Was the Definition of a Style Icon",
+      "verb": "unknown",
+      "source": "rss.nytimes.com",
+      "category": "core_news",
+      "original": "Diane Keaton Was the Definition of a Style Icon"
+    },
+    {
+      "text": "join protests against Madagascar’s president",
+      "verb": "join",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Eswatini confirms arrival of 10 more people as part of US deportation deal"
+      "original": "Soldiers from elite Capsat unit join protests against Madagascar’s president"
+    },
+    {
+      "text": "boost opposition or backfire?",
+      "verb": "boost",
+      "source": "www.theguardian.com",
+      "category": "core_news",
+      "original": "In Venezuela’s ‘darkest hours’, will peace prize boost opposition or backfire?"
     },
     {
       "text": "wins Nobel peace prize",
@@ -1671,11 +2264,11 @@
       "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
     },
     {
-      "text": "vote against check on Trump using deadly force against cartels",
-      "verb": "vote",
+      "text": "warns US of retaliation over Trump’s 100% tariffs threat",
+      "verb": "warns",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Senate Republicans vote against check on Trump using deadly force against cartels"
+      "original": "China warns US of retaliation over Trump’s 100% tariffs threat"
     },
     {
       "text": "threatens 100% China tariffs as Beijing restricts rare-earth exports",
@@ -1685,53 +2278,32 @@
       "original": "Trump threatens 100% China tariffs as Beijing restricts rare-earth exports"
     },
     {
-      "text": "welters in summer-like heat",
-      "verb": "unknown",
+      "text": "killed after twin earthquakes off coast of Philippines",
+      "verb": "killed",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Weather tracker: South-east China swelters in summer-like heat"
+      "original": "Seven people killed after twin earthquakes off coast of Philippines"
     },
     {
-      "text": "lifted after Philippine earthquake – as it happened",
-      "verb": "lifted",
+      "text": "says social media ban won’t make children safer",
+      "verb": "says",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Tsunami threat lifted after Philippine earthquake – as it happened"
+      "original": "Australia news live: Thorpe says ‘burn down parliament’ comment was a metaphor; Google says social media ban won’t make children safer"
     },
     {
-      "text": "leak Qantas data containing 5 million customer records after ransom deadline passes",
-      "verb": "leak",
+      "text": "attend pro-Palestine rallies across Australia as organisers vow to keep protesting after Gaza ceasefire",
+      "verb": "attend",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Hackers leak Qantas data containing 5 million customer records after ransom deadline passes"
+      "original": "Thousands attend pro-Palestine rallies across Australia as organisers vow to keep protesting after Gaza ceasefire"
     },
     {
-      "text": "after light plane crashes on take-off near Wollongong",
-      "verb": "crashes",
+      "text": "released from Israeli jail after aid flotilla intercepted en route to Gaza",
+      "verb": "released",
       "source": "www.theguardian.com",
       "category": "core_news",
-      "original": "Three people dead after light plane crashes on take-off near Wollongong"
-    },
-    {
-      "text": "spotted at two wildlife sanctuaries in hopeful sign for one of Australia’s rarest marsupials",
-      "verb": "spotted",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Baby numbats spotted at two wildlife sanctuaries in hopeful sign for one of Australia’s rarest marsupials"
-    },
-    {
-      "text": "court told",
-      "verb": "told",
-      "source": "www.theguardian.com",
-      "category": "core_news",
-      "original": "Rebel Wilson using US court proceedings to ‘harass and intimidate’ star of The Deb, court told"
-    },
-    {
-      "text": "Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus",
-      "verb": "lead",
-      "source": "www.nature.com",
-      "category": "core_news",
-      "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus"
+      "original": "Australian Madeleine Habib released from Israeli jail after aid flotilla intercepted en route to Gaza"
     },
     {
       "text": "evolved more recently than previously thought",
@@ -1755,18 +2327,18 @@
       "original": "Portable muon beam could accelerate archaeology scans"
     },
     {
-      "text": "say experts",
-      "verb": "say",
+      "text": "are worried",
+      "verb": "unknown",
       "source": "www.nature.com",
       "category": "core_news",
-      "original": "Rebuilding Gaza: don’t sideline Palestinian scientists, say experts"
+      "original": "Dangerous ‘nitazene’ opioids are on the rise: researchers are worried"
     },
     {
-      "text": "be salvaged?",
-      "verb": "salvaged",
+      "text": "weigh the risks",
+      "verb": "weigh",
       "source": "www.nature.com",
       "category": "core_news",
-      "original": "The world’s first plastics treaty is in crisis: can it be salvaged?"
+      "original": "Should genetically modified wildlife be banned? Scientists weigh the risks"
     },
     {
       "text": "reveal insights into ageing",
@@ -1776,18 +2348,18 @@
       "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing"
     },
     {
-      "text": "science Nobel prizewinners immigrated: see their journeys",
-      "verb": "immigrated",
+      "text": "using cross attention graph neural networks",
+      "verb": "using",
       "source": "www.nature.com",
       "category": "core_news",
-      "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys"
+      "original": "Enzyme specificity prediction using cross attention graph neural networks"
     },
     {
-      "text": "helped me to defeat PhD-student guilt",
-      "verb": "helped",
+      "text": "mean for the future of hiring",
+      "verb": "mean",
       "source": "www.nature.com",
       "category": "core_news",
-      "original": "This list of non-negotiables helped me to defeat PhD-student guilt"
+      "original": "How stereotypes shape AI – and what that means for the future of hiring"
     },
     {
       "text": "still roamed Europe during the last ice age",
@@ -1797,42 +2369,154 @@
       "original": "Hippos still roamed Europe during the last ice age"
     },
     {
-      "text": "ed Paramount and Channing Tatum With Social Media ‘Harassment Campaign’",
+      "text": "reveals why Trump attacked judge and his family in speech",
+      "verb": "reveals",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Haberman reveals why Trump attacked judge and his family in speech"
+    },
+    {
+      "text": "detain suspect over St. Petersburg cafe blast",
       "verb": "unknown",
-      "source": "variety.com",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Toys ‘R’ Us Loved ‘Roofman,’ Courted Paramount and Channing Tatum With Social Media ‘Harassment Campaign’"
+      "original": "Russian authorities detain suspect over St. Petersburg cafe blast"
     },
     {
-      "text": "to Take First Dramatic Role With ‘Minha Criança Trans?’ For Matizar and Vitrine Filmes (EXCLUSIVE)",
-      "verb": "Take",
-      "source": "variety.com",
+      "text": "shows moment of deadly explosion at cafe in Russia",
+      "verb": "shows",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Brazilian Comedy Star Ingrid Guimarães to Take First Dramatic Role With ‘Minha Criança Trans?’ For Matizar and Vitrine Filmes (EXCLUSIVE)"
+      "original": "Video shows moment of deadly explosion at cafe in Russia"
     },
     {
-      "text": "ailer of Warsaw-Selected ‘Hunger Strike Breakfast’: ’I Used to Watch Russian Tanks From My Friend’s Flat,’ Says Karolis Kaupinis (EXCLUSIVE)",
-      "verb": "selects",
-      "source": "variety.com",
+      "text": "was able to transmited information back to Beijing",
+      "verb": "transmited",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Lithuania’s M Films Bows Trailer of Warsaw-Selected ‘Hunger Strike Breakfast’: ’I Used to Watch Russian Tanks From My Friend’s Flat,’ Says Karolis Kaupinis (EXCLUSIVE)"
+      "original": "Suspected Chinese spy balloon was able to transmit information back to Beijing"
     },
     {
-      "text": "Breakout Australian TV Hits",
-      "verb": "Hits",
-      "source": "variety.com",
+      "text": "promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose",
+      "verb": "promised",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "Whodunits and Comedies Lead Breakout Australian TV Hits"
+      "original": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose"
     },
     {
-      "text": "Adds Five to Cast, ‘Walking Dead: Daryl Dixon’ Drops Season 4 Behind the Scenes Teaser",
-      "verb": "Adds",
-      "source": "variety.com",
+      "text": "shares experience on front line",
+      "verb": "unknown",
+      "source": "rss.cnn.com",
       "category": "core_news",
-      "original": "‘The Vampire Lestat’ Adds Five to Cast, ‘Walking Dead: Daryl Dixon’ Drops Season 4 Behind the Scenes Teaser"
+      "original": "'Scary, cold, hungry and lonely': Volunteer soldier shares experience on front line"
+    },
+    {
+      "text": "picked for the first crewed moon mission in 50 years",
+      "verb": "picked",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years"
+    },
+    {
+      "text": "shows early promise",
+      "verb": "shows",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "A new approach to a Covid-19 nasal vaccine shows early promise"
+    },
+    {
+      "text": "shows moment man throws yogurt on two women in Iran",
+      "verb": "shows",
+      "source": "rss.cnn.com",
+      "category": "core_news",
+      "original": "Video shows moment man throws yogurt on two women in Iran"
+    },
+    {
+      "text": "could be 33,000 light years away",
+      "verb": "unknown",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Closest alien civilization could be 33,000 light years away"
+    },
+    {
+      "text": "could reverse fatty liver disease",
+      "verb": "reverse",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Two common drugs could reverse fatty liver disease"
+    },
+    {
+      "text": "uncover lost land bridge that may rewrite human history",
+      "verb": "uncover",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Archaeologists uncover lost land bridge that may rewrite human history"
+    },
+    {
+      "text": "reveals how Earth’s magnetic field first sparked to life",
+      "verb": "reveals",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "New simulation reveals how Earth’s magnetic field first sparked to life"
+    },
+    {
+      "text": "unearth a 112-million-year-old time capsule fill with ancient insects",
+      "verb": "fill",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Scientists unearth a 112-million-year-old time capsule filled with ancient insects"
+    },
+    {
+      "text": "may be getting Alzheimer’s from toxic ocean blooms",
+      "verb": "getting",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms"
+    },
+    {
+      "text": "find gold hiding in food waste",
+      "verb": "find",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Scientists find gold hiding in food waste"
+    },
+    {
+      "text": "now run on laptops",
+      "verb": "run",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Quantum simulations that once needed supercomputers now run on laptops"
+    },
+    {
+      "text": "may reverse nerve damage caused by multiple sclerosis",
+      "verb": "reverse",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis"
+    },
+    {
+      "text": "regain happiness after struggling",
+      "verb": "regain",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "How 1 in 4 older adults regain happiness after struggling"
+    },
+    {
+      "text": "pinpoint brain cells link to depression",
+      "verb": "link",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "For the first time, scientists pinpoint brain cells linked to depression"
+    },
+    {
+      "text": "just maked light smarter with “optical thermodynamics”",
+      "verb": "maked",
+      "source": "www.sciencedaily.com",
+      "category": "core_news",
+      "original": "USC engineers just made light smarter with “optical thermodynamics”"
     }
   ],
-  "generated": "2025-10-11T09:34:31.671039",
-  "total_subjects": 68,
-  "total_predicates": 65
+  "generated": "2025-10-12T20:55:50.788374",
+  "total_subjects": 212,
+  "total_predicates": 147
 }
