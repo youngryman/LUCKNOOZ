@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-LUCKNOOZ Headline Generator - Version 7
-Improved verb detection and conjugation
-Prevents same-source combinations
+LUCKNOOZ Headline Generator - Version 8
+Fixed proper noun detection and verb conjugation
 """
 
 import feedparser
@@ -11,7 +10,7 @@ import re
 from datetime import datetime
 import random
 
-# RSS feeds - your selected 15
+# RSS feeds
 FEEDS = [
     'https://variety.com/feed/',
     'https://feeds.arstechnica.com/arstechnica/index',
@@ -30,7 +29,6 @@ FEEDS = [
     'https://www.sciencedaily.com/rss/all.xml'
 ]
 
-# Words to skip - these indicate the verb we found is NOT the main verb
 SKIP_PATTERNS = {
     'question_words': {'who', 'what', 'where', 'when', 'why', 'how', 'which', 'whose'},
     'determiners': {'the', 'a', 'an'},
@@ -49,35 +47,52 @@ SKIP_PATTERNS = {
     }
 }
 
-# Common irregular verbs
+# Irregular verbs with past and present forms
 IRREGULAR_VERBS = {
-    'is': {'singular': 'is', 'plural': 'are'},
-    'are': {'singular': 'is', 'plural': 'are'},
-    'was': {'singular': 'was', 'plural': 'were'},
-    'were': {'singular': 'was', 'plural': 'were'},
-    'has': {'singular': 'has', 'plural': 'have'},
-    'have': {'singular': 'has', 'plural': 'have'},
-    'does': {'singular': 'does', 'plural': 'do'},
-    'do': {'singular': 'does', 'plural': 'do'},
-    'goes': {'singular': 'goes', 'plural': 'go'},
-    'go': {'singular': 'goes', 'plural': 'go'},
-    'says': {'singular': 'says', 'plural': 'say'},
-    'say': {'singular': 'says', 'plural': 'say'}
+    'is': {'singular': 'is', 'plural': 'are', 'past': 'was'},
+    'are': {'singular': 'is', 'plural': 'are', 'past': 'were'},
+    'was': {'singular': 'was', 'plural': 'were', 'past': 'was'},
+    'were': {'singular': 'was', 'plural': 'were', 'past': 'were'},
+    'has': {'singular': 'has', 'plural': 'have', 'past': 'had'},
+    'have': {'singular': 'has', 'plural': 'have', 'past': 'had'},
+    'had': {'singular': 'had', 'plural': 'had', 'past': 'had'},
+    'does': {'singular': 'does', 'plural': 'do', 'past': 'did'},
+    'do': {'singular': 'does', 'plural': 'do', 'past': 'did'},
+    'did': {'singular': 'did', 'plural': 'did', 'past': 'did'},
+    'goes': {'singular': 'goes', 'plural': 'go', 'past': 'went'},
+    'go': {'singular': 'goes', 'plural': 'go', 'past': 'went'},
+    'went': {'singular': 'went', 'plural': 'went', 'past': 'went'},
+    'says': {'singular': 'says', 'plural': 'say', 'past': 'said'},
+    'say': {'singular': 'says', 'plural': 'say', 'past': 'said'},
+    'said': {'singular': 'said', 'plural': 'said', 'past': 'said'}
 }
 
 def clean_headline(text):
     """Clean and normalize headline text"""
-    # Remove HTML tags
     text = re.sub(r'<[^>]+>', '', text)
-    # Normalize whitespace
     text = re.sub(r'\s+', ' ', text)
-    # Remove quotes
     text = text.strip('"\'')
     return text.strip()
 
+def is_past_tense(verb):
+    """Check if verb is in past tense"""
+    verb_lower = verb.lower()
+    
+    # Check irregular past tense
+    past_forms = {'was', 'were', 'had', 'did', 'went', 'said', 'made', 'came', 
+                  'took', 'gave', 'found', 'told', 'saw', 'knew', 'got', 'became'}
+    if verb_lower in past_forms:
+        return True
+    
+    # Regular past tense ending in -ed
+    if verb_lower.endswith('ed'):
+        return True
+    
+    return False
+
 def is_verb_form(word):
     """Check if word looks like a verb"""
-    word_lower = word.lower()
+    word_lower = word.lower().strip('.,;:!?')
     
     # Auxiliary verbs
     if word_lower in ['is', 'are', 'was', 'were', 'has', 'have', 'had',
@@ -88,7 +103,7 @@ def is_verb_form(word):
     # Common verb endings
     if (word_lower.endswith('s') or word_lower.endswith('ed') or 
         word_lower.endswith('ing')):
-        # But skip if it's a noun (rough heuristic)
+        # Skip nouns
         if word_lower.endswith('ness') or word_lower.endswith('ings'):
             return False
         return True
@@ -96,28 +111,28 @@ def is_verb_form(word):
     return False
 
 def find_main_verb(title):
-    """
-    Find the MAIN verb in the headline
-    Skip verbs in subordinate clauses, after commas, etc.
-    """
+    """Find the MAIN verb, rejecting problematic patterns"""
     words = title.split()
     
-    # Skip questions entirely
+    # REJECT: Question words at start
     if words and words[0].lower() in SKIP_PATTERNS['question_words']:
         return -1
     
-    # Skip if starts with gerund
+    # REJECT: "How to" patterns
+    if len(words) >= 2 and words[0].lower() == 'how' and words[1].lower() == 'to':
+        return -1
+    
+    # REJECT: Headlines starting with gerund
     if words and words[0].endswith('ing'):
         return -1
     
-    # Track depth of subordinate clauses
     in_subordinate = False
     after_comma = False
     
     for i, word in enumerate(words):
         word_lower = word.lower().strip('.,;:!?')
         
-        # Check for comma (often introduces subordinate info)
+        # Check for comma
         if ',' in word:
             after_comma = True
             continue
@@ -127,7 +142,7 @@ def find_main_verb(title):
             in_subordinate = True
             continue
         
-        # Skip first few words if they form problem phrases
+        # Skip problem phrases
         if i < 3:
             phrase = ' '.join(w.lower() for w in words[max(0, i-2):i+2])
             if any(problem in phrase for problem in SKIP_PATTERNS['problem_phrases']):
@@ -143,91 +158,104 @@ def find_main_verb(title):
         
         # Check if this looks like a verb
         if is_verb_form(word):
-            # If we're not in a subordinate clause and not after a comma
-            # AND we have at least one word before this as the subject
             if i > 0 and not in_subordinate and not after_comma:
                 return i
-            # If we're after a comma, this might still be the main verb
-            # if it's early in the sentence (within first 5 words)
             elif after_comma and i <= 5:
                 return i
     
     return -1
 
 def is_plural_subject(subject):
-    """Determine if subject is plural or singular"""
+    """
+    Determine if subject is plural or singular
+    CRITICAL: Proper nouns are ALWAYS singular
+    """
     subject_lower = subject.lower().strip()
-    words = subject_lower.split()
+    words = subject.split()
     
     if not words:
         return False
     
-    last_word = words[-1].strip('.,;:!?')
-    
-    # Explicit plural markers
-    if last_word.endswith('s') and not last_word.endswith('ss'):
-        # But not if it's a proper noun ending in s
-        if words[-1][0].isupper():
-            return False
-        return True
-    
-    # Plural determiners
-    plural_determiners = {'these', 'those', 'many', 'several', 'few', 'both'}
-    if words[0] in plural_determiners:
-        return True
-    
-    # Compound subjects (X and Y)
+    # Check for compound subjects with "and"
     if ' and ' in subject_lower:
         return True
     
-    # Countries, organizations, people names are singular
-    if words[-1][0].isupper():
-        return False
+    # Plural determiners/quantifiers
+    plural_markers = {'these', 'those', 'many', 'several', 'few', 'both', 'all'}
+    if words[0].lower() in plural_markers:
+        return True
+    
+    # CRITICAL: Check if subject is a proper noun (capitalized)
+    # Count capitalized words (excluding articles at start)
+    start_index = 0
+    if words[0].lower() in {'the', 'a', 'an'}:
+        start_index = 1
+    
+    if start_index < len(words):
+        # Check if we have capitalized words (proper nouns)
+        capitalized_words = [w for w in words[start_index:] if w and w[0].isupper()]
+        
+        # If we have any capitalized words, treat as singular
+        # (Trump, Google, Charlie Sheen, Las Vegas Sands, etc.)
+        if capitalized_words:
+            return False
+    
+    # Check last word for plural ending
+    last_word = words[-1].strip('.,;:!?').lower()
+    
+    # Common plural endings
+    if last_word.endswith('s') and not last_word.endswith('ss'):
+        # But check if it's a verb form or singular noun
+        if last_word in {'news', 'us', 'virus', 'lens', 'caucus'}:
+            return False
+        return True
     
     # Default to singular
     return False
 
-def conjugate_verb(verb, subject):
+def conjugate_verb(verb, subject, original_verb):
     """
     Conjugate verb to match subject
-    Handles verb phrases like "was able to" or "has been"
+    Preserves past tense from original
     """
     is_plural = is_plural_subject(subject)
-    verb_lower = verb.lower()
+    verb_lower = verb.lower().strip('.,;:!?')
+    original_lower = original_verb.lower().strip('.,;:!?')
     
-    # Handle verb phrases (auxiliary + main verb)
+    # Check if original verb was past tense
+    was_past_tense = is_past_tense(original_lower)
+    
+    # Handle verb phrases (e.g., "opens up", "is preparing")
     verb_parts = verb.split()
     
     if len(verb_parts) > 1:
         # Multi-word verb phrase
-        first_word = verb_parts[0].lower()
+        first_word = verb_parts[0].lower().strip('.,;:!?')
         
         if first_word in IRREGULAR_VERBS:
-            if is_plural:
+            if was_past_tense:
+                verb_parts[0] = IRREGULAR_VERBS[first_word]['past']
+            elif is_plural:
                 verb_parts[0] = IRREGULAR_VERBS[first_word]['plural']
             else:
                 verb_parts[0] = IRREGULAR_VERBS[first_word]['singular']
-            
-            # Handle "to" + verb (infinitive)
-            if len(verb_parts) > 2 and verb_parts[1] == 'to':
-                # "was able to transmit" -> keep infinitive form
-                pass
-            elif len(verb_parts) > 1:
-                # Fix past participles if needed
-                last_word = verb_parts[-1]
-                if last_word.endswith('ed') or last_word.endswith('ing'):
-                    pass  # Keep participles as-is
         
         return ' '.join(verb_parts)
     
     # Single word verb
     if verb_lower in IRREGULAR_VERBS:
-        if is_plural:
+        if was_past_tense:
+            return IRREGULAR_VERBS[verb_lower]['past']
+        elif is_plural:
             return IRREGULAR_VERBS[verb_lower]['plural']
         else:
             return IRREGULAR_VERBS[verb_lower]['singular']
     
-    # Regular verb conjugation
+    # Regular verbs
+    if was_past_tense:
+        # Keep past tense (most regular verbs end in -ed)
+        return verb
+    
     if is_plural:
         # Plural: remove -s/-es
         if verb_lower.endswith('ies'):
@@ -241,7 +269,7 @@ def conjugate_verb(verb, subject):
         return verb
     else:
         # Singular: add -s/-es
-        if verb_lower.endswith(('s', 'x', 'z', 'ch', 'sh')):
+        if verb_lower.endswith(('s', 'x', 'z', 'ch', 'sh', 'o')):
             return verb + 'es'
         elif verb_lower.endswith('y') and len(verb_lower) > 1 and verb_lower[-2] not in 'aeiou':
             return verb_lower[:-1] + 'ies'
@@ -300,7 +328,7 @@ def fetch_headlines():
             feed = feedparser.parse(feed_url)
             source = feed.feed.get('title', feed_url)
             
-            for entry in feed.entries[:30]:  # Get up to 30 from each
+            for entry in feed.entries[:30]:
                 title = entry.get('title', '')
                 if title:
                     parsed = parse_headline(title, source)
@@ -315,16 +343,13 @@ def fetch_headlines():
     return all_headlines
 
 def generate_combinations(headlines, num_combinations=100):
-    """
-    Generate new headline combinations
-    CRITICAL: Ensure subject and predicate come from DIFFERENT sources
-    """
+    """Generate new headline combinations from different sources"""
     if len(headlines) < 2:
         return []
     
     combinations = []
     attempts = 0
-    max_attempts = num_combinations * 10  # Try up to 10x to get enough unique combinations
+    max_attempts = num_combinations * 10
     
     while len(combinations) < num_combinations and attempts < max_attempts:
         attempts += 1
@@ -333,17 +358,18 @@ def generate_combinations(headlines, num_combinations=100):
         subj_headline = random.choice(headlines)
         pred_headline = random.choice(headlines)
         
-        # CRITICAL: Ensure they're from different original headlines
+        # CRITICAL: Ensure different originals
         if subj_headline['original'] == pred_headline['original']:
-            continue  # Skip same-source combinations
+            continue
         
         # Create new headline
         subject = subj_headline['subject']
         predicate = pred_headline['predicate']
         verb = pred_headline['verb']
+        original_verb = pred_headline['verb']
         
         # Conjugate verb to match new subject
-        conjugated_verb = conjugate_verb(verb, subject)
+        conjugated_verb = conjugate_verb(verb, subject, original_verb)
         
         # Replace the verb in the predicate
         predicate_words = predicate.split()
@@ -353,7 +379,7 @@ def generate_combinations(headlines, num_combinations=100):
         
         new_headline = f"{subject} {new_predicate}"
         
-        # Check if we already have this combination
+        # Check for duplicates
         if any(c['headline'] == new_headline for c in combinations):
             continue
         
@@ -376,7 +402,7 @@ def generate_combinations(headlines, num_combinations=100):
 
 def main():
     print("=" * 60)
-    print("LUCKNOOZ Headline Generator v7")
+    print("LUCKNOOZ Headline Generator v8")
     print("=" * 60)
     print()
     
