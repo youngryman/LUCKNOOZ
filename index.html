@@ -12,451 +12,332 @@
         }
         
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            background: #f5f5f5;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
             padding: 20px;
         }
         
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
         }
         
         h1 {
-            font-size: 2.5em;
-            color: #2c3e50;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #3498db;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         }
         
         .tagline {
-            font-size: 1.3em;
-            color: #7f8c8d;
-            margin: 20px 0;
-        }
-        
-        .subtitle {
-            font-size: 1.1em;
-            color: #95a5a6;
+            font-size: 1.2em;
+            opacity: 0.9;
             font-style: italic;
-            margin: 20px 0;
         }
         
-        .intro-text {
-            background: #ecf0f1;
-            padding: 20px;
-            margin: 25px 0;
-            border-radius: 5px;
-            line-height: 1.8;
-        }
-        
-        .intro-text p {
-            margin: 10px 0;
-        }
-        
-        .note {
-            background: #fff3cd;
-            border: 1px solid #ffc107;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 5px;
-            font-size: 0.95em;
-        }
-        
-        .headlines-section {
-            margin: 30px 0;
+        .content {
+            padding: 30px;
         }
         
         .headline-item {
+            padding: 20px;
+            margin: 15px 0;
             background: #f8f9fa;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border-left: 4px solid #3498db;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            gap: 10px;
+            transition: all 0.3s ease;
         }
         
-        .headline-item.user-contribution {
-            border-left-color: #e74c3c;
-            background: #fff5f5;
-        }
-        
-        .headline-checkbox {
-            margin-right: 10px;
-            transform: scale(1.3);
-            cursor: pointer;
+        .headline-item:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
         }
         
         .headline-text {
             flex: 1;
             font-size: 1.1em;
             color: #2c3e50;
+            line-height: 1.5;
         }
         
-        .asterisk {
-            color: #e74c3c;
-            font-weight: bold;
-            margin-left: 5px;
-        }
-        
-        .info-button {
-            background: #3498db;
+        .info-btn {
+            background: #667eea;
             color: white;
             border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
+            padding: 8px 16px;
+            border-radius: 20px;
             cursor: pointer;
             font-size: 0.9em;
+            transition: all 0.3s ease;
+            margin-left: 15px;
         }
         
-        .info-button:hover {
-            background: #2980b9;
+        .info-btn:hover {
+            background: #764ba2;
+            transform: scale(1.05);
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            animation: fadeIn 0.3s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+            animation: slideDown 0.3s;
+        }
+        
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        
+        .close:hover {
+            color: #000;
         }
         
         .original-headline {
-            background: #e8f4f8;
+            margin: 20px 0;
             padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            font-size: 0.95em;
-            color: #34495e;
-            display: none;
-        }
-        
-        .original-headline.show {
-            display: block;
-        }
-        
-        .add-section {
-            background: #f0f0f0;
-            padding: 25px;
-            margin: 30px 0;
+            background: #f8f9fa;
             border-radius: 8px;
         }
         
-        .add-section h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-        
-        .input-group {
-            margin: 15px 0;
-        }
-        
-        .input-group label {
+        .original-headline strong {
+            color: #667eea;
             display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: #555;
-        }
-        
-        .input-group input {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1em;
-        }
-        
-        .button {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            margin: 10px 5px;
-            border-radius: 5px;
-            cursor: pointer;
+            margin-bottom: 10px;
             font-size: 1.1em;
         }
         
-        .button:hover {
-            background: #2980b9;
-        }
-        
-        .button.remix {
-            background: #e74c3c;
-            font-size: 1.3em;
-            padding: 15px 40px;
-            margin: 20px auto;
-            display: block;
-        }
-        
-        .button.remix:hover {
-            background: #c0392b;
-        }
-        
-        .influenced-section {
-            background: #fff3e0;
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 8px;
-        }
-        
-        .best-yesterday-section {
-            background: #e3f2fd;
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 8px;
-        }
-        
-        .section-title {
-            font-size: 1.5em;
+        .original-text {
             color: #2c3e50;
-            margin-bottom: 20px;
-        }
-        
-        .coming-soon {
-            color: #7f8c8d;
             font-style: italic;
+            margin: 10px 0;
+            line-height: 1.5;
         }
         
-        footer {
-            margin: 40px 0 20px 0;
-            padding: 20px 0;
-            border-top: 2px solid #ecf0f1;
-            text-align: center;
-            color: #95a5a6;
+        .source-info {
+            color: #6c757d;
             font-size: 0.9em;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #dee2e6;
         }
         
-        @media (max-width: 600px) {
-            h1 { font-size: 1.8em; }
-            .headline-item {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .info-button { align-self: flex-end; }
+        .source-label {
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        #loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>LUCKNOOZ™</h1>
-        <div class="tagline">News Headlines Deconstructed And Reconstituted</div>
-        <div class="subtitle">Humorous, Surrealistic, Surprising, Shocking and Amusingly Baffling</div>
+        <header>
+            <h1>LUCKNOOZ™</h1>
+            <p class="tagline">Where Reality Gets Remixed</p>
+        </header>
         
-        <div class="intro-text">
-            <p><strong>Welcome to LUCKNOOZ!</strong></p>
-            <p>Here are ten of the latest remixed headlines - surreal combinations of subjects and predicates from recent news. Vote for your favorites by checking the boxes - your choices help shape tomorrow's "Best of Yesterday" collection.</p>
-            <p>Want to influence the remix? Add your own subject and predicate below and watch them appear in the "Influenced By You" section!</p>
-        </div>
-        
-        <div id="error-container"></div>
-        <div id="loading" style="text-align: center; padding: 20px; color: #7f8c8d;">Loading headlines...</div>
-        
-        <div class="headlines-section" id="headlines-section" style="display:none;">
-            <div id="headlines-list"></div>
-        </div>
-        
-        <div class="add-section">
-            <h2>Add Your Headlines</h2>
-            <p>Contribute components to influence future remixes:</p>
+        <div class="content">
+            <div id="loading">Loading headlines...</div>
             
-            <div class="input-group">
-                <label>Subject (who/what):</label>
-                <input type="text" id="subject-input" placeholder="e.g., Biden, Tesla, Scientists">
-            </div>
-            <div class="input-group">
-                <label>Predicate (what they did/what happened):</label>
-                <input type="text" id="predicate-input" placeholder="e.g., announces new climate policy, crashes into building, discover ancient artifact">
-            </div>
-            
-            <button class="button" onclick="addToRemix()">Add to Remix</button>
-            <button class="button remix" onclick="remixHeadlines()">🎲 REMIX HEADLINES 🎲</button>
-        </div>
-        
-        <div class="influenced-section">
-            <div class="section-title">⭐ Influenced By You</div>
-            <div id="user-contributions">
-                <p class="coming-soon">Your contributions will appear here after adding components above!</p>
+            <div id="headlines-section" style="display: none;">
+                <div id="headline-list"></div>
             </div>
         </div>
-        
-        <div class="best-yesterday-section">
-            <div class="section-title">🏆 Best of Yesterday</div>
-            <div class="note">
-                <strong>Coming Soon:</strong> This section will display yesterday's most-voted headlines once database backend is implemented (Phase 2).
-            </div>
+    </div>
+
+    <!-- Info Modal -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
         </div>
-        
-        <footer>
-            <p>LUCKNOOZ™ - Where News Gets Remixed</p>
-            <p>Archives and searchable history coming in Phase 2</p>
-        </footer>
     </div>
 
     <script>
-        const GITHUB_RAW_URL = './headline-components.json';
-        let headlineComponents = null;
-        let userContributions = [];
-        let currentHeadlines = [];
-        
-        window.addEventListener('DOMContentLoaded', loadHeadlinesFromGitHub);
-        
-        async function loadHeadlinesFromGitHub() {
+        let headlineData = null;
+
+        async function loadHeadlineData() {
             try {
-                const response = await fetch(GITHUB_RAW_URL);
+                const response = await fetch('./headline-components.json');
                 
                 if (!response.ok) {
                     throw new Error('Could not load headline data');
                 }
                 
-                const text = await response.text();
-                console.log('JSON text received:', text.substring(0, 200));
-                headlineComponents = JSON.parse(text);
+                const data = await response.json();
                 
-                if (!headlineComponents.subjects || !headlineComponents.predicates) {
+                if (!data.subjects || !data.predicates) {
                     throw new Error('Missing data in headline file');
                 }
                 
+                headlineData = data;
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('headlines-section').style.display = 'block';
                 
-                generateInitialHeadlines();
-                
+                generateHeadlines();
             } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('error-container').innerHTML = `
-                    <div style="color: #721c24; background: #f8d7da; padding: 15px; margin: 20px 0; border-radius: 5px;">
-                        <strong>Error loading headlines.</strong> Please refresh the page.
-                    </div>
-                `;
+                console.error('Error loading headlines:', error);
+                document.getElementById('loading').innerHTML = 
+                    '<div class="error-message">Error loading headlines. Please refresh the page.</div>';
             }
         }
-        
-        function generateInitialHeadlines() {
-            currentHeadlines = [];
-            for (let i = 0; i < 10; i++) {
-                currentHeadlines.push(generateSingleHeadline());
-            }
-            displayHeadlines();
-        }
-        
-        function generateSingleHeadline() {
-            const subject = getRandomComponent('subjects');
-            const predicate = getRandomComponent('predicates');
+
+        function generateHeadlines() {
+            const subjects = headlineData.subjects;
+            const predicates = headlineData.predicates;
             
-            if (!subject || !predicate) {
-                return {
-                    text: "Error creating headline",
-                    original: "Missing data",
-                    source: "Error",
-                    isUserContribution: false
-                };
-            }
-            
-            const headline = `${subject.text} ${predicate.text}`;
-            
-            return {
-                text: headline,
-                original: `Subject: ${subject.original || subject.text} | Predicate: ${predicate.original || predicate.text}`,
-                source: subject.source || 'Unknown',
-                isUserContribution: subject.isUserContribution || predicate.isUserContribution || false
-            };
-        }
-        
-        function getRandomComponent(category) {
-            const items = headlineComponents[category];
-            if (!items || items.length === 0) {
-                return null;
-            }
-            return items[Math.floor(Math.random() * items.length)];
-        }
-        
-        function displayHeadlines() {
-            const container = document.getElementById('headlines-list');
-            container.innerHTML = '';
-            
-            currentHeadlines.forEach((headline, index) => {
-                const div = document.createElement('div');
-                div.className = 'headline-item' + (headline.isUserContribution ? ' user-contribution' : '');
-                div.innerHTML = `
-                    <input type="checkbox" class="headline-checkbox" id="vote-${index}">
-                    <span class="headline-text">
-                        ${headline.text}${headline.isUserContribution ? '<span class="asterisk">★</span>' : ''}
-                    </span>
-                    <button class="info-button" onclick="toggleInfo(${index})">ℹ️ Info</button>
-                    <div class="original-headline" id="original-${index}">
-                        <strong>Original:</strong> ${headline.original}<br>
-                        <strong>Source:</strong> ${headline.source}
-                    </div>
-                `;
-                container.appendChild(div);
-            });
-        }
-        
-        function toggleInfo(index) {
-            document.getElementById(`original-${index}`).classList.toggle('show');
-        }
-        
-        function addToRemix() {
-            const subject = document.getElementById('subject-input').value.trim();
-            const predicate = document.getElementById('predicate-input').value.trim();
-            
-            if (!subject || !predicate) {
-                alert('Please fill in both Subject and Predicate!');
+            if (!subjects || !predicates || subjects.length === 0 || predicates.length === 0) {
+                document.getElementById('loading').innerHTML = 
+                    '<div class="error-message">No headlines available.</div>';
                 return;
             }
             
-            if (!headlineComponents.subjects) {
-                headlineComponents = {subjects: [], predicates: []};
+            // Generate 50 random combinations
+            const headlines = [];
+            const used = new Set();
+            
+            while (headlines.length < 50 && headlines.length < subjects.length * predicates.length) {
+                const subjIdx = Math.floor(Math.random() * subjects.length);
+                const predIdx = Math.floor(Math.random() * predicates.length);
+                const key = `${subjIdx}-${predIdx}`;
+                
+                // Avoid duplicates and same-source combinations
+                if (used.has(key)) continue;
+                if (subjects[subjIdx].original === predicates[predIdx].original) continue;
+                
+                used.add(key);
+                
+                headlines.push({
+                    text: `${subjects[subjIdx].text} ${predicates[predIdx].text}`,
+                    subject: subjects[subjIdx],
+                    predicate: predicates[predIdx]
+                });
             }
             
-            headlineComponents.subjects.push({
-                text: subject,
-                original: 'User contribution',
-                source: 'User input',
-                isUserContribution: true
-            });
-            
-            headlineComponents.predicates.push({
-                text: predicate,
-                original: 'User contribution',
-                source: 'User input',
-                isUserContribution: true
-            });
-            
-            const userHeadline = `${subject} ${predicate}`;
-            userContributions.push(userHeadline);
-            updateUserContributionsDisplay();
-            
-            document.getElementById('subject-input').value = '';
-            document.getElementById('predicate-input').value = '';
-            
-            alert('✅ Added to remix! Click "REMIX HEADLINES" to see your contribution in action!');
+            displayHeadlines(headlines);
         }
-        
-        function updateUserContributionsDisplay() {
-            const container = document.getElementById('user-contributions');
-            if (userContributions.length === 0) {
-                container.innerHTML = '<p class="coming-soon">Your contributions will appear here after adding components above!</p>';
-                return;
-            }
+
+        function displayHeadlines(headlines) {
+            const listEl = document.getElementById('headline-list');
+            listEl.innerHTML = '';
             
-            container.innerHTML = userContributions.map(headline => `
-                <div class="headline-item user-contribution">
-                    <span class="headline-text">${headline} <span class="asterisk">★</span></span>
+            headlines.forEach((item, index) => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'headline-item';
+                itemDiv.innerHTML = `
+                    <span class="headline-text">${item.text}</span>
+                    <button class="info-btn" onclick="showInfo(${index})">ℹ️ Info</button>
+                `;
+                listEl.appendChild(itemDiv);
+            });
+            
+            // Store headlines for info modal
+            window.currentHeadlines = headlines;
+        }
+
+        function showInfo(index) {
+            const item = window.currentHeadlines[index];
+            const modal = document.getElementById('infoModal');
+            const modalBody = document.getElementById('modalBody');
+            
+            modalBody.innerHTML = `
+                <div class="original-headline">
+                    <strong>Subject From:</strong>
+                    <div class="original-text">"${item.subject.original}"</div>
+                    <div class="source-info">
+                        <span class="source-label">Source:</span> ${item.subject.source}
+                    </div>
                 </div>
-            `).join('');
+                <div class="original-headline">
+                    <strong>Predicate From:</strong>
+                    <div class="original-text">"${item.predicate.original}"</div>
+                    <div class="source-info">
+                        <span class="source-label">Source:</span> ${item.predicate.source}
+                    </div>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
         }
-        
-        function remixHeadlines() {
-            if (!headlineComponents) {
-                alert('Headlines not loaded yet. Please wait...');
-                return;
+
+        function closeModal() {
+            document.getElementById('infoModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('infoModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
             }
-            generateInitialHeadlines();
-            alert('🎲 Headlines remixed! Check out the new combinations!');
         }
+
+        loadHeadlineData();
     </script>
 </body>
-</html>  
+</html>
