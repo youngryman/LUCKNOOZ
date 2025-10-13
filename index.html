@@ -232,55 +232,20 @@
                 
                 const data = await response.json();
                 
-                if (!data.subjects || !data.predicates) {
-                    throw new Error('Missing data in headline file');
+                if (!data.headlines || data.headlines.length === 0) {
+                    throw new Error('No headlines in file');
                 }
                 
                 headlineData = data;
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('headlines-section').style.display = 'block';
                 
-                generateHeadlines();
+                displayHeadlines(data.headlines);
             } catch (error) {
                 console.error('Error loading headlines:', error);
                 document.getElementById('loading').innerHTML = 
                     '<div class="error-message">Error loading headlines. Please refresh the page.</div>';
             }
-        }
-
-        function generateHeadlines() {
-            const subjects = headlineData.subjects;
-            const predicates = headlineData.predicates;
-            
-            if (!subjects || !predicates || subjects.length === 0 || predicates.length === 0) {
-                document.getElementById('loading').innerHTML = 
-                    '<div class="error-message">No headlines available.</div>';
-                return;
-            }
-            
-            // Generate 50 random combinations
-            const headlines = [];
-            const used = new Set();
-            
-            while (headlines.length < 50 && headlines.length < subjects.length * predicates.length) {
-                const subjIdx = Math.floor(Math.random() * subjects.length);
-                const predIdx = Math.floor(Math.random() * predicates.length);
-                const key = `${subjIdx}-${predIdx}`;
-                
-                // Avoid duplicates and same-source combinations
-                if (used.has(key)) continue;
-                if (subjects[subjIdx].original === predicates[predIdx].original) continue;
-                
-                used.add(key);
-                
-                headlines.push({
-                    text: `${subjects[subjIdx].text} ${predicates[predIdx].text}`,
-                    subject: subjects[subjIdx],
-                    predicate: predicates[predIdx]
-                });
-            }
-            
-            displayHeadlines(headlines);
         }
 
         function displayHeadlines(headlines) {
@@ -291,7 +256,7 @@
                 const itemDiv = document.createElement('div');
                 itemDiv.className = 'headline-item';
                 itemDiv.innerHTML = `
-                    <span class="headline-text">${item.text}</span>
+                    <span class="headline-text">${item.headline}</span>
                     <button class="info-btn" onclick="showInfo(${index})">ℹ️ Info</button>
                 `;
                 listEl.appendChild(itemDiv);
@@ -309,7 +274,7 @@
             modalBody.innerHTML = `
                 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
                     <strong style="display: block; margin-bottom: 10px; font-size: 1.1em;">LUCKNOOZ Headline:</strong>
-                    <div style="font-size: 1.2em; line-height: 1.5;">${item.text}</div>
+                    <div style="font-size: 1.2em; line-height: 1.5;">${item.headline}</div>
                 </div>
                 <div class="original-headline">
                     <strong>Subject From:</strong>
