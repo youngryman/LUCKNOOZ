@@ -1,2791 +1,1566 @@
 {
-  "subjects": [
-    {
-      "text": "Banijay Benelux",
-      "verb": "Acquires",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Banijay Benelux Acquires Dutch Label Werktitel, Bolstering Creator-Related Activities"
-    },
-    {
-      "text": "Marc Maron Ends ‘ WTF ’ Podcast With Barack Obama",
-      "verb": "Giving",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Marc Maron Ends ‘WTF’ Podcast With Barack Obama Giving Him Advice: ‘Be a Little Brain-Dead for a While’ and ‘Don’t Rush’ Into What’s Next"
-    },
-    {
-      "text": "Apple TV+",
-      "verb": "Rebrands",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Apple TV+ Rebrands to Apple TV, Ditching the Plus Sign for ‘Vibrant New Identity’"
-    },
-    {
-      "text": "Mediawan Pictures Boss Elisabeth d’Arvieu on",
-      "verb": "Moving",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Mediawan Pictures Boss Elisabeth d’Arvieu on Moving the Conglomerate’s ‘Gravity Center’ to London, Growing ‘English-Speaking Content’"
-    },
-    {
-      "text": "Mia Goth on",
-      "verb": "Starring",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Mia Goth on Starring in ‘Frankenstein’: ‘I’ve Never Been So Scared Stepping Into a Movie’"
-    },
-    {
-      "text": "Layoffs , a “ coding error , ” chaos : Trump admin",
-      "verb": "ravages",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Layoffs, a “coding error,” chaos: Trump admin ravages the health dept."
-    },
-    {
-      "text": "Software update bricks some Jeep 4xe",
-      "verb": "hybrids",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Software update bricks some Jeep 4xe hybrids over the weekend"
-    },
-    {
-      "text": "Putin OKs",
-      "verb": "plan",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Putin OKs plan to turn Russian spacecraft into flying billboards"
-    },
-    {
-      "text": "“ Extremely angry ” Trump",
-      "verb": "threatens",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "“Extremely angry” Trump threatens “massive” tariff on all Chinese exports"
-    },
-    {
-      "text": "UK regulators",
-      "verb": "plan",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "UK regulators plan to force Google changes under new competition law"
-    },
-    {
-      "text": "AMD and Sony ’s PS6 chipset",
-      "verb": "aims",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "AMD and Sony’s PS6 chipset aims to rethink the current graphics pipeline"
-    },
-    {
-      "text": "OpenAI will",
-      "verb": "stop",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "OpenAI will stop saving most ChatGPT users’ deleted chats"
-    },
-    {
-      "text": "Boring Company",
-      "verb": "cited",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Boring Company cited for almost 800 environmental violations in Las Vegas"
-    },
-    {
-      "text": "Long and painful nightmare finally over , ' Trump",
-      "verb": "tells",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Long and painful nightmare finally over,' Trump tells Israel's parliament"
-    },
-    {
-      "text": "Dutch government",
-      "verb": "takes",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Dutch government takes control of China-owned chip firm"
-    },
-    {
-      "text": "Forty - two",
-      "verb": "killed",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Forty-two killed as bus crashes on South Africa mountain pass"
-    },
-    {
-      "text": "India and Canada",
-      "verb": "reset",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "India and Canada reset ties after strain of Sikh leader's murder"
-    },
-    {
-      "text": "Sikh man with tumour held by US immigration",
-      "verb": "denied",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Sikh man with tumour held by US immigration denied medical care - family"
-    },
-    {
-      "text": "Boy , 11 , shoots farm worker dead in tragic South Africa accident , police",
-      "verb": "say",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Boy, 11, shoots farm worker dead in tragic South Africa accident, police say"
-    },
-    {
-      "text": "Afghan Taliban",
-      "verb": "says",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Afghan Taliban says Pakistani troops killed in 'retaliatory' border attacks"
-    },
-    {
-      "text": "Madagascar presidency",
-      "verb": "says",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Madagascar presidency says attempt to seize power under way"
-    },
-    {
-      "text": "In an instant , they were gone ' : Small town",
-      "verb": "mourns",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "In an instant, they were gone': Small town mourns after Tennessee explosives factory blast"
-    },
-    {
-      "text": "Seychelles ' opposition leader",
-      "verb": "wins",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Seychelles' opposition leader wins presidential poll"
-    },
-    {
-      "text": "We 're grateful for what Trump is doing for peace , Nobel winner",
-      "verb": "tells",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "We're grateful for what Trump is doing for peace, Nobel winner tells BBC"
-    },
-    {
-      "text": "She left trail of fairy dust ' : Tributes",
-      "verb": "pour",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "She left trail of fairy dust': Tributes pour in for Diane Keaton"
-    },
-    {
-      "text": "Israelis praise",
-      "verb": "Trump",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Israelis praise Trump at huge rally ahead of expected hostage release by Hamas in Gaza"
-    },
-    {
-      "text": "Indian student captured by Ukraine joined Russian army to avoid drug charges ,",
-      "verb": "says",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Indian student captured by Ukraine joined Russian army to avoid drug charges, says mother"
-    },
-    {
-      "text": "We 're in limbo ' : A town in Trump country where shutdown axe",
-      "verb": "looms",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "We're in limbo': A town in Trump country where shutdown axe looms"
-    },
-    {
-      "text": "Shamans openly",
-      "verb": "using",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Shamans openly using psychedelic drugs for treatment in South Africa"
-    },
-    {
-      "text": "As the ceasefire",
-      "verb": "begins",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "As the ceasefire begins, a look at the Gaza war by the numbers"
-    },
-    {
-      "text": "Kids who use social media score lower on reading and memory tests , a study",
-      "verb": "shows",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "Kids who use social media score lower on reading and memory tests, a study shows"
-    },
-    {
-      "text": "This wedding photographer now",
-      "verb": "removes",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "This wedding photographer now removes landmines for a group that's won a top prize"
-    },
-    {
-      "text": "Media companies",
-      "verb": "thought",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "Media companies thought late night TV was irrelevant. Kimmel proved them wrong"
-    },
-    {
-      "text": "She was about to",
-      "verb": "drop",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "She was about to drop out of college, but then her professor stepped in"
-    },
-    {
-      "text": "Amid shutdown , Trump administration",
-      "verb": "guts",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "Amid shutdown, Trump administration guts department overseeing special education"
-    },
-    {
-      "text": "After Israel ’s war halted , who is",
-      "verb": "clashing",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "After Israel’s war halted, who is clashing with Hamas in Gaza?"
-    },
-    {
-      "text": "Gaza will be in the shadow of famine as long as we can not",
-      "verb": "plant",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Gaza will be in the shadow of famine as long as we cannot plant our land"
-    },
-    {
-      "text": "Released Palestinian detainees",
-      "verb": "arrive",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Released Palestinian detainees arrive in Gaza"
-    },
-    {
-      "text": "First Nations community",
-      "verb": "fights",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "First Nations community fights Canadian government over poisoned water"
-    },
-    {
-      "text": "Madagascan president to",
-      "verb": "address",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Madagascan president to address nation as protesters call for new rallies"
-    },
-    {
-      "text": "Video : Palestinian journalist Saleh Aljafarawi",
-      "verb": "killed",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Video: Palestinian journalist Saleh Aljafarawi killed in Gaza clashes"
-    },
-    {
-      "text": "Trio to",
-      "verb": "share",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Trio to share economics Nobel for work on innovation-driven growth"
-    },
-    {
-      "text": "Netanyahu lauds Trump ’s decision to",
-      "verb": "bomb",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Netanyahu lauds Trump’s decision to bomb Iran as biblical ‘miracle’"
-    },
-    {
-      "text": "‘ Inhumane ’ : 154",
-      "verb": "freed",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "‘Inhumane’: 154 freed Palestinian prisoners forced into exile by Israel"
-    },
-    {
-      "text": "Huge crowds in Gaza await",
-      "verb": "released",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Huge crowds in Gaza await released Palestinian prisoners"
-    },
-    {
-      "text": "Donald Trump",
-      "verb": "receives",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Donald Trump receives standing ovation at Israeli parliament"
-    },
-    {
-      "text": "Hamas and Israel",
-      "verb": "exchange",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Hamas and Israel exchange captives, detainees before Gaza summit"
-    },
-    {
-      "text": "Freed Palestinian prisoners",
-      "verb": "greeted",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Freed Palestinian prisoners greeted by cheering crowd"
-    },
-    {
-      "text": "Bus crash in South African mountains",
-      "verb": "kills",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Bus crash in South African mountains kills at least 42"
-    },
-    {
-      "text": "Palestinian detainees",
-      "verb": "transferred",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Palestinian detainees transferred out of Israel’s Ofer prison"
-    },
-    {
-      "text": "Nigeria vs Benin : World Cup qualifier –",
-      "verb": "start",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Nigeria vs Benin: World Cup qualifier – start time, team news and lineups"
-    },
-    {
-      "text": "Is the US",
-      "verb": "eyeing",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Is the US eyeing its next Latin American target?"
-    },
-    {
-      "text": "No , Carlos Santana Did Not",
-      "verb": "Petition",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "No, Carlos Santana Did Not Petition to Replace Bad Bunny at the Super Bowl"
-    },
-    {
-      "text": "Labubu Mania : Where Have Celebs Like Rihanna , Lisa , And Dua Lipa Been",
-      "verb": "Getting",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Labubu Mania: Where Have Celebs Like Rihanna, Lisa, And Dua Lipa Been Getting All These Ugly-Cute Bag Charms?"
-    },
-    {
-      "text": "Lucy Dacus",
-      "verb": "Performs",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Lucy Dacus Performs ‘Best Guess’ for Newlyweds in Officiated Wedding Ceremony on ‘Kimmel’"
-    },
-    {
-      "text": "New ‘ Contemporary ’ Distinction Could",
-      "verb": "Blow",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "New ‘Contemporary’ Distinction Could Blow 2026 Country Grammys Wide Open"
-    },
-    {
-      "text": "Barack Obama",
-      "verb": "Offers",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Barack Obama Offers Marc Maron Political and Professional Advice on ‘WTF’ Finale"
-    },
-    {
-      "text": "Taylor Swift",
-      "verb": "Announces",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Taylor Swift Announces Six-Part Docuseries ‘The End of an Era’"
-    },
-    {
-      "text": "The Right ’s Secret Plan to",
-      "verb": "Help",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "The Right’s Secret Plan to Help Billionaires Buy Elections"
-    },
-    {
-      "text": "DPP and CDP chiefs likely to",
-      "verb": "meet",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "DPP and CDP chiefs likely to meet over prime minister nomination"
-    },
-    {
-      "text": "After plenty of ups and downs , Osaka Expo",
-      "verb": "concludes",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "After plenty of ups and downs, Osaka Expo concludes with message of unity"
-    },
-    {
-      "text": "As Osaka Expo comes to an end , so too",
-      "verb": "does",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "As Osaka Expo comes to an end, so too does 'expo diplomacy' for Ishiba"
-    },
-    {
-      "text": "Hypothermia in the land of the",
-      "verb": "rising",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Hypothermia in the land of the rising Sanae"
-    },
-    {
-      "text": "The 20",
-      "verb": "living",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "The 20 living hostages due for release from captivity in Gaza"
-    },
-    {
-      "text": "Water outages",
-      "verb": "persist",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Water outages persist on Tokyo’s Hachijojima as second typhoon approaches"
-    },
-    {
-      "text": "Putin is",
-      "verb": "taking",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Putin is taking his hybrid warfare to the sea"
-    },
-    {
-      "text": "At Osaka Expo pavilions , staff recount ‘ life -",
-      "verb": "changing",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "At Osaka Expo pavilions, staff recount ‘life-changing’ experiences"
-    },
-    {
-      "text": "Double Olympic champion Kinjo",
-      "verb": "announces",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Double Olympic champion Kinjo announces retirement"
-    },
-    {
-      "text": "Europe can",
-      "verb": "build",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Europe can build its own social media"
-    },
-    {
-      "text": "Sales of Expo mascot Myaku - Myaku goods to",
-      "verb": "continue",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Sales of Expo mascot Myaku-Myaku goods to continue through March"
-    },
-    {
-      "text": "The politics premium is",
-      "verb": "punishing",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "The politics premium is punishing bonds from Paris to Tokyo"
-    },
-    {
-      "text": "U.S. firms and consumers paying most for Trump 's tariffs , data",
-      "verb": "suggests",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "U.S. firms and consumers paying most for Trump's tariffs, data suggests"
-    },
-    {
-      "text": "Ghost Nation '",
-      "verb": "puts",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Ghost Nation' puts Taiwan’s history in present context"
-    },
-    {
-      "text": "Many public school teachers",
-      "verb": "pay",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Many public school teachers pay out of pocket for work-related costs"
-    },
-    {
-      "text": "A frenetic diplomatic schedule",
-      "verb": "looms",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "A frenetic diplomatic schedule looms for Japan’s next leader — whoever that may be"
-    },
-    {
-      "text": "Europe 's bees and butterflies at risk , conservation body",
-      "verb": "says",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Europe's bees and butterflies at risk, conservation body says"
-    },
-    {
-      "text": "Trump may",
-      "verb": "approve",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Trump may approve Tomahawks for Ukraine if Russia continues war"
-    },
-    {
-      "text": "Xi ’s red line on Trump ’s export curbs",
-      "verb": "threatens",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Xi’s red line on Trump’s export curbs threatens to upend truce"
-    },
-    {
-      "text": "3 Best Smart Displays ( 2025 ):",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "3 Best Smart Displays (2025): Tested By a Smart Home Addict"
-    },
-    {
-      "text": "Best Windows Laptops ( 2025 ): WIRED -",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Best Windows Laptops (2025): WIRED-Tested Laptops to Buy"
-    },
-    {
-      "text": "New Rules Could",
-      "verb": "Force",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "New Rules Could Force Tesla to Redesign Its Door Handles. That’s Harder Than It Sounds"
-    },
-    {
-      "text": "The ‘ Womanosphere ’ Is",
-      "verb": "Reshaping",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "The ‘Womanosphere’ Is Reshaping the Conservative Dating Landscape"
-    },
-    {
-      "text": "More Evidence",
-      "verb": "Emerges",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "More Evidence Emerges That One of Saturn’s Moons Could Harbor Life"
-    },
-    {
-      "text": "8 Best Cat Water Fountains ,",
-      "verb": "WIRED",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "8 Best Cat Water Fountains, WIRED Tested and Reviewed (2025)"
-    },
-    {
-      "text": "4 Best Website Builders ( 2025 ) ,",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "4 Best Website Builders (2025), Tested and Reviewed"
-    },
-    {
-      "text": "16 Best Laptops ( 2025 ) , WIRED -",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "16 Best Laptops (2025), WIRED-Tested and Approved"
-    },
-    {
-      "text": "A New Algorithm",
-      "verb": "Makes",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "A New Algorithm Makes It Faster to Find the Shortest Paths"
-    },
-    {
-      "text": "Should You Cancel Xbox Game Pass ? Everything to",
-      "verb": "Know",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Should You Cancel Xbox Game Pass? Everything to Know on the Price Hikes and New Features"
-    },
-    {
-      "text": "6 Best Carpet Cleaners ( 2025 ) ,",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "6 Best Carpet Cleaners (2025), Tested and Reviewed"
-    },
-    {
-      "text": "Amazfit T - Rex 3 Pro Review : An Outdoor Watch That Does n't",
-      "verb": "Work",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Amazfit T-Rex 3 Pro Review: An Outdoor Watch That Doesn't Work"
-    },
-    {
-      "text": "The Best Google Pixel Phones of 2025 ,",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "The Best Google Pixel Phones of 2025, Tested and Reviewed"
-    },
-    {
-      "text": "Google Search Could",
-      "verb": "Change",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Google Search Could Change Forever in the UK"
-    },
-    {
-      "text": "The Best Vacuum for Pet Hair — We",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "The Best Vacuum for Pet Hair—We Tested a Dozen Models to Find Which Work Best (2025)"
-    },
-    {
-      "text": "5 Best Folding Phones ( 2025 ) ,",
-      "verb": "Tested",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "5 Best Folding Phones (2025), Tested and Reviewed"
-    },
-    {
-      "text": "10 Best Smartwatches ( 2025 ): Apple ,",
-      "verb": "Wear",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "10 Best Smartwatches (2025): Apple, Wear OS, Hybrid & Kids’ Watches"
-    },
-    {
-      "text": "A black hole",
-      "verb": "fell",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "A black hole fell into a star – then ate its way out again"
-    },
-    {
-      "text": "Serum based on plant extracts",
-      "verb": "boosts",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Serum based on plant extracts boosts hair growth in weeks"
-    },
-    {
-      "text": "Coral reefs are at a tipping point after",
-      "verb": "surging",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Coral reefs are at a tipping point after surging global temperatures"
-    },
-    {
-      "text": "Physicists are",
-      "verb": "uncovering",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Physicists are uncovering when nature’s strongest force falters"
-    },
-    {
-      "text": "Evolution of intelligence in our ancestors may have",
-      "verb": "come",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Evolution of intelligence in our ancestors may have come at a cost"
-    },
-    {
-      "text": "Therapy may be the most effective way to",
-      "verb": "ease",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Therapy may be the most effective way to ease irritable bowel syndrome"
-    },
-    {
-      "text": "Stunning images highlight fight to",
-      "verb": "save",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Stunning images highlight fight to save Earth’s rich biodiversity"
-    },
-    {
-      "text": "Sword Dragon ' ichthyosaur",
-      "verb": "had",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Sword Dragon' ichthyosaur had enormous eyes and a lethal snout"
-    },
-    {
-      "text": "Robotic underwater glider",
-      "verb": "sets",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Robotic underwater glider sets out to circumnavigate the globe"
-    },
-    {
-      "text": "We 've",
-      "verb": "discovered",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "We've discovered another reason why naked mole rats live for so long"
-    },
-    {
-      "text": "Swirly lasers can",
-      "verb": "control",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Swirly lasers can control an ungovernable cousin of magnetism"
-    },
-    {
-      "text": "Hidden ecosystem of the ovaries",
-      "verb": "plays",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Hidden ecosystem of the ovaries plays a surprising role in fertility"
-    },
-    {
-      "text": "We are horrified to",
-      "verb": "discover",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "We are horrified to discover that not every rose has a thorn"
-    },
-    {
-      "text": "Top 250 oil and gas firms",
-      "verb": "own",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Top 250 oil and gas firms own just 1.5% of the world's renewable power"
-    },
-    {
-      "text": "Selfish sperm",
-      "verb": "see",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Selfish sperm see older fathers pass on more disease-causing mutations"
-    },
-    {
-      "text": "King Richard III 's oral microbiome hints he",
-      "verb": "had",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "King Richard III's oral microbiome hints he had severe gum disease"
-    },
-    {
-      "text": "Pig liver transplant into a living person",
-      "verb": "edges",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Pig liver transplant into a living person edges it closer to the norm"
-    },
-    {
-      "text": "Electrons inside graphene have been",
-      "verb": "pushed",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Electrons inside graphene have been pushed to supersonic speeds"
-    },
-    {
-      "text": "Memory chips just 10 atoms thick could vastly",
-      "verb": "increase",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Memory chips just 10 atoms thick could vastly increase capacity"
-    },
-    {
-      "text": "The moon 's largest crater did n't",
-      "verb": "form",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "The moon's largest crater didn't form in the way we thought"
-    },
-    {
-      "text": "Nobel prize in chemistry",
-      "verb": "awarded",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Nobel prize in chemistry awarded for work on molecular architecture"
-    },
-    {
-      "text": "Prince Andrew",
-      "verb": "told",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Prince Andrew told Jeffrey Epstein 'we are in this together' after Virginia Giuffre photo surfaced"
-    },
-    {
-      "text": "Trump calls for Netanyahu pardon after",
-      "verb": "hailing",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Trump calls for Netanyahu pardon after hailing swift removal of left-wing lawmakers by security"
-    },
-    {
-      "text": "Senate Republicans",
-      "verb": "target",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Senate Republicans target Obama-era trucking rule with new English proficiency bill"
-    },
-    {
-      "text": "Machete -",
-      "verb": "wielding",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Machete-wielding offender with 20 arrests charged in blue city hit-and-run that killed cancer survivor"
-    },
-    {
-      "text": "Trump credits Iran nuclear strikes for",
-      "verb": "kickstarting",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Trump credits Iran nuclear strikes for kickstarting Israel-Hamas peace deal"
-    },
-    {
-      "text": "Patrick Mahomes",
-      "verb": "gives",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Patrick Mahomes gives cold reaction after Lions player snubs his handshake to start brawl with opponent"
-    },
-    {
-      "text": "GOP lawmaker",
-      "verb": "pushes",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "GOP lawmaker pushes bill to punish cities that ditched Columbus Day after Trump proclamation"
-    },
-    {
-      "text": "Israeli hostages",
-      "verb": "reunited",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Israeli hostages reunited with families in emotional moments"
-    },
-    {
-      "text": "Jets ' Aaron Glenn",
-      "verb": "gets",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Jets' Aaron Glenn gets into testy exchange with reporter over Justin Fields' status as QB1"
-    },
-    {
-      "text": "Netanyahu to",
-      "verb": "skip",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Netanyahu to skip Trump’s Middle East peace summit in Egypt as new regional dynamics take shape"
-    },
-    {
-      "text": "Lions ' Brian Branch",
-      "verb": "calls",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Lions' Brian Branch calls his actions 'childish' as NFL fans rip him for postgame fight"
-    },
-    {
-      "text": "Chip Roy and other Republicans",
-      "verb": "push",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Chip Roy and other Republicans push bill to block and deport Sharia law-adherent aliens: 'Existential threat"
-    },
-    {
-      "text": "George Stephanopoulos",
-      "verb": "battles",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "George Stephanopoulos battles JD Vance over Tom Homan bribery claims, abruptly ends interview"
-    },
-    {
-      "text": "Sammy Hagar",
-      "verb": "shares",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Sammy Hagar shares his rock ’n’ roll fountain of youth"
-    },
-    {
-      "text": "Instead of impeachment , Dems are",
-      "verb": "using",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Instead of impeachment, Dems are using Article II challenges to impede Trump this time"
-    },
-    {
-      "text": "Blue city DA",
-      "verb": "says",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Blue city DA says repeat drug offenders 'will not respect the law' under current system"
-    },
-    {
-      "text": "Coal Miners With Black Lung",
-      "verb": "Say",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Coal Miners With Black Lung Say They Are ‘Cast Aside to Die’ Under Trump"
-    },
-    {
-      "text": "San Francisco",
-      "verb": "Wants",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "San Francisco Wants to Destroy a 96-Year-Old’s Defining Artwork"
-    },
-    {
-      "text": "Tim Curry ’s Memoir “ Vagabond ”",
-      "verb": "Recalls",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Tim Curry’s Memoir “Vagabond” Recalls an Exciting Career Interrupted by Illness"
-    },
-    {
-      "text": "The Rules of Investing Are Being",
-      "verb": "Loosened",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "The Rules of Investing Are Being Loosened. Could It Lead to the Next 1929?"
-    },
-    {
-      "text": "Bolivia Pushes to",
-      "verb": "Reclaim",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Bolivia Pushes to Reclaim the Coca Leaf From the Stigma of Cocaine"
-    },
-    {
-      "text": "Ukraine Visit",
-      "verb": "Leaves",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Ukraine Visit Leaves Lasting Mark on Times Editor"
-    },
-    {
-      "text": "Law Schools Are",
-      "verb": "Using",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Law Schools Are Using Security Concerns to Silence Speech"
-    },
-    {
-      "text": "Factory Towns",
-      "verb": "Revive",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Factory Towns Revive as Defense Tech Makers Arrive"
-    },
-    {
-      "text": "Madagascar president",
-      "verb": "flees",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Madagascar president flees after losing support of key army unit"
-    },
-    {
-      "text": "Madagascar ’s president",
-      "verb": "says",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Madagascar’s president says illegal power grab by military is under way"
-    },
-    {
-      "text": "Restitution row : how Nigeria ’s new home for the Benin bronzes",
-      "verb": "ended",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Restitution row: how Nigeria’s new home for the Benin bronzes ended up with clay replicas"
-    },
-    {
-      "text": "Cameroon ’s 92 - year - old president",
-      "verb": "set",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Cameroon’s 92-year-old president set for another term as country goes to polls"
-    },
-    {
-      "text": "Soldiers from elite Capsat unit",
-      "verb": "join",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Soldiers from elite Capsat unit join protests against Madagascar’s president"
-    },
-    {
-      "text": "Mexico floods leave at least 64 dead and 65 missing , authorities",
-      "verb": "say",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Mexico floods leave at least 64 dead and 65 missing, authorities say"
-    },
-    {
-      "text": "In Venezuela ’s ‘ darkest hours ’ , will peace prize",
-      "verb": "boost",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "In Venezuela’s ‘darkest hours’, will peace prize boost opposition or backfire?"
-    },
-    {
-      "text": "Venezuelan politician María Corina Machado",
-      "verb": "wins",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Venezuelan politician María Corina Machado wins Nobel peace prize"
-    },
-    {
-      "text": "Peru lawmakers",
-      "verb": "vote",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis"
-    },
-    {
-      "text": "President Petro",
-      "verb": "accuses",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
-    },
-    {
-      "text": "New Zealand",
-      "verb": "accused",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "New Zealand accused of ‘full-blown climate denial’ over cuts to methane reduction targets"
-    },
-    {
-      "text": "Record number of babies",
-      "verb": "born",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Record number of babies born to foreign parents in Japan amid political row over migration"
-    },
-    {
-      "text": "Jonathan Powell had no role in dropping of China spy case , senior minister",
-      "verb": "says",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Jonathan Powell had no role in dropping of China spy case, senior minister says"
-    },
-    {
-      "text": "Superannuation tax changes : new rules have been",
-      "verb": "proposed",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Superannuation tax changes: new rules have been proposed for your super – here’s what you need to know"
-    },
-    {
-      "text": "Liberal MP ’s sister",
-      "verb": "says",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Liberal MP’s sister says father’s church is a ‘cult’ where ‘gay conversion’ practices may still be happening"
-    },
-    {
-      "text": "French political crisis",
-      "verb": "continues",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "French political crisis continues as Macron blames rivals for ‘sense of disorder’– as it happened"
-    },
-    {
-      "text": "Portugal ’s far - right Chega",
-      "verb": "falls",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Portugal’s far-right Chega falls well short of expectations in local elections"
-    },
-    {
-      "text": "European far right",
-      "verb": "follows",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "European far right follows Trump in calling for antifa to be declared terrorists"
-    },
-    {
-      "text": "Gaza ceasefire : all",
-      "verb": "living",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Gaza ceasefire: all living Israeli hostages freed as Trump arrives in Egypt for summit – latest updates"
-    },
-    {
-      "text": "Trump plan to",
-      "verb": "invite",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Trump plan to invite Netanyahu to Gaza summit aborted after Erdoğan warning"
-    },
-    {
-      "text": "Andean peoples",
-      "verb": "hunted",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Andean peoples hunted and gathered long after they embraced farming"
-    },
-    {
-      "text": "Birds ’ intruder alert hints at how sounds",
-      "verb": "took",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Birds’ intruder alert hints at how sounds took on new meanings"
-    },
-    {
-      "text": "Digital flocks , predators",
-      "verb": "allow",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Digital flocks, predators allow ecologists to simulate real-world animal behaviour"
-    },
-    {
-      "text": "Metals are key to the global economy — but three challenges",
-      "verb": "threaten",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Metals are key to the global economy — but three challenges threaten supply chains"
-    },
-    {
-      "text": "Coral die - off marks Earth ’s first climate ‘ tipping point ’ , scientists",
-      "verb": "say",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Coral die-off marks Earth’s first climate ‘tipping point’, scientists say"
-    },
-    {
-      "text": "Author Correction : Loss - of - function mutations in PLD4",
-      "verb": "lead",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus"
-    },
-    {
-      "text": "Current mosquitoes",
-      "verb": "evolved",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Current mosquitoes evolved more recently than previously thought"
-    },
-    {
-      "text": "European bats",
-      "verb": "capture",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "European bats capture migrating birds and eat them on the wing"
-    },
-    {
-      "text": "Portable muon beam could",
-      "verb": "accelerate",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Portable muon beam could accelerate archaeology scans"
-    },
-    {
-      "text": "Daily briefing : Do n't sideline Palestinian scientists after ceasefire ,",
-      "verb": "say",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Daily briefing: Don't sideline Palestinian scientists after ceasefire, say experts"
-    },
-    {
-      "text": "The world ’s first plastics treaty is in crisis : can it be",
-      "verb": "salvaged",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "The world’s first plastics treaty is in crisis: can it be salvaged?"
-    },
-    {
-      "text": "Naked mole rats live for decades — genetic tweaks",
-      "verb": "reveal",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing"
-    },
-    {
-      "text": "Mark Norell obituary : palaeontologist who",
-      "verb": "showed",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Mark Norell obituary: palaeontologist who showed that dinosaurs still walk among us — as birds"
-    },
-    {
-      "text": "More than 30 % of this century ’s science Nobel prizewinners",
-      "verb": "immigrated",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys"
-    },
-    {
-      "text": "This list of non - negotiables",
-      "verb": "helped",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "This list of non-negotiables helped me to defeat PhD-student guilt"
-    },
-    {
-      "text": "Daily briefing : Chronic pain",
-      "verb": "linked",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Daily briefing: Chronic pain linked to small cluster of brain cells"
-    },
-    {
-      "text": "Enzyme specificity prediction",
-      "verb": "using",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Enzyme specificity prediction using cross attention graph neural networks"
-    },
-    {
-      "text": "Hippos still",
-      "verb": "roamed",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Hippos still roamed Europe during the last ice age"
-    },
-    {
-      "text": "A parabrachial hub for need - state control of",
-      "verb": "enduring",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "A parabrachial hub for need-state control of enduring pain"
-    },
-    {
-      "text": "Russian authorities",
-      "verb": "detain",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Russian authorities detain suspect over St. Petersburg cafe blast"
-    },
-    {
-      "text": "Wall Street Journal reporter Evan Gershkovich appeals against arrest , Russian state media",
-      "verb": "says",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says"
-    },
-    {
-      "text": "Suspected Chinese spy balloon was able to",
-      "verb": "transmit",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Suspected Chinese spy balloon was able to transmit information back to Beijing"
-    },
-    {
-      "text": "Scary , cold , hungry and lonely ' : Volunteer soldier",
-      "verb": "shares",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Scary, cold, hungry and lonely': Volunteer soldier shares experience on front line"
-    },
-    {
-      "text": "The four astronauts NASA",
-      "verb": "picked",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years"
-    },
-    {
-      "text": "Britain 's pound is",
-      "verb": "beating",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Britain's pound is beating every other major currency this year"
-    },
-    {
-      "text": "Finland 's Prime Minister Sanna Marin",
-      "verb": "concedes",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Finland's Prime Minister Sanna Marin concedes election"
-    },
-    {
-      "text": "A new approach to a Covid-19 nasal vaccine",
-      "verb": "shows",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "A new approach to a Covid-19 nasal vaccine shows early promise"
-    },
-    {
-      "text": "Israeli military veterans , a backbone of protest movement , vow to",
-      "verb": "keep",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Israeli military veterans, a backbone of protest movement, vow to keep demonstrating"
-    },
-    {
-      "text": "Erdogan 's political fate may be",
-      "verb": "determined",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Erdogan's political fate may be determined by Turkey's Kurds"
-    },
-    {
-      "text": "Micron Technology : China",
-      "verb": "probes",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Micron Technology: China probes US chip maker for cybersecurity risks as tech tension escalates"
-    },
-    {
-      "text": "China Renaissance",
-      "verb": "suspends",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "China Renaissance suspends trading, delays results after founder's disappearance"
-    },
-    {
-      "text": "HSBC 's top execs",
-      "verb": "face",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "HSBC's top execs face tense shareholders calling for a breakup"
-    },
-    {
-      "text": "CEOs are tired of being",
-      "verb": "held",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "CEOs are tired of being held responsible for gun regulation"
-    },
-    {
-      "text": "Earth ’s climate just",
-      "verb": "crossed",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Earth’s climate just crossed a line we can’t ignore"
-    },
-    {
-      "text": "This experimental “ super vaccine ”",
-      "verb": "stopped",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "This experimental “super vaccine” stopped cancer cold in the lab"
-    },
-    {
-      "text": "90 % of science is",
-      "verb": "lost",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "90% of science is lost. This new AI just found it"
-    },
-    {
-      "text": "Decades - old photosynthesis mystery finally",
-      "verb": "solved",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Decades-old photosynthesis mystery finally solved"
-    },
-    {
-      "text": "Ancient humans in Italy",
-      "verb": "butchered",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Ancient humans in Italy butchered elephants and made tools from their bones"
-    },
-    {
-      "text": "The Moon ’s south pole",
-      "verb": "hides",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "The Moon’s south pole hides a 4-billion-year-old secret"
-    },
-    {
-      "text": "New research",
-      "verb": "reveals",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "New research reveals how ADHD sparks extraordinary creativity"
-    },
-    {
-      "text": "Fentanyl overdoses among seniors surge 9,000 % — A hidden crisis few",
-      "verb": "saw",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Fentanyl overdoses among seniors surge 9,000% — A hidden crisis few saw coming"
-    },
-    {
-      "text": "Your type of depression could",
-      "verb": "shape",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Your type of depression could shape your body’s future health"
-    },
-    {
-      "text": "Two common drugs could",
-      "verb": "reverse",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Two common drugs could reverse fatty liver disease"
-    },
-    {
-      "text": "New simulation",
-      "verb": "reveals",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "New simulation reveals how Earth’s magnetic field first sparked to life"
-    },
-    {
-      "text": "Dolphins may be",
-      "verb": "getting",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms"
-    },
-    {
-      "text": "Quantum simulations that once",
-      "verb": "needed",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Quantum simulations that once needed supercomputers now run on laptops"
-    },
-    {
-      "text": "A million - sun - mass mystery object",
-      "verb": "found",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "A million-sun-mass mystery object found lurking in deep space"
-    },
-    {
-      "text": "Breakthrough compounds may",
-      "verb": "reverse",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis"
-    },
-    {
-      "text": "MIT ’s “ stealth ” immune cells could",
-      "verb": "change",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "MIT’s “stealth” immune cells could change cancer treatment forever"
-    },
-    {
-      "text": "For the first time , scientists",
-      "verb": "pinpoint",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "For the first time, scientists pinpoint brain cells linked to depression"
-    },
-    {
-      "text": "12,000 - year - old rock art found in Arabia",
-      "verb": "reveals",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "12,000-year-old rock art found in Arabia reveals a lost civilization"
-    },
-    {
-      "text": "A toxic Alzheimer ’s protein could be the key to",
-      "verb": "fighting",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "A toxic Alzheimer’s protein could be the key to fighting cancer"
-    },
-    {
-      "text": "MIT ’s new precision gene editing tool could",
-      "verb": "transform",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "MIT’s new precision gene editing tool could transform medicine"
-    },
-    {
-      "text": "USC engineers just",
-      "verb": "made",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "USC engineers just made light smarter with “optical thermodynamics”"
+  "headlines": [
+    {
+      "headline": "Nancy Meyers Run Against Her",
+      "subject": {
+        "text": "Nancy Meyers",
+        "original": "Nancy Meyers Says ‘I’ve Lost a Friend of 40 Years’ After Diane Keaton’s Death: ‘She Was Fearless. She Was Born to Be a Movie Star’",
+        "source": "Variety"
+      },
+      "predicate": {
+        "text": "Run Against Her",
+        "original": "In L.A., a Former Ally of Mayor Bass Will Run Against Her",
+        "source": "NYT > Top Stories"
+      }
+    },
+    {
+      "headline": "Texas governor livings hostages due for release from captivity in Gaza",
+      "subject": {
+        "text": "Texas governor",
+        "original": "Texas governor reveals reason why he and Trump have been working together so closely",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "livings hostages due for release from captivity in Gaza",
+        "original": "The 20 living hostages due for release from captivity in Gaza",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Belinda Carlisle takings his hybrid warfare to the sea",
+      "subject": {
+        "text": "Belinda Carlisle",
+        "original": "Belinda Carlisle Helps Sammy Hagar Celebrate His Birthday With the Go-Go’s ‘We Got the Beat’",
+        "source": "Rolling Stone"
+      },
+      "predicate": {
+        "text": "takings his hybrid warfare to the sea",
+        "original": "Putin is taking his hybrid warfare to the sea",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "The world’s first plastics treaty is in crisis: can it be gettings Alzheimer ’s from toxic ocean blooms",
+      "subject": {
+        "text": "The world’s first plastics treaty is in crisis: can it be",
+        "original": "The world’s first plastics treaty is in crisis: can it be salvaged?",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "gettings Alzheimer ’s from toxic ocean blooms",
+        "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Dolphins may be get harder to tell apart from its streaming app , box",
+      "subject": {
+        "text": "Dolphins may be",
+        "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "get harder to tell apart from its streaming app , box",
+        "original": "Apple’s streaming service gets harder to tell apart from its streaming app, box",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "5 Best Folding Phones (2025), tell staff to explain what they do during working hours , but union urges defiance",
+      "subject": {
+        "text": "5 Best Folding Phones (2025),",
+        "original": "5 Best Folding Phones (2025), Tested and Reviewed",
+        "source": "WIRED"
+      },
+      "predicate": {
+        "text": "tell staff to explain what they do during working hours , but union urges defiance",
+        "original": "New CBS boss Bari Weiss tells staff to explain what they do during working hours, but union urges defiance",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Metals are key to the global economy — but three challenges thoughted late night TV was irrelevant . Kimmel proved them wrong",
+      "subject": {
+        "text": "Metals are key to the global economy — but three challenges",
+        "original": "Metals are key to the global economy — but three challenges threaten supply chains",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "thoughted late night TV was irrelevant . Kimmel proved them wrong",
+        "original": "Media companies thought late night TV was irrelevant. Kimmel proved them wrong",
+        "source": "NPR Topics: News"
+      }
+    },
+    {
+      "headline": "Boy, 11, shoots farm worker dead in tragic South Africa accident, police reset ties after strain of Sikh leader 's murder",
+      "subject": {
+        "text": "Boy, 11, shoots farm worker dead in tragic South Africa accident, police",
+        "original": "Boy, 11, shoots farm worker dead in tragic South Africa accident, police say",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "reset ties after strain of Sikh leader 's murder",
+        "original": "India and Canada reset ties after strain of Sikh leader's murder",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Dolphins may be founded lurking in deep space",
+      "subject": {
+        "text": "Dolphins may be",
+        "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "founded lurking in deep space",
+        "original": "A million-sun-mass mystery object found lurking in deep space",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "The politics premium is says They Are ‘ Cast Aside to Die ’ Under Trump",
+      "subject": {
+        "text": "The politics premium is",
+        "original": "The politics premium is punishing bonds from Paris to Tokyo",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "says They Are ‘ Cast Aside to Die ’ Under Trump",
+        "original": "Coal Miners With Black Lung Say They Are ‘Cast Aside to Die’ Under Trump",
+        "source": "NYT > Top Stories"
+      }
+    },
+    {
+      "headline": "Sales of Expo mascot Myaku-Myaku goods to tell staff to explain what they do during working hours , but union urges defiance",
+      "subject": {
+        "text": "Sales of Expo mascot Myaku-Myaku goods to",
+        "original": "Sales of Expo mascot Myaku-Myaku goods to continue through March",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "tell staff to explain what they do during working hours , but union urges defiance",
+        "original": "New CBS boss Bari Weiss tells staff to explain what they do during working hours, but union urges defiance",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Software update bricks some Jeep 4xe gettings Alzheimer ’s from toxic ocean blooms",
+      "subject": {
+        "text": "Software update bricks some Jeep 4xe",
+        "original": "Software update bricks some Jeep 4xe hybrids over the weekend",
+        "source": "Ars Technica - All content"
+      },
+      "predicate": {
+        "text": "gettings Alzheimer ’s from toxic ocean blooms",
+        "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "HSBC's top execs criticiz Tua Tagovailoa for publicly calling out teammates : ' That 's not the forum",
+      "subject": {
+        "text": "HSBC's top execs",
+        "original": "HSBC's top execs face tense shareholders calling for a breakup",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "criticiz Tua Tagovailoa for publicly calling out teammates : ' That 's not the forum",
+        "original": "Dolphins' Mike McDaniel criticizes Tua Tagovailoa for publicly calling out teammates: 'That's not the forum",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "New simulation doubleses down on claim that Ciattarelli ‘ complicit ’ in opioid deaths of thousands",
+      "subject": {
+        "text": "New simulation",
+        "original": "New simulation reveals how Earth’s magnetic field first sparked to life",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "doubleses down on claim that Ciattarelli ‘ complicit ’ in opioid deaths of thousands",
+        "original": "NJ Dem Mikie Sherrill doubles down on claim that Ciattarelli ‘complicit’ in opioid deaths of thousands",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Author Correction: Loss-of-function mutations in PLD4 says experts",
+      "subject": {
+        "text": "Author Correction: Loss-of-function mutations in PLD4",
+        "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "says experts",
+        "original": "Daily briefing: Don't sideline Palestinian scientists after ceasefire, say experts",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Metals are key to the global economy — but three challenges emerge That One of Saturn ’s Moons Could Harbor Life",
+      "subject": {
+        "text": "Metals are key to the global economy — but three challenges",
+        "original": "Metals are key to the global economy — but three challenges threaten supply chains",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "emerge That One of Saturn ’s Moons Could Harbor Life",
+        "original": "More Evidence Emerges That One of Saturn’s Moons Could Harbor Life",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "Digital flocks, predators freed as Trump hails ' historic dawn ' in Middle East",
+      "subject": {
+        "text": "Digital flocks, predators",
+        "original": "Digital flocks, predators allow ecologists to simulate real-world animal behaviour",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "freed as Trump hails ' historic dawn ' in Middle East",
+        "original": "Israeli hostages and Palestinian detainees freed as Trump hails 'historic dawn' in Middle East",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Trump hails 'tremendous day for Middle East' as leaders tell staff to explain what they do during working hours , but union urges defiance",
+      "subject": {
+        "text": "Trump hails 'tremendous day for Middle East' as leaders",
+        "original": "Trump hails 'tremendous day for Middle East' as leaders sign Gaza declaration",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "tell staff to explain what they do during working hours , but union urges defiance",
+        "original": "New CBS boss Bari Weiss tells staff to explain what they do during working hours, but union urges defiance",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "NJ Dem Mikie Sherrill uses , from smart toasters to water bottles that monitor how much you drink",
+      "subject": {
+        "text": "NJ Dem Mikie Sherrill",
+        "original": "NJ Dem Mikie Sherrill doubles down on claim that Ciattarelli ‘complicit’ in opioid deaths of thousands",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "uses , from smart toasters to water bottles that monitor how much you drink",
+        "original": "Weird gadget gifts you'll actually use, from smart toasters to water bottles that monitor how much you drink",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Robotic underwater glider getses harder to tell apart from its streaming app , box",
+      "subject": {
+        "text": "Robotic underwater glider",
+        "original": "Robotic underwater glider sets out to circumnavigate the globe",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "getses harder to tell apart from its streaming app , box",
+        "original": "Apple’s streaming service gets harder to tell apart from its streaming app, box",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "Finland's Prime Minister Sanna Marin cancelses US citizenship ceremonies",
+      "subject": {
+        "text": "Finland's Prime Minister Sanna Marin",
+        "original": "Finland's Prime Minister Sanna Marin concedes election",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "cancelses US citizenship ceremonies",
+        "original": "Your appointment's rescheduled': Shutdown cancels US citizenship ceremonies",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Double Olympic champion Kinjo accelerates archaeology scans",
+      "subject": {
+        "text": "Double Olympic champion Kinjo",
+        "original": "Double Olympic champion Kinjo announces retirement",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "accelerates archaeology scans",
+        "original": "Portable muon beam could accelerate archaeology scans",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Google’s Photoshop-killer AI model is discovered another reason why naked mole rats live for so long",
+      "subject": {
+        "text": "Google’s Photoshop-killer AI model is",
+        "original": "Google’s Photoshop-killer AI model is coming to search, Photos, and NotebookLM",
+        "source": "Ars Technica - All content"
+      },
+      "predicate": {
+        "text": "discovered another reason why naked mole rats live for so long",
+        "original": "We've discovered another reason why naked mole rats live for so long",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Author Correction: Loss-of-function mutations in PLD4 says Pakistani troops killed in ' retaliatory ' border attacks",
+      "subject": {
+        "text": "Author Correction: Loss-of-function mutations in PLD4",
+        "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "says Pakistani troops killed in ' retaliatory ' border attacks",
+        "original": "Afghan Taliban says Pakistani troops killed in 'retaliatory' border attacks",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Two Palestinian prisoners: One went home, the other was criticiz Tua Tagovailoa for publicly calling out teammates : ' That 's not the forum",
+      "subject": {
+        "text": "Two Palestinian prisoners: One went home, the other was",
+        "original": "Two Palestinian prisoners: One went home, the other was exiled by Israel",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      },
+      "predicate": {
+        "text": "criticiz Tua Tagovailoa for publicly calling out teammates : ' That 's not the forum",
+        "original": "Dolphins' Mike McDaniel criticizes Tua Tagovailoa for publicly calling out teammates: 'That's not the forum",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "After plenty of ups and downs, Osaka Expo suggest",
+      "subject": {
+        "text": "After plenty of ups and downs, Osaka Expo",
+        "original": "After plenty of ups and downs, Osaka Expo concludes with message of unity",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "suggest",
+        "original": "U.S. firms and consumers paying most for Trump's tariffs, data suggests",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is Run Against Her",
+      "subject": {
+        "text": "Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is",
+        "original": "Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is going to space",
+        "source": "Ars Technica - All content"
+      },
+      "predicate": {
+        "text": "Run Against Her",
+        "original": "In L.A., a Former Ally of Mayor Bass Will Run Against Her",
+        "source": "NYT > Top Stories"
+      }
+    },
+    {
+      "headline": "Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is talk",
+      "subject": {
+        "text": "Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is",
+        "original": "Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is going to space",
+        "source": "Ars Technica - All content"
+      },
+      "predicate": {
+        "text": "talk",
+        "original": "Trump praises el-Sisi for ‘very important role’ in Gaza ceasefire talks",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      }
+    },
+    {
+      "headline": "SNL star who campaigned for Mamdani joins protests against Madagascar ’s president",
+      "subject": {
+        "text": "SNL star who campaigned for Mamdani",
+        "original": "SNL star who campaigned for Mamdani called out for mocking candidate's critics on show",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "joins protests against Madagascar ’s president",
+        "original": "Soldiers from elite Capsat unit join protests against Madagascar’s president",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Sword Dragon' ichthyosaur plants our land",
+      "subject": {
+        "text": "Sword Dragon' ichthyosaur",
+        "original": "Sword Dragon' ichthyosaur had enormous eyes and a lethal snout",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "plants our land",
+        "original": "Gaza will be in the shadow of famine as long as we cannot plant our land",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      }
+    },
+    {
+      "headline": "We are horrified to emerge That One of Saturn ’s Moons Could Harbor Life",
+      "subject": {
+        "text": "We are horrified to",
+        "original": "We are horrified to discover that not every rose has a thorn",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "emerge That One of Saturn ’s Moons Could Harbor Life",
+        "original": "More Evidence Emerges That One of Saturn’s Moons Could Harbor Life",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "Taylor Swift plants our land",
+      "subject": {
+        "text": "Taylor Swift",
+        "original": "Taylor Swift Smashes Another Record With ‘Showgirl’",
+        "source": "NYT > Top Stories"
+      },
+      "predicate": {
+        "text": "plants our land",
+        "original": "Gaza will be in the shadow of famine as long as we cannot plant our land",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      }
+    },
+    {
+      "headline": "India and Canada ravage the health dept .",
+      "subject": {
+        "text": "India and Canada",
+        "original": "India and Canada reset ties after strain of Sikh leader's murder",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "ravage the health dept .",
+        "original": "Layoffs, a “coding error,” chaos: Trump admin ravages the health dept.",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "Your appointment's rescheduled': Shutdown approves Tomahawks for Ukraine if Russia continues war",
+      "subject": {
+        "text": "Your appointment's rescheduled': Shutdown",
+        "original": "Your appointment's rescheduled': Shutdown cancels US citizenship ceremonies",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "approves Tomahawks for Ukraine if Russia continues war",
+        "original": "Trump may approve Tomahawks for Ukraine if Russia continues war",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Eurovision organisers say longtime friend Woody Allen",
+      "subject": {
+        "text": "Eurovision organisers",
+        "original": "Eurovision organisers postpone vote on Israel's inclusion in contest next year",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "say longtime friend Woody Allen",
+        "original": "Diane Keaton left behind a 'drearier world,' says longtime friend Woody Allen",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Electrons inside graphene have been solved",
+      "subject": {
+        "text": "Electrons inside graphene have been",
+        "original": "Electrons inside graphene have been pushed to supersonic speeds",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "solved",
+        "original": "Decades-old photosynthesis mystery finally solved",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Current mosquitoes suspend trading , delays results after founder 's disappearance",
+      "subject": {
+        "text": "Current mosquitoes",
+        "original": "Current mosquitoes evolved more recently than previously thought",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "suspend trading , delays results after founder 's disappearance",
+        "original": "China Renaissance suspends trading, delays results after founder's disappearance",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      }
+    },
+    {
+      "headline": "Russian authorities Reshaping the Conservative Dating Landscape",
+      "subject": {
+        "text": "Russian authorities",
+        "original": "Russian authorities detain suspect over St. Petersburg cafe blast",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "Reshaping the Conservative Dating Landscape",
+        "original": "The ‘Womanosphere’ Is Reshaping the Conservative Dating Landscape",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "Trump praises el-Sisi for ‘very important role’ in Gaza ceasefire says They Are ‘ Cast Aside to Die ’ Under Trump",
+      "subject": {
+        "text": "Trump praises el-Sisi for ‘very important role’ in Gaza ceasefire",
+        "original": "Trump praises el-Sisi for ‘very important role’ in Gaza ceasefire talks",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      },
+      "predicate": {
+        "text": "says They Are ‘ Cast Aside to Die ’ Under Trump",
+        "original": "Coal Miners With Black Lung Say They Are ‘Cast Aside to Die’ Under Trump",
+        "source": "NYT > Top Stories"
+      }
+    },
+    {
+      "headline": "Soldiers from elite Capsat unit discovers that not every rose has a thorn",
+      "subject": {
+        "text": "Soldiers from elite Capsat unit",
+        "original": "Soldiers from elite Capsat unit join protests against Madagascar’s president",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "discovers that not every rose has a thorn",
+        "original": "We are horrified to discover that not every rose has a thorn",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Therapy may be the most effective way to hailses ‘ end of Gaza war ’",
+      "subject": {
+        "text": "Therapy may be the most effective way to",
+        "original": "Therapy may be the most effective way to ease irritable bowel syndrome",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "hailses ‘ end of Gaza war ’",
+        "original": "Trump sets sights on peace with Iran as he hails ‘end of Gaza war’",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "HSBC's top execs Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+      "subject": {
+        "text": "HSBC's top execs",
+        "original": "HSBC's top execs face tense shareholders calling for a breakup",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+        "original": "Israelis praise Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Many public school teachers flee after losing support of key army unit",
+      "subject": {
+        "text": "Many public school teachers",
+        "original": "Many public school teachers pay out of pocket for work-related costs",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "flee after losing support of key army unit",
+        "original": "Madagascar president flees after losing support of key army unit",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Google Search Could postpones vote on Israel 's inclusion in contest next year",
+      "subject": {
+        "text": "Google Search Could",
+        "original": "Google Search Could Change Forever in the UK",
+        "source": "WIRED"
+      },
+      "predicate": {
+        "text": "postpones vote on Israel 's inclusion in contest next year",
+        "original": "Eurovision organisers postpone vote on Israel's inclusion in contest next year",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Men’s brains shrink faster than women’s: what that votes to oust president Dina Boluarte over crime crisis",
+      "subject": {
+        "text": "Men’s brains shrink faster than women’s: what that",
+        "original": "Men’s brains shrink faster than women’s: what that means for Alzheimer’s",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "votes to oust president Dina Boluarte over crime crisis",
+        "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Trump hails 'tremendous day for Middle East' as leaders accelerate archaeology scans",
+      "subject": {
+        "text": "Trump hails 'tremendous day for Middle East' as leaders",
+        "original": "Trump hails 'tremendous day for Middle East' as leaders sign Gaza declaration",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "accelerate archaeology scans",
+        "original": "Portable muon beam could accelerate archaeology scans",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Rama Duwaji, Zohran Mamdani’s Wife, Could allows ecologists to simulate real - world animal behaviour",
+      "subject": {
+        "text": "Rama Duwaji, Zohran Mamdani’s Wife, Could",
+        "original": "Rama Duwaji, Zohran Mamdani’s Wife, Could Become the New York’s First Lady Before Her 30th Birthday",
+        "source": "NYT > Top Stories"
+      },
+      "predicate": {
+        "text": "allows ecologists to simulate real - world animal behaviour",
+        "original": "Digital flocks, predators allow ecologists to simulate real-world animal behaviour",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Former French president Nicolas Sarkozy increases capacity",
+      "subject": {
+        "text": "Former French president Nicolas Sarkozy",
+        "original": "Former French president Nicolas Sarkozy ordered to go to jail next week",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "increases capacity",
+        "original": "Memory chips just 10 atoms thick could vastly increase capacity",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Madagascar president winses Nobel peace prize",
+      "subject": {
+        "text": "Madagascar president",
+        "original": "Madagascar president flees after losing support of key army unit",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "winses Nobel peace prize",
+        "original": "Venezuelan politician María Corina Machado wins Nobel peace prize",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Fetterman marks release of last living hostages: 'The nightmare finally revealses reason why he and Trump have been working together so closely",
+      "subject": {
+        "text": "Fetterman marks release of last living hostages: 'The nightmare finally",
+        "original": "Fetterman marks release of last living hostages: 'The nightmare finally ends",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "revealses reason why he and Trump have been working together so closely",
+        "original": "Texas governor reveals reason why he and Trump have been working together so closely",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Your appointment's rescheduled': Shutdown says illegal power grab by military is under way",
+      "subject": {
+        "text": "Your appointment's rescheduled': Shutdown",
+        "original": "Your appointment's rescheduled': Shutdown cancels US citizenship ceremonies",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "says illegal power grab by military is under way",
+        "original": "Madagascar’s president says illegal power grab by military is under way",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "SNL star who campaigned for Mamdani loomses",
+      "subject": {
+        "text": "SNL star who campaigned for Mamdani",
+        "original": "SNL star who campaigned for Mamdani called out for mocking candidate's critics on show",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "loomses",
+        "original": "We're in limbo': A town in Trump country where shutdown axe looms",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "The world’s first plastics treaty is in crisis: can it be addresses nation as protesters call for new rallies",
+      "subject": {
+        "text": "The world’s first plastics treaty is in crisis: can it be",
+        "original": "The world’s first plastics treaty is in crisis: can it be salvaged?",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "addresses nation as protesters call for new rallies",
+        "original": "Madagascan president to address nation as protesters call for new rallies",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      }
+    },
+    {
+      "headline": "A black hole forms in the way we thought",
+      "subject": {
+        "text": "A black hole",
+        "original": "A black hole fell into a star – then ate its way out again",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "forms in the way we thought",
+        "original": "The moon's largest crater didn't form in the way we thought",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Quantum simulations that once losted . This new AI just found it",
+      "subject": {
+        "text": "Quantum simulations that once",
+        "original": "Quantum simulations that once needed supercomputers now run on laptops",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "losted . This new AI just found it",
+        "original": "90% of science is lost. This new AI just found it",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Finland's Prime Minister Sanna Marin postpones vote on Israel 's inclusion in contest next year",
+      "subject": {
+        "text": "Finland's Prime Minister Sanna Marin",
+        "original": "Finland's Prime Minister Sanna Marin concedes election",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "postpones vote on Israel 's inclusion in contest next year",
+        "original": "Eurovision organisers postpone vote on Israel's inclusion in contest next year",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "A black hole evolved more recently than previously thought",
+      "subject": {
+        "text": "A black hole",
+        "original": "A black hole fell into a star – then ate its way out again",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "evolved more recently than previously thought",
+        "original": "Current mosquitoes evolved more recently than previously thought",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Sales of Expo mascot Myaku-Myaku goods to threaten supply chains",
+      "subject": {
+        "text": "Sales of Expo mascot Myaku-Myaku goods to",
+        "original": "Sales of Expo mascot Myaku-Myaku goods to continue through March",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "threaten supply chains",
+        "original": "Metals are key to the global economy — but three challenges threaten supply chains",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Dolphins' Mike McDaniel endses today with mega - rocket ’s 11th test flight",
+      "subject": {
+        "text": "Dolphins' Mike McDaniel",
+        "original": "Dolphins' Mike McDaniel criticizes Tua Tagovailoa for publicly calling out teammates: 'That's not the forum",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "endses today with mega - rocket ’s 11th test flight",
+        "original": "Starship’s elementary era ends today with mega-rocket’s 11th test flight",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "The four astronauts NASA winses presidential poll",
+      "subject": {
+        "text": "The four astronauts NASA",
+        "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "winses presidential poll",
+        "original": "Seychelles' opposition leader wins presidential poll",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Erdogan's political fate may be sawed coming",
+      "subject": {
+        "text": "Erdogan's political fate may be",
+        "original": "Erdogan's political fate may be determined by Turkey's Kurds",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "sawed coming",
+        "original": "Fentanyl overdoses among seniors surge 9,000% — A hidden crisis few saw coming",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Natalie Portman at France’s Lumiere Festival: ‘It thoughted late night TV was irrelevant . Kimmel proved them wrong",
+      "subject": {
+        "text": "Natalie Portman at France’s Lumiere Festival: ‘It",
+        "original": "Natalie Portman at France’s Lumiere Festival: ‘It Feels Crazy to Be Talking About Anything Else Except Celebrating Peace”",
+        "source": "Variety"
+      },
+      "predicate": {
+        "text": "thoughted late night TV was irrelevant . Kimmel proved them wrong",
+        "original": "Media companies thought late night TV was irrelevant. Kimmel proved them wrong",
+        "source": "NPR Topics: News"
+      }
+    },
+    {
+      "headline": "We've Disqualifying",
+      "subject": {
+        "text": "We've",
+        "original": "We've discovered another reason why naked mole rats live for so long",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "Disqualifying",
+        "original": "Dem gubernatorial nominee facing heat for taking donations from CCP-linked tycoon: 'Disqualifying",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Silvana Estrada Almost Didn’t suspendses trading , delays results after founder 's disappearance",
+      "subject": {
+        "text": "Silvana Estrada Almost Didn’t",
+        "original": "Silvana Estrada Almost Didn’t Finish ‘Vendrán Suaves Lluvias.’ It’s Her Most Powerful Album Yet",
+        "source": "Rolling Stone"
+      },
+      "predicate": {
+        "text": "suspendses trading , delays results after founder 's disappearance",
+        "original": "China Renaissance suspends trading, delays results after founder's disappearance",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      }
+    },
+    {
+      "headline": "Selfish sperm ordered to go to jail next week",
+      "subject": {
+        "text": "Selfish sperm",
+        "original": "Selfish sperm see older fathers pass on more disease-causing mutations",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "ordered to go to jail next week",
+        "original": "Former French president Nicolas Sarkozy ordered to go to jail next week",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "China’s Temu more than loomses",
+      "subject": {
+        "text": "China’s Temu more than",
+        "original": "China’s Temu more than doubles EU profits to nearly $120m despite having only eight staff",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "loomses",
+        "original": "We're in limbo': A town in Trump country where shutdown axe looms",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Rama Duwaji, Zohran Mamdani’s Wife, Could losted . This new AI just found it",
+      "subject": {
+        "text": "Rama Duwaji, Zohran Mamdani’s Wife, Could",
+        "original": "Rama Duwaji, Zohran Mamdani’s Wife, Could Become the New York’s First Lady Before Her 30th Birthday",
+        "source": "NYT > Top Stories"
+      },
+      "predicate": {
+        "text": "losted . This new AI just found it",
+        "original": "90% of science is lost. This new AI just found it",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Your skin could Forces Tesla to Redesign Its Door Handles . That ’s Harder Than It Sounds",
+      "subject": {
+        "text": "Your skin could",
+        "original": "Your skin could warn of hidden mental health trouble",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "Forces Tesla to Redesign Its Door Handles . That ’s Harder Than It Sounds",
+        "original": "New Rules Could Force Tesla to Redesign Its Door Handles. That’s Harder Than It Sounds",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "India and Canada say",
+      "subject": {
+        "text": "India and Canada",
+        "original": "India and Canada reset ties after strain of Sikh leader's murder",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "say",
+        "original": "Europe's bees and butterflies at risk, conservation body says",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Dolphins' Mike McDaniel Runs Against Her",
+      "subject": {
+        "text": "Dolphins' Mike McDaniel",
+        "original": "Dolphins' Mike McDaniel criticizes Tua Tagovailoa for publicly calling out teammates: 'That's not the forum",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "Runs Against Her",
+        "original": "In L.A., a Former Ally of Mayor Bass Will Run Against Her",
+        "source": "NYT > Top Stories"
+      }
+    },
+    {
+      "headline": "The politics premium is surgings global temperatures",
+      "subject": {
+        "text": "The politics premium is",
+        "original": "The politics premium is punishing bonds from Paris to Tokyo",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "surgings global temperatures",
+        "original": "Coral reefs are at a tipping point after surging global temperatures",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Weird gadget gifts you'll actually beginses , a look at the Gaza war by the numbers",
+      "subject": {
+        "text": "Weird gadget gifts you'll actually",
+        "original": "Weird gadget gifts you'll actually use, from smart toasters to water bottles that monitor how much you drink",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "beginses , a look at the Gaza war by the numbers",
+        "original": "As the ceasefire begins, a look at the Gaza war by the numbers",
+        "source": "NPR Topics: News"
+      }
+    },
+    {
+      "headline": "U.S. firms and consumers paying most for Trump's tariffs, data tell staff to explain what they do during working hours , but union urges defiance",
+      "subject": {
+        "text": "U.S. firms and consumers paying most for Trump's tariffs, data",
+        "original": "U.S. firms and consumers paying most for Trump's tariffs, data suggests",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "tell staff to explain what they do during working hours , but union urges defiance",
+        "original": "New CBS boss Bari Weiss tells staff to explain what they do during working hours, but union urges defiance",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "5 Best Folding Phones (2025), shaking all over ’ : hugs , tears and relief in Israel as Gaza hostages return",
+      "subject": {
+        "text": "5 Best Folding Phones (2025),",
+        "original": "5 Best Folding Phones (2025), Tested and Reviewed",
+        "source": "WIRED"
+      },
+      "predicate": {
+        "text": "shaking all over ’ : hugs , tears and relief in Israel as Gaza hostages return",
+        "original": "‘I’m shaking all over’: hugs, tears and relief in Israel as Gaza hostages return",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Economics Nobel prize pinpoints brain cells linked to depression",
+      "subject": {
+        "text": "Economics Nobel prize",
+        "original": "Economics Nobel prize won by researchers who showed how science boosts growth",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "pinpoints brain cells linked to depression",
+        "original": "For the first time, scientists pinpoint brain cells linked to depression",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "DPP and CDP chiefs likely to stopped cancer cold in the lab",
+      "subject": {
+        "text": "DPP and CDP chiefs likely to",
+        "original": "DPP and CDP chiefs likely to meet over prime minister nomination",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "stopped cancer cold in the lab",
+        "original": "This experimental “super vaccine” stopped cancer cold in the lab",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Alex Murdaugh’s money man controls an ungovernable cousin of magnetism",
+      "subject": {
+        "text": "Alex Murdaugh’s money man",
+        "original": "Alex Murdaugh’s money man pays the price after admitting role in million-dollar crime scheme",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "controls an ungovernable cousin of magnetism",
+        "original": "Swirly lasers can control an ungovernable cousin of magnetism",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "New CBS boss Bari Weiss fallses well short of expectations in local elections",
+      "subject": {
+        "text": "New CBS boss Bari Weiss",
+        "original": "New CBS boss Bari Weiss tells staff to explain what they do during working hours, but union urges defiance",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "fallses well short of expectations in local elections",
+        "original": "Portugal’s far-right Chega falls well short of expectations in local elections",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "New research freed and hundreds of Palestinian detainees and prisoners released as Trump leads Egypt summit – as it happened",
+      "subject": {
+        "text": "New research",
+        "original": "New research reveals how ADHD sparks extraordinary creativity",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "freed and hundreds of Palestinian detainees and prisoners released as Trump leads Egypt summit – as it happened",
+        "original": "All living Israeli hostages freed and hundreds of Palestinian detainees and prisoners released as Trump leads Egypt summit – as it happened",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Long and painful nightmare finally over,' Trump helded responsible for gun regulation",
+      "subject": {
+        "text": "Long and painful nightmare finally over,' Trump",
+        "original": "Long and painful nightmare finally over,' Trump tells Israel's parliament",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "helded responsible for gun regulation",
+        "original": "CEOs are tired of being held responsible for gun regulation",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      }
+    },
+    {
+      "headline": "Finland's Prime Minister Sanna Marin Revealses How M. Night Shyamalan Almost Wrote ‘ The Notebook ’ Screenplay as Co - Authors Debut New Book ‘ Remain ’ and Tease Movie",
+      "subject": {
+        "text": "Finland's Prime Minister Sanna Marin",
+        "original": "Finland's Prime Minister Sanna Marin concedes election",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "Revealses How M. Night Shyamalan Almost Wrote ‘ The Notebook ’ Screenplay as Co - Authors Debut New Book ‘ Remain ’ and Tease Movie",
+        "original": "Nicholas Sparks Reveals How M. Night Shyamalan Almost Wrote ‘The Notebook’ Screenplay as Co-Authors Debut New Book ‘Remain’ and Tease Movie",
+        "source": "Variety"
+      }
+    },
+    {
+      "headline": "“Extremely angry” Trump freed as Trump hails ' historic dawn ' in Middle East",
+      "subject": {
+        "text": "“Extremely angry” Trump",
+        "original": "“Extremely angry” Trump threatens “massive” tariff on all Chinese exports",
+        "source": "Ars Technica - All content"
+      },
+      "predicate": {
+        "text": "freed as Trump hails ' historic dawn ' in Middle East",
+        "original": "Israeli hostages and Palestinian detainees freed as Trump hails 'historic dawn' in Middle East",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Rama Duwaji, Zohran Mamdani’s Wife, Could praiseses former boss Trump for ' massive diplomatic achievement ' in hostage deal",
+      "subject": {
+        "text": "Rama Duwaji, Zohran Mamdani’s Wife, Could",
+        "original": "Rama Duwaji, Zohran Mamdani’s Wife, Could Become the New York’s First Lady Before Her 30th Birthday",
+        "source": "NYT > Top Stories"
+      },
+      "predicate": {
+        "text": "praiseses former boss Trump for ' massive diplomatic achievement ' in hostage deal",
+        "original": "View' co-host praises former boss Trump for 'massive diplomatic achievement' in hostage deal",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Fentanyl overdoses among seniors surge 9,000% — A hidden crisis few borned to foreign parents in Japan amid political row over migration",
+      "subject": {
+        "text": "Fentanyl overdoses among seniors surge 9,000% — A hidden crisis few",
+        "original": "Fentanyl overdoses among seniors surge 9,000% — A hidden crisis few saw coming",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "borned to foreign parents in Japan amid political row over migration",
+        "original": "Record number of babies born to foreign parents in Japan amid political row over migration",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Water outages freed to live in exile in the US",
+      "subject": {
+        "text": "Water outages",
+        "original": "Water outages persist on Tokyo’s Hachijojima as second typhoon approaches",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "freed to live in exile in the US",
+        "original": "Cuban dissident José Daniel Ferrer freed to live in exile in the US",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Russian authorities threaten “ massive ” tariff on all Chinese exports",
+      "subject": {
+        "text": "Russian authorities",
+        "original": "Russian authorities detain suspect over St. Petersburg cafe blast",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "threaten “ massive ” tariff on all Chinese exports",
+        "original": "“Extremely angry” Trump threatens “massive” tariff on all Chinese exports",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "Author Correction: Loss-of-function mutations in PLD4 Tested a Dozen Models to Find Which Work Best ( 2025 )",
+      "subject": {
+        "text": "Author Correction: Loss-of-function mutations in PLD4",
+        "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "Tested a Dozen Models to Find Which Work Best ( 2025 )",
+        "original": "The Best Vacuum for Pet Hair—We Tested a Dozen Models to Find Which Work Best (2025)",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "Earth’s climate just Tested a Dozen Models to Find Which Work Best ( 2025 )",
+      "subject": {
+        "text": "Earth’s climate just",
+        "original": "Earth’s climate just crossed a line we can’t ignore",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "Tested a Dozen Models to Find Which Work Best ( 2025 )",
+        "original": "The Best Vacuum for Pet Hair—We Tested a Dozen Models to Find Which Work Best (2025)",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "Dolphins may be evolved more recently than previously thought",
+      "subject": {
+        "text": "Dolphins may be",
+        "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "evolved more recently than previously thought",
+        "original": "Current mosquitoes evolved more recently than previously thought",
+        "source": "Nature"
+      }
+    },
+    {
+      "headline": "Europe's bees and butterflies at risk, conservation body say ‘ I ’ve Lost a Friend of 40 Years ’ After Diane Keaton ’s Death : ‘ She Was Fearless . She Was Born to Be a Movie Star ’",
+      "subject": {
+        "text": "Europe's bees and butterflies at risk, conservation body",
+        "original": "Europe's bees and butterflies at risk, conservation body says",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "say ‘ I ’ve Lost a Friend of 40 Years ’ After Diane Keaton ’s Death : ‘ She Was Fearless . She Was Born to Be a Movie Star ’",
+        "original": "Nancy Meyers Says ‘I’ve Lost a Friend of 40 Years’ After Diane Keaton’s Death: ‘She Was Fearless. She Was Born to Be a Movie Star’",
+        "source": "Variety"
+      }
+    },
+    {
+      "headline": "Naked mole rats live for decades — genetic tweaks ended up with clay replicas",
+      "subject": {
+        "text": "Naked mole rats live for decades — genetic tweaks",
+        "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "ended up with clay replicas",
+        "original": "Restitution row: how Nigeria’s new home for the Benin bronzes ended up with clay replicas",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "Two common drugs could continue through March",
+      "subject": {
+        "text": "Two common drugs could",
+        "original": "Two common drugs could reverse fatty liver disease",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "continue through March",
+        "original": "Sales of Expo mascot Myaku-Myaku goods to continue through March",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "These Digital Gifts Can Be celebrate as truce brings hope of ‘ era of peace ’",
+      "subject": {
+        "text": "These Digital Gifts Can Be",
+        "original": "These Digital Gifts Can Be Ordered Online (and Delivered Instantly for Any Celebration)",
+        "source": "Rolling Stone"
+      },
+      "predicate": {
+        "text": "celebrate as truce brings hope of ‘ era of peace ’",
+        "original": "Israelis and Palestinians celebrate as truce brings hope of ‘era of peace’",
+        "source": "World news | The Guardian"
+      }
+    },
+    {
+      "headline": "More than 30% of this century’s science Nobel prizewinners Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+      "subject": {
+        "text": "More than 30% of this century’s science Nobel prizewinners",
+        "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+        "original": "Israelis praise Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "90% of science is freed as Trump hails ' historic dawn ' in Middle East",
+      "subject": {
+        "text": "90% of science is",
+        "original": "90% of science is lost. This new AI just found it",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "freed as Trump hails ' historic dawn ' in Middle East",
+        "original": "Israeli hostages and Palestinian detainees freed as Trump hails 'historic dawn' in Middle East",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Bill Maher concedeses election",
+      "subject": {
+        "text": "Bill Maher",
+        "original": "Bill Maher says he can't deny President Trump's success despite acknowledging he wasn't 'his choice",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "concedeses election",
+        "original": "Finland's Prime Minister Sanna Marin concedes election",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      }
+    },
+    {
+      "headline": "European bats show early promise",
+      "subject": {
+        "text": "European bats",
+        "original": "European bats capture migrating birds and eat them on the wing",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "show early promise",
+        "original": "A new approach to a Covid-19 nasal vaccine shows early promise",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      }
+    },
+    {
+      "headline": "Breakthrough compounds may sign Gaza declaration",
+      "subject": {
+        "text": "Breakthrough compounds may",
+        "original": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "sign Gaza declaration",
+        "original": "Trump hails 'tremendous day for Middle East' as leaders sign Gaza declaration",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Joy and devastation as Israel beating every other major currency this year",
+      "subject": {
+        "text": "Joy and devastation as Israel",
+        "original": "Joy and devastation as Israel frees and deports many Palestinian detainees",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      },
+      "predicate": {
+        "text": "beating every other major currency this year",
+        "original": "Britain's pound is beating every other major currency this year",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      }
+    },
+    {
+      "headline": "Bill Maher surgings global temperatures",
+      "subject": {
+        "text": "Bill Maher",
+        "original": "Bill Maher says he can't deny President Trump's success despite acknowledging he wasn't 'his choice",
+        "source": "Latest & Breaking News on Fox News"
+      },
+      "predicate": {
+        "text": "surgings global temperatures",
+        "original": "Coral reefs are at a tipping point after surging global temperatures",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Hypothermia in the land of the Tested a Dozen Models to Find Which Work Best ( 2025 )",
+      "subject": {
+        "text": "Hypothermia in the land of the",
+        "original": "Hypothermia in the land of the rising Sanae",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "Tested a Dozen Models to Find Which Work Best ( 2025 )",
+        "original": "The Best Vacuum for Pet Hair—We Tested a Dozen Models to Find Which Work Best (2025)",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "Putin OKs mourn after Tennessee explosives factory blast",
+      "subject": {
+        "text": "Putin OKs",
+        "original": "Putin OKs plan to turn Russian spacecraft into flying billboards",
+        "source": "Ars Technica - All content"
+      },
+      "predicate": {
+        "text": "mourn after Tennessee explosives factory blast",
+        "original": "In an instant, they were gone': Small town mourns after Tennessee explosives factory blast",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Therapy may be the most effective way to Makeses It Faster to Find the Shortest Paths",
+      "subject": {
+        "text": "Therapy may be the most effective way to",
+        "original": "Therapy may be the most effective way to ease irritable bowel syndrome",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "Makeses It Faster to Find the Shortest Paths",
+        "original": "A New Algorithm Makes It Faster to Find the Shortest Paths",
+        "source": "WIRED"
+      }
+    },
+    {
+      "headline": "The Moon’s south pole surgings global temperatures",
+      "subject": {
+        "text": "The Moon’s south pole",
+        "original": "The Moon’s south pole hides a 4-billion-year-old secret",
+        "source": "Latest Science News -- ScienceDaily"
+      },
+      "predicate": {
+        "text": "surgings global temperatures",
+        "original": "Coral reefs are at a tipping point after surging global temperatures",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Portugal’s far-right Chega setses out to circumnavigate the globe",
+      "subject": {
+        "text": "Portugal’s far-right Chega",
+        "original": "Portugal’s far-right Chega falls well short of expectations in local elections",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "setses out to circumnavigate the globe",
+        "original": "Robotic underwater glider sets out to circumnavigate the globe",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Evolution of intelligence in our ancestors may have arrive in Gaza",
+      "subject": {
+        "text": "Evolution of intelligence in our ancestors may have",
+        "original": "Evolution of intelligence in our ancestors may have come at a cost",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "arrive in Gaza",
+        "original": "Released Palestinian detainees arrive in Gaza",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      }
+    },
+    {
+      "headline": "Serum based on plant extracts threaten “ massive ” tariff on all Chinese exports",
+      "subject": {
+        "text": "Serum based on plant extracts",
+        "original": "Serum based on plant extracts boosts hair growth in weeks",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "threaten “ massive ” tariff on all Chinese exports",
+        "original": "“Extremely angry” Trump threatens “massive” tariff on all Chinese exports",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "Naked mole rats live for decades — genetic tweaks needed supercomputers now run on laptops",
+      "subject": {
+        "text": "Naked mole rats live for decades — genetic tweaks",
+        "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing",
+        "source": "Nature"
+      },
+      "predicate": {
+        "text": "needed supercomputers now run on laptops",
+        "original": "Quantum simulations that once needed supercomputers now run on laptops",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "New Zealand builds its own social media",
+      "subject": {
+        "text": "New Zealand",
+        "original": "New Zealand accused of ‘full-blown climate denial’ over cuts to methane reduction targets",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "builds its own social media",
+        "original": "Europe can build its own social media",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media fear ICE tactics are growing more violent",
+      "subject": {
+        "text": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media",
+        "original": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "fear ICE tactics are growing more violent",
+        "original": "Tackles, projectiles and gunfire: Many fear ICE tactics are growing more violent",
+        "source": "NPR Topics: News"
+      }
+    },
+    {
+      "headline": "At Osaka Expo pavilions, staff recount ‘life- Becomes the New York ’s First Lady Before Her 30th Birthday",
+      "subject": {
+        "text": "At Osaka Expo pavilions, staff recount ‘life-",
+        "original": "At Osaka Expo pavilions, staff recount ‘life-changing’ experiences",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "Becomes the New York ’s First Lady Before Her 30th Birthday",
+        "original": "Rama Duwaji, Zohran Mamdani’s Wife, Could Become the New York’s First Lady Before Her 30th Birthday",
+        "source": "NYT > Top Stories"
+      }
+    },
+    {
+      "headline": "Released Palestinian detainees Builted an IP Fortress Without Alienating Fans",
+      "subject": {
+        "text": "Released Palestinian detainees",
+        "original": "Released Palestinian detainees arrive in Gaza",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      },
+      "predicate": {
+        "text": "Builted an IP Fortress Without Alienating Fans",
+        "original": "The Art of IP Ownership: How a Pop Superstar Built an IP Fortress Without Alienating Fans",
+        "source": "Rolling Stone"
+      }
+    },
+    {
+      "headline": "Mexico floods leave at least 64 dead and 65 missing, authorities hide a 4 - billion - year - old secret",
+      "subject": {
+        "text": "Mexico floods leave at least 64 dead and 65 missing, authorities",
+        "original": "Mexico floods leave at least 64 dead and 65 missing, authorities say",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "hide a 4 - billion - year - old secret",
+        "original": "The Moon’s south pole hides a 4-billion-year-old secret",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media had enormous eyes and a lethal snout",
+      "subject": {
+        "text": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media",
+        "original": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+        "source": "CNN.com - RSS Channel - App International Edition"
+      },
+      "predicate": {
+        "text": "had enormous eyes and a lethal snout",
+        "original": "Sword Dragon' ichthyosaur had enormous eyes and a lethal snout",
+        "source": "New Scientist - Home"
+      }
+    },
+    {
+      "headline": "Two Palestinian prisoners: One went home, the other was take control of China - owned chip firm",
+      "subject": {
+        "text": "Two Palestinian prisoners: One went home, the other was",
+        "original": "Two Palestinian prisoners: One went home, the other was exiled by Israel",
+        "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      },
+      "predicate": {
+        "text": "take control of China - owned chip firm",
+        "original": "Dutch government takes control of China-owned chip firm",
+        "source": "BBC News"
+      }
+    },
+    {
+      "headline": "Europe's bees and butterflies at risk, conservation body tell staff to explain what they do during working hours , but union urges defiance",
+      "subject": {
+        "text": "Europe's bees and butterflies at risk, conservation body",
+        "original": "Europe's bees and butterflies at risk, conservation body says",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "tell staff to explain what they do during working hours , but union urges defiance",
+        "original": "New CBS boss Bari Weiss tells staff to explain what they do during working hours, but union urges defiance",
+        "source": "Latest & Breaking News on Fox News"
+      }
+    },
+    {
+      "headline": "Europe's bees and butterflies at risk, conservation body reveal how ADHD sparks extraordinary creativity",
+      "subject": {
+        "text": "Europe's bees and butterflies at risk, conservation body",
+        "original": "Europe's bees and butterflies at risk, conservation body says",
+        "source": "Latest articles - The Japan Times"
+      },
+      "predicate": {
+        "text": "reveal how ADHD sparks extraordinary creativity",
+        "original": "New research reveals how ADHD sparks extraordinary creativity",
+        "source": "Latest Science News -- ScienceDaily"
+      }
+    },
+    {
+      "headline": "Dutch government hybridses over the weekend",
+      "subject": {
+        "text": "Dutch government",
+        "original": "Dutch government takes control of China-owned chip firm",
+        "source": "BBC News"
+      },
+      "predicate": {
+        "text": "hybridses over the weekend",
+        "original": "Software update bricks some Jeep 4xe hybrids over the weekend",
+        "source": "Ars Technica - All content"
+      }
+    },
+    {
+      "headline": "Peru lawmakers conclude with message of unity",
+      "subject": {
+        "text": "Peru lawmakers",
+        "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis",
+        "source": "World news | The Guardian"
+      },
+      "predicate": {
+        "text": "conclude with message of unity",
+        "original": "After plenty of ups and downs, Osaka Expo concludes with message of unity",
+        "source": "Latest articles - The Japan Times"
+      }
+    },
+    {
+      "headline": "Top 250 oil and gas firms ’ a simple solution",
+      "subject": {
+        "text": "Top 250 oil and gas firms",
+        "original": "Top 250 oil and gas firms own just 1.5% of the world's renewable power",
+        "source": "New Scientist - Home"
+      },
+      "predicate": {
+        "text": "’ a simple solution",
+        "original": "Your diet is probably dangerously acidic but there’s a simple solution",
+        "source": "New Scientist - Home"
+      }
     }
   ],
-  "predicates": [
-    {
-      "text": "Acquires Dutch Label Werktitel , Bolstering Creator - Related Activities",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Banijay Benelux Acquires Dutch Label Werktitel, Bolstering Creator-Related Activities"
-    },
-    {
-      "text": "Giving Him Advice : ‘ Be a Little Brain - Dead for a While ’ and ‘ Do n’t Rush ’ Into What ’s Next",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Marc Maron Ends ‘WTF’ Podcast With Barack Obama Giving Him Advice: ‘Be a Little Brain-Dead for a While’ and ‘Don’t Rush’ Into What’s Next"
-    },
-    {
-      "text": "Rebrands to Apple TV , Ditching the Plus Sign for ‘ Vibrant New Identity ’",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Apple TV+ Rebrands to Apple TV, Ditching the Plus Sign for ‘Vibrant New Identity’"
-    },
-    {
-      "text": "Moving the Conglomerate ’s ‘ Gravity Center ’ to London , Growing ‘ English - Speaking Content ’",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Mediawan Pictures Boss Elisabeth d’Arvieu on Moving the Conglomerate’s ‘Gravity Center’ to London, Growing ‘English-Speaking Content’"
-    },
-    {
-      "text": "Starring in ‘ Frankenstein ’ : ‘ I ’ve Never Been So Scared Stepping Into a Movie ’",
-      "source": "Variety",
-      "category": "core_news",
-      "original": "Mia Goth on Starring in ‘Frankenstein’: ‘I’ve Never Been So Scared Stepping Into a Movie’"
-    },
-    {
-      "text": "ravages the health dept .",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Layoffs, a “coding error,” chaos: Trump admin ravages the health dept."
-    },
-    {
-      "text": "hybrids over the weekend",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Software update bricks some Jeep 4xe hybrids over the weekend"
-    },
-    {
-      "text": "plan to turn Russian spacecraft into flying billboards",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Putin OKs plan to turn Russian spacecraft into flying billboards"
-    },
-    {
-      "text": "threatens “ massive ” tariff on all Chinese exports",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "“Extremely angry” Trump threatens “massive” tariff on all Chinese exports"
-    },
-    {
-      "text": "plan to force Google changes under new competition law",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "UK regulators plan to force Google changes under new competition law"
-    },
-    {
-      "text": "aims to rethink the current graphics pipeline",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "AMD and Sony’s PS6 chipset aims to rethink the current graphics pipeline"
-    },
-    {
-      "text": "stop saving most ChatGPT users ’ deleted chats",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "OpenAI will stop saving most ChatGPT users’ deleted chats"
-    },
-    {
-      "text": "cited for almost 800 environmental violations in Las Vegas",
-      "source": "Ars Technica - All content",
-      "category": "core_news",
-      "original": "Boring Company cited for almost 800 environmental violations in Las Vegas"
-    },
-    {
-      "text": "tells Israel 's parliament",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Long and painful nightmare finally over,' Trump tells Israel's parliament"
-    },
-    {
-      "text": "takes control of China - owned chip firm",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Dutch government takes control of China-owned chip firm"
-    },
-    {
-      "text": "killed as bus crashes on South Africa mountain pass",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Forty-two killed as bus crashes on South Africa mountain pass"
-    },
-    {
-      "text": "reset ties after strain of Sikh leader 's murder",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "India and Canada reset ties after strain of Sikh leader's murder"
-    },
-    {
-      "text": "denied medical care - family",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Sikh man with tumour held by US immigration denied medical care - family"
-    },
-    {
-      "text": "say",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Boy, 11, shoots farm worker dead in tragic South Africa accident, police say"
-    },
-    {
-      "text": "says Pakistani troops killed in ' retaliatory ' border attacks",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Afghan Taliban says Pakistani troops killed in 'retaliatory' border attacks"
-    },
-    {
-      "text": "says attempt to seize power under way",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Madagascar presidency says attempt to seize power under way"
-    },
-    {
-      "text": "mourns after Tennessee explosives factory blast",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "In an instant, they were gone': Small town mourns after Tennessee explosives factory blast"
-    },
-    {
-      "text": "wins presidential poll",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Seychelles' opposition leader wins presidential poll"
-    },
-    {
-      "text": "tells BBC",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "We're grateful for what Trump is doing for peace, Nobel winner tells BBC"
-    },
-    {
-      "text": "pour in for Diane Keaton",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "She left trail of fairy dust': Tributes pour in for Diane Keaton"
-    },
-    {
-      "text": "Trump at huge rally ahead of expected hostage release by Hamas in Gaza",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Israelis praise Trump at huge rally ahead of expected hostage release by Hamas in Gaza"
-    },
-    {
-      "text": "says mother",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Indian student captured by Ukraine joined Russian army to avoid drug charges, says mother"
-    },
-    {
-      "text": "looms",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "We're in limbo': A town in Trump country where shutdown axe looms"
-    },
-    {
-      "text": "using psychedelic drugs for treatment in South Africa",
-      "source": "BBC News",
-      "category": "core_news",
-      "original": "Shamans openly using psychedelic drugs for treatment in South Africa"
-    },
-    {
-      "text": "begins , a look at the Gaza war by the numbers",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "As the ceasefire begins, a look at the Gaza war by the numbers"
-    },
-    {
-      "text": "shows",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "Kids who use social media score lower on reading and memory tests, a study shows"
-    },
-    {
-      "text": "removes landmines for a group that 's won a top prize",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "This wedding photographer now removes landmines for a group that's won a top prize"
-    },
-    {
-      "text": "thought late night TV was irrelevant . Kimmel proved them wrong",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "Media companies thought late night TV was irrelevant. Kimmel proved them wrong"
-    },
-    {
-      "text": "drop out of college , but then her professor stepped in",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "She was about to drop out of college, but then her professor stepped in"
-    },
-    {
-      "text": "guts department overseeing special education",
-      "source": "NPR Topics: News",
-      "category": "core_news",
-      "original": "Amid shutdown, Trump administration guts department overseeing special education"
-    },
-    {
-      "text": "clashing with Hamas in Gaza ?",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "After Israel’s war halted, who is clashing with Hamas in Gaza?"
-    },
-    {
-      "text": "plant our land",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Gaza will be in the shadow of famine as long as we cannot plant our land"
-    },
-    {
-      "text": "arrive in Gaza",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Released Palestinian detainees arrive in Gaza"
-    },
-    {
-      "text": "fights Canadian government over poisoned water",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "First Nations community fights Canadian government over poisoned water"
-    },
-    {
-      "text": "address nation as protesters call for new rallies",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Madagascan president to address nation as protesters call for new rallies"
-    },
-    {
-      "text": "killed in Gaza clashes",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Video: Palestinian journalist Saleh Aljafarawi killed in Gaza clashes"
-    },
-    {
-      "text": "share economics Nobel for work on innovation - driven growth",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Trio to share economics Nobel for work on innovation-driven growth"
-    },
-    {
-      "text": "bomb Iran as biblical ‘ miracle ’",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Netanyahu lauds Trump’s decision to bomb Iran as biblical ‘miracle’"
-    },
-    {
-      "text": "freed Palestinian prisoners forced into exile by Israel",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "‘Inhumane’: 154 freed Palestinian prisoners forced into exile by Israel"
-    },
-    {
-      "text": "released Palestinian prisoners",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Huge crowds in Gaza await released Palestinian prisoners"
-    },
-    {
-      "text": "receives standing ovation at Israeli parliament",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Donald Trump receives standing ovation at Israeli parliament"
-    },
-    {
-      "text": "exchange captives , detainees before Gaza summit",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Hamas and Israel exchange captives, detainees before Gaza summit"
-    },
-    {
-      "text": "greeted by cheering crowd",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Freed Palestinian prisoners greeted by cheering crowd"
-    },
-    {
-      "text": "kills at least 42",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Bus crash in South African mountains kills at least 42"
-    },
-    {
-      "text": "transferred out of Israel ’s Ofer prison",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Palestinian detainees transferred out of Israel’s Ofer prison"
-    },
-    {
-      "text": "start time , team news and lineups",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Nigeria vs Benin: World Cup qualifier – start time, team news and lineups"
-    },
-    {
-      "text": "eyeing its next Latin American target ?",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "category": "core_news",
-      "original": "Is the US eyeing its next Latin American target?"
-    },
-    {
-      "text": "Petition to Replace Bad Bunny at the Super Bowl",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "No, Carlos Santana Did Not Petition to Replace Bad Bunny at the Super Bowl"
-    },
-    {
-      "text": "Getting All These Ugly - Cute Bag Charms ?",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Labubu Mania: Where Have Celebs Like Rihanna, Lisa, And Dua Lipa Been Getting All These Ugly-Cute Bag Charms?"
-    },
-    {
-      "text": "Performs ‘ Best Guess ’ for Newlyweds in Officiated Wedding Ceremony on ‘ Kimmel ’",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Lucy Dacus Performs ‘Best Guess’ for Newlyweds in Officiated Wedding Ceremony on ‘Kimmel’"
-    },
-    {
-      "text": "Blow 2026 Country Grammys Wide Open",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "New ‘Contemporary’ Distinction Could Blow 2026 Country Grammys Wide Open"
-    },
-    {
-      "text": "Offers Marc Maron Political and Professional Advice on ‘ WTF ’ Finale",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Barack Obama Offers Marc Maron Political and Professional Advice on ‘WTF’ Finale"
-    },
-    {
-      "text": "Announces Six - Part Docuseries ‘ The End of an Era ’",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "Taylor Swift Announces Six-Part Docuseries ‘The End of an Era’"
-    },
-    {
-      "text": "Help Billionaires Buy Elections",
-      "source": "Rolling Stone",
-      "category": "core_news",
-      "original": "The Right’s Secret Plan to Help Billionaires Buy Elections"
-    },
-    {
-      "text": "meet over prime minister nomination",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "DPP and CDP chiefs likely to meet over prime minister nomination"
-    },
-    {
-      "text": "concludes with message of unity",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "After plenty of ups and downs, Osaka Expo concludes with message of unity"
-    },
-    {
-      "text": "does ' expo diplomacy ' for Ishiba",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "As Osaka Expo comes to an end, so too does 'expo diplomacy' for Ishiba"
-    },
-    {
-      "text": "rising Sanae",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Hypothermia in the land of the rising Sanae"
-    },
-    {
-      "text": "living hostages due for release from captivity in Gaza",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "The 20 living hostages due for release from captivity in Gaza"
-    },
-    {
-      "text": "persist on Tokyo ’s Hachijojima as second typhoon approaches",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Water outages persist on Tokyo’s Hachijojima as second typhoon approaches"
-    },
-    {
-      "text": "taking his hybrid warfare to the sea",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Putin is taking his hybrid warfare to the sea"
-    },
-    {
-      "text": "changing ’ experiences",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "At Osaka Expo pavilions, staff recount ‘life-changing’ experiences"
-    },
-    {
-      "text": "announces retirement",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Double Olympic champion Kinjo announces retirement"
-    },
-    {
-      "text": "build its own social media",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Europe can build its own social media"
-    },
-    {
-      "text": "continue through March",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Sales of Expo mascot Myaku-Myaku goods to continue through March"
-    },
-    {
-      "text": "punishing bonds from Paris to Tokyo",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "The politics premium is punishing bonds from Paris to Tokyo"
-    },
-    {
-      "text": "suggests",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "U.S. firms and consumers paying most for Trump's tariffs, data suggests"
-    },
-    {
-      "text": "puts Taiwan ’s history in present context",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Ghost Nation' puts Taiwan’s history in present context"
-    },
-    {
-      "text": "pay out of pocket for work - related costs",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Many public school teachers pay out of pocket for work-related costs"
-    },
-    {
-      "text": "looms for Japan ’s next leader — whoever that may be",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "A frenetic diplomatic schedule looms for Japan’s next leader — whoever that may be"
-    },
-    {
-      "text": "says",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Europe's bees and butterflies at risk, conservation body says"
-    },
-    {
-      "text": "approve Tomahawks for Ukraine if Russia continues war",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Trump may approve Tomahawks for Ukraine if Russia continues war"
-    },
-    {
-      "text": "threatens to upend truce",
-      "source": "Latest articles - The Japan Times",
-      "category": "core_news",
-      "original": "Xi’s red line on Trump’s export curbs threatens to upend truce"
-    },
-    {
-      "text": "Tested By a Smart Home Addict",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "3 Best Smart Displays (2025): Tested By a Smart Home Addict"
-    },
-    {
-      "text": "Tested Laptops to Buy",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Best Windows Laptops (2025): WIRED-Tested Laptops to Buy"
-    },
-    {
-      "text": "Force Tesla to Redesign Its Door Handles . That ’s Harder Than It Sounds",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "New Rules Could Force Tesla to Redesign Its Door Handles. That’s Harder Than It Sounds"
-    },
-    {
-      "text": "Reshaping the Conservative Dating Landscape",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "The ‘Womanosphere’ Is Reshaping the Conservative Dating Landscape"
-    },
-    {
-      "text": "Emerges That One of Saturn ’s Moons Could Harbor Life",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "More Evidence Emerges That One of Saturn’s Moons Could Harbor Life"
-    },
-    {
-      "text": "WIRED Tested and Reviewed ( 2025 )",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "8 Best Cat Water Fountains, WIRED Tested and Reviewed (2025)"
-    },
-    {
-      "text": "Tested and Reviewed",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "4 Best Website Builders (2025), Tested and Reviewed"
-    },
-    {
-      "text": "Tested and Approved",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "16 Best Laptops (2025), WIRED-Tested and Approved"
-    },
-    {
-      "text": "Makes It Faster to Find the Shortest Paths",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "A New Algorithm Makes It Faster to Find the Shortest Paths"
-    },
-    {
-      "text": "Know on the Price Hikes and New Features",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Should You Cancel Xbox Game Pass? Everything to Know on the Price Hikes and New Features"
-    },
-    {
-      "text": "Tested and Reviewed",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "6 Best Carpet Cleaners (2025), Tested and Reviewed"
-    },
-    {
-      "text": "Work",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Amazfit T-Rex 3 Pro Review: An Outdoor Watch That Doesn't Work"
-    },
-    {
-      "text": "Tested and Reviewed",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "The Best Google Pixel Phones of 2025, Tested and Reviewed"
-    },
-    {
-      "text": "Change Forever in the UK",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "Google Search Could Change Forever in the UK"
-    },
-    {
-      "text": "Tested a Dozen Models to Find Which Work Best ( 2025 )",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "The Best Vacuum for Pet Hair—We Tested a Dozen Models to Find Which Work Best (2025)"
-    },
-    {
-      "text": "Tested and Reviewed",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "5 Best Folding Phones (2025), Tested and Reviewed"
-    },
-    {
-      "text": "Wear OS , Hybrid & Kids ’ Watches",
-      "source": "WIRED",
-      "category": "core_news",
-      "original": "10 Best Smartwatches (2025): Apple, Wear OS, Hybrid & Kids’ Watches"
-    },
-    {
-      "text": "fell into a star – then ate its way out again",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "A black hole fell into a star – then ate its way out again"
-    },
-    {
-      "text": "boosts hair growth in weeks",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Serum based on plant extracts boosts hair growth in weeks"
-    },
-    {
-      "text": "surging global temperatures",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Coral reefs are at a tipping point after surging global temperatures"
-    },
-    {
-      "text": "uncovering when nature ’s strongest force falters",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Physicists are uncovering when nature’s strongest force falters"
-    },
-    {
-      "text": "come at a cost",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Evolution of intelligence in our ancestors may have come at a cost"
-    },
-    {
-      "text": "ease irritable bowel syndrome",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Therapy may be the most effective way to ease irritable bowel syndrome"
-    },
-    {
-      "text": "save Earth ’s rich biodiversity",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Stunning images highlight fight to save Earth’s rich biodiversity"
-    },
-    {
-      "text": "had enormous eyes and a lethal snout",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Sword Dragon' ichthyosaur had enormous eyes and a lethal snout"
-    },
-    {
-      "text": "sets out to circumnavigate the globe",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Robotic underwater glider sets out to circumnavigate the globe"
-    },
-    {
-      "text": "discovered another reason why naked mole rats live for so long",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "We've discovered another reason why naked mole rats live for so long"
-    },
-    {
-      "text": "control an ungovernable cousin of magnetism",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Swirly lasers can control an ungovernable cousin of magnetism"
-    },
-    {
-      "text": "plays a surprising role in fertility",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Hidden ecosystem of the ovaries plays a surprising role in fertility"
-    },
-    {
-      "text": "discover that not every rose has a thorn",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "We are horrified to discover that not every rose has a thorn"
-    },
-    {
-      "text": "own just 1.5 % of the world 's renewable power",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Top 250 oil and gas firms own just 1.5% of the world's renewable power"
-    },
-    {
-      "text": "see older fathers pass on more disease - causing mutations",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Selfish sperm see older fathers pass on more disease-causing mutations"
-    },
-    {
-      "text": "had severe gum disease",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "King Richard III's oral microbiome hints he had severe gum disease"
-    },
-    {
-      "text": "edges it closer to the norm",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Pig liver transplant into a living person edges it closer to the norm"
-    },
-    {
-      "text": "pushed to supersonic speeds",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Electrons inside graphene have been pushed to supersonic speeds"
-    },
-    {
-      "text": "increase capacity",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Memory chips just 10 atoms thick could vastly increase capacity"
-    },
-    {
-      "text": "form in the way we thought",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "The moon's largest crater didn't form in the way we thought"
-    },
-    {
-      "text": "awarded for work on molecular architecture",
-      "source": "New Scientist - Home",
-      "category": "core_news",
-      "original": "Nobel prize in chemistry awarded for work on molecular architecture"
-    },
-    {
-      "text": "told Jeffrey Epstein ' we are in this together ' after Virginia Giuffre photo surfaced",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Prince Andrew told Jeffrey Epstein 'we are in this together' after Virginia Giuffre photo surfaced"
-    },
-    {
-      "text": "hailing swift removal of left - wing lawmakers by security",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Trump calls for Netanyahu pardon after hailing swift removal of left-wing lawmakers by security"
-    },
-    {
-      "text": "target Obama - era trucking rule with new English proficiency bill",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Senate Republicans target Obama-era trucking rule with new English proficiency bill"
-    },
-    {
-      "text": "wielding offender with 20 arrests charged in blue city hit - and - run that killed cancer survivor",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Machete-wielding offender with 20 arrests charged in blue city hit-and-run that killed cancer survivor"
-    },
-    {
-      "text": "kickstarting Israel - Hamas peace deal",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Trump credits Iran nuclear strikes for kickstarting Israel-Hamas peace deal"
-    },
-    {
-      "text": "gives cold reaction after Lions player snubs his handshake to start brawl with opponent",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Patrick Mahomes gives cold reaction after Lions player snubs his handshake to start brawl with opponent"
-    },
-    {
-      "text": "pushes bill to punish cities that ditched Columbus Day after Trump proclamation",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "GOP lawmaker pushes bill to punish cities that ditched Columbus Day after Trump proclamation"
-    },
-    {
-      "text": "reunited with families in emotional moments",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Israeli hostages reunited with families in emotional moments"
-    },
-    {
-      "text": "gets into testy exchange with reporter over Justin Fields ' status as QB1",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Jets' Aaron Glenn gets into testy exchange with reporter over Justin Fields' status as QB1"
-    },
-    {
-      "text": "skip Trump ’s Middle East peace summit in Egypt as new regional dynamics take shape",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Netanyahu to skip Trump’s Middle East peace summit in Egypt as new regional dynamics take shape"
-    },
-    {
-      "text": "calls his actions ' childish ' as NFL fans rip him for postgame fight",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Lions' Brian Branch calls his actions 'childish' as NFL fans rip him for postgame fight"
-    },
-    {
-      "text": "push bill to block and deport Sharia law - adherent aliens : ' Existential threat",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Chip Roy and other Republicans push bill to block and deport Sharia law-adherent aliens: 'Existential threat"
-    },
-    {
-      "text": "battles JD Vance over Tom Homan bribery claims , abruptly ends interview",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "George Stephanopoulos battles JD Vance over Tom Homan bribery claims, abruptly ends interview"
-    },
-    {
-      "text": "shares his rock ’ n ’ roll fountain of youth",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Sammy Hagar shares his rock ’n’ roll fountain of youth"
-    },
-    {
-      "text": "using Article II challenges to impede Trump this time",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Instead of impeachment, Dems are using Article II challenges to impede Trump this time"
-    },
-    {
-      "text": "says repeat drug offenders ' will not respect the law ' under current system",
-      "source": "Latest & Breaking News on Fox News",
-      "category": "core_news",
-      "original": "Blue city DA says repeat drug offenders 'will not respect the law' under current system"
-    },
-    {
-      "text": "Say They Are ‘ Cast Aside to Die ’ Under Trump",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Coal Miners With Black Lung Say They Are ‘Cast Aside to Die’ Under Trump"
-    },
-    {
-      "text": "Wants to Destroy a 96 - Year - Old ’s Defining Artwork",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "San Francisco Wants to Destroy a 96-Year-Old’s Defining Artwork"
-    },
-    {
-      "text": "Recalls an Exciting Career Interrupted by Illness",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Tim Curry’s Memoir “Vagabond” Recalls an Exciting Career Interrupted by Illness"
-    },
-    {
-      "text": "Loosened . Could It Lead to the Next 1929 ?",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "The Rules of Investing Are Being Loosened. Could It Lead to the Next 1929?"
-    },
-    {
-      "text": "Reclaim the Coca Leaf From the Stigma of Cocaine",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Bolivia Pushes to Reclaim the Coca Leaf From the Stigma of Cocaine"
-    },
-    {
-      "text": "Leaves Lasting Mark on Times Editor",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Ukraine Visit Leaves Lasting Mark on Times Editor"
-    },
-    {
-      "text": "Using Security Concerns to Silence Speech",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Law Schools Are Using Security Concerns to Silence Speech"
-    },
-    {
-      "text": "Revive as Defense Tech Makers Arrive",
-      "source": "NYT > Top Stories",
-      "category": "core_news",
-      "original": "Factory Towns Revive as Defense Tech Makers Arrive"
-    },
-    {
-      "text": "flees after losing support of key army unit",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Madagascar president flees after losing support of key army unit"
-    },
-    {
-      "text": "says illegal power grab by military is under way",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Madagascar’s president says illegal power grab by military is under way"
-    },
-    {
-      "text": "ended up with clay replicas",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Restitution row: how Nigeria’s new home for the Benin bronzes ended up with clay replicas"
-    },
-    {
-      "text": "set for another term as country goes to polls",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Cameroon’s 92-year-old president set for another term as country goes to polls"
-    },
-    {
-      "text": "join protests against Madagascar ’s president",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Soldiers from elite Capsat unit join protests against Madagascar’s president"
-    },
-    {
-      "text": "say",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Mexico floods leave at least 64 dead and 65 missing, authorities say"
-    },
-    {
-      "text": "boost opposition or backfire ?",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "In Venezuela’s ‘darkest hours’, will peace prize boost opposition or backfire?"
-    },
-    {
-      "text": "wins Nobel peace prize",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Venezuelan politician María Corina Machado wins Nobel peace prize"
-    },
-    {
-      "text": "vote to oust president Dina Boluarte over crime crisis",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Peru lawmakers vote to oust president Dina Boluarte over crime crisis"
-    },
-    {
-      "text": "accuses US of killing Colombians in attacks on ‘ narco - boats ’",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "President Petro accuses US of killing Colombians in attacks on ‘narco-boats’"
-    },
-    {
-      "text": "accused of ‘ full - blown climate denial ’ over cuts to methane reduction targets",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "New Zealand accused of ‘full-blown climate denial’ over cuts to methane reduction targets"
-    },
-    {
-      "text": "born to foreign parents in Japan amid political row over migration",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Record number of babies born to foreign parents in Japan amid political row over migration"
-    },
-    {
-      "text": "says",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Jonathan Powell had no role in dropping of China spy case, senior minister says"
-    },
-    {
-      "text": "proposed for your super – here ’s what you need to know",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Superannuation tax changes: new rules have been proposed for your super – here’s what you need to know"
-    },
-    {
-      "text": "says father ’s church is a ‘ cult ’ where ‘ gay conversion ’ practices may still be happening",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Liberal MP’s sister says father’s church is a ‘cult’ where ‘gay conversion’ practices may still be happening"
-    },
-    {
-      "text": "continues as Macron blames rivals for ‘ sense of disorder ’ – as it happened",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "French political crisis continues as Macron blames rivals for ‘sense of disorder’– as it happened"
-    },
-    {
-      "text": "falls well short of expectations in local elections",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Portugal’s far-right Chega falls well short of expectations in local elections"
-    },
-    {
-      "text": "follows Trump in calling for antifa to be declared terrorists",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "European far right follows Trump in calling for antifa to be declared terrorists"
-    },
-    {
-      "text": "living Israeli hostages freed as Trump arrives in Egypt for summit – latest updates",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Gaza ceasefire: all living Israeli hostages freed as Trump arrives in Egypt for summit – latest updates"
-    },
-    {
-      "text": "invite Netanyahu to Gaza summit aborted after Erdoğan warning",
-      "source": "World news | The Guardian",
-      "category": "core_news",
-      "original": "Trump plan to invite Netanyahu to Gaza summit aborted after Erdoğan warning"
-    },
-    {
-      "text": "hunted and gathered long after they embraced farming",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Andean peoples hunted and gathered long after they embraced farming"
-    },
-    {
-      "text": "took on new meanings",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Birds’ intruder alert hints at how sounds took on new meanings"
-    },
-    {
-      "text": "allow ecologists to simulate real - world animal behaviour",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Digital flocks, predators allow ecologists to simulate real-world animal behaviour"
-    },
-    {
-      "text": "threaten supply chains",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Metals are key to the global economy — but three challenges threaten supply chains"
-    },
-    {
-      "text": "say",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Coral die-off marks Earth’s first climate ‘tipping point’, scientists say"
-    },
-    {
-      "text": "lead to systemic lupus erythematosus",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus"
-    },
-    {
-      "text": "evolved more recently than previously thought",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Current mosquitoes evolved more recently than previously thought"
-    },
-    {
-      "text": "capture migrating birds and eat them on the wing",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "European bats capture migrating birds and eat them on the wing"
-    },
-    {
-      "text": "accelerate archaeology scans",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Portable muon beam could accelerate archaeology scans"
-    },
-    {
-      "text": "say experts",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Daily briefing: Don't sideline Palestinian scientists after ceasefire, say experts"
-    },
-    {
-      "text": "salvaged ?",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "The world’s first plastics treaty is in crisis: can it be salvaged?"
-    },
-    {
-      "text": "reveal insights into ageing",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing"
-    },
-    {
-      "text": "showed that dinosaurs still walk among us — as birds",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Mark Norell obituary: palaeontologist who showed that dinosaurs still walk among us — as birds"
-    },
-    {
-      "text": "immigrated : see their journeys",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "More than 30% of this century’s science Nobel prizewinners immigrated: see their journeys"
-    },
-    {
-      "text": "helped me to defeat PhD - student guilt",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "This list of non-negotiables helped me to defeat PhD-student guilt"
-    },
-    {
-      "text": "linked to small cluster of brain cells",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Daily briefing: Chronic pain linked to small cluster of brain cells"
-    },
-    {
-      "text": "using cross attention graph neural networks",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Enzyme specificity prediction using cross attention graph neural networks"
-    },
-    {
-      "text": "roamed Europe during the last ice age",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "Hippos still roamed Europe during the last ice age"
-    },
-    {
-      "text": "enduring pain",
-      "source": "Nature",
-      "category": "core_news",
-      "original": "A parabrachial hub for need-state control of enduring pain"
-    },
-    {
-      "text": "detain suspect over St. Petersburg cafe blast",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Russian authorities detain suspect over St. Petersburg cafe blast"
-    },
-    {
-      "text": "says",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says"
-    },
-    {
-      "text": "transmit information back to Beijing",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Suspected Chinese spy balloon was able to transmit information back to Beijing"
-    },
-    {
-      "text": "shares experience on front line",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Scary, cold, hungry and lonely': Volunteer soldier shares experience on front line"
-    },
-    {
-      "text": "picked for the first crewed moon mission in 50 years",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years"
-    },
-    {
-      "text": "beating every other major currency this year",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Britain's pound is beating every other major currency this year"
-    },
-    {
-      "text": "concedes election",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Finland's Prime Minister Sanna Marin concedes election"
-    },
-    {
-      "text": "shows early promise",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "A new approach to a Covid-19 nasal vaccine shows early promise"
-    },
-    {
-      "text": "keep demonstrating",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Israeli military veterans, a backbone of protest movement, vow to keep demonstrating"
-    },
-    {
-      "text": "determined by Turkey 's Kurds",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Erdogan's political fate may be determined by Turkey's Kurds"
-    },
-    {
-      "text": "probes US chip maker for cybersecurity risks as tech tension escalates",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "Micron Technology: China probes US chip maker for cybersecurity risks as tech tension escalates"
-    },
-    {
-      "text": "suspends trading , delays results after founder 's disappearance",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "China Renaissance suspends trading, delays results after founder's disappearance"
-    },
-    {
-      "text": "face tense shareholders calling for a breakup",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "HSBC's top execs face tense shareholders calling for a breakup"
-    },
-    {
-      "text": "held responsible for gun regulation",
-      "source": "CNN.com - RSS Channel - App International Edition",
-      "category": "core_news",
-      "original": "CEOs are tired of being held responsible for gun regulation"
-    },
-    {
-      "text": "crossed a line we ca n’t ignore",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Earth’s climate just crossed a line we can’t ignore"
-    },
-    {
-      "text": "stopped cancer cold in the lab",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "This experimental “super vaccine” stopped cancer cold in the lab"
-    },
-    {
-      "text": "lost . This new AI just found it",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "90% of science is lost. This new AI just found it"
-    },
-    {
-      "text": "solved",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Decades-old photosynthesis mystery finally solved"
-    },
-    {
-      "text": "butchered elephants and made tools from their bones",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Ancient humans in Italy butchered elephants and made tools from their bones"
-    },
-    {
-      "text": "hides a 4 - billion - year - old secret",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "The Moon’s south pole hides a 4-billion-year-old secret"
-    },
-    {
-      "text": "reveals how ADHD sparks extraordinary creativity",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "New research reveals how ADHD sparks extraordinary creativity"
-    },
-    {
-      "text": "saw coming",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Fentanyl overdoses among seniors surge 9,000% — A hidden crisis few saw coming"
-    },
-    {
-      "text": "shape your body ’s future health",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Your type of depression could shape your body’s future health"
-    },
-    {
-      "text": "reverse fatty liver disease",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Two common drugs could reverse fatty liver disease"
-    },
-    {
-      "text": "reveals how Earth ’s magnetic field first sparked to life",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "New simulation reveals how Earth’s magnetic field first sparked to life"
-    },
-    {
-      "text": "getting Alzheimer ’s from toxic ocean blooms",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Dolphins may be getting Alzheimer’s from toxic ocean blooms"
-    },
-    {
-      "text": "needed supercomputers now run on laptops",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Quantum simulations that once needed supercomputers now run on laptops"
-    },
-    {
-      "text": "found lurking in deep space",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "A million-sun-mass mystery object found lurking in deep space"
-    },
-    {
-      "text": "reverse nerve damage caused by multiple sclerosis",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis"
-    },
-    {
-      "text": "change cancer treatment forever",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "MIT’s “stealth” immune cells could change cancer treatment forever"
-    },
-    {
-      "text": "pinpoint brain cells linked to depression",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "For the first time, scientists pinpoint brain cells linked to depression"
-    },
-    {
-      "text": "reveals a lost civilization",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "12,000-year-old rock art found in Arabia reveals a lost civilization"
-    },
-    {
-      "text": "fighting cancer",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "A toxic Alzheimer’s protein could be the key to fighting cancer"
-    },
-    {
-      "text": "transform medicine",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "MIT’s new precision gene editing tool could transform medicine"
-    },
-    {
-      "text": "made light smarter with “ optical thermodynamics ”",
-      "source": "Latest Science News -- ScienceDaily",
-      "category": "core_news",
-      "original": "USC engineers just made light smarter with “optical thermodynamics”"
-    }
-  ],
-  "generated": "2025-10-13T12:25:33.654405",
-  "total_subjects": 214,
-  "total_predicates": 214
+  "generated": "2025-10-13T17:06:30.940854",
+  "total_headlines": 120
 }
