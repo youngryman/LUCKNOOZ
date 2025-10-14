@@ -1,0 +1,35 @@
+name: Update LuckNooz Headlines V13
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-headlines:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    
+    - name: Install dependencies
+      run: |
+        pip install feedparser
+    
+    - name: Run headline generator
+      run: |
+        python lucknooz_v13.py
+    
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add lucknooz-headlines.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update headlines - V13 - $(date)" && git push)
