@@ -21,7 +21,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install feedparser
+        pip install feedparser nltk
     
     - name: Run headline generator
       run: |
