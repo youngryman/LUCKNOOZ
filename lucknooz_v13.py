@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-LuckNooz V13 - Simplified First Verb Detection
-Fetches news headlines, splits at first verb, and creates remixed headlines
+LuckNooz V13.1 - With Source Tracking
+Fetches news headlines, splits at first verb, and creates remixed headlines with source info
 """
 
 import feedparser
@@ -9,15 +9,15 @@ import json
 import random
 from datetime import datetime
 
-# RSS Feeds to scrape
+# RSS Feeds to scrape with display names
 FEEDS = [
-    'https://feeds.bbci.co.uk/news/world/rss.xml',
-    'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',
-    'https://feeds.npr.org/1001/rss.xml',
-    'https://www.theguardian.com/world/rss',
-    'https://www.espn.com/espn/rss/news',
-    'https://www.rollingstone.com/feed/',
-    'https://feeds.arstechnica.com/arstechnica/index'
+    {'url': 'https://feeds.bbci.co.uk/news/world/rss.xml', 'name': 'BBC News'},
+    {'url': 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml', 'name': 'The New York Times'},
+    {'url': 'https://feeds.npr.org/1001/rss.xml', 'name': 'NPR'},
+    {'url': 'https://www.theguardian.com/world/rss', 'name': 'The Guardian'},
+    {'url': 'https://www.espn.com/espn/rss/news', 'name': 'ESPN'},
+    {'url': 'https://www.rollingstone.com/feed/', 'name': 'Rolling Stone'},
+    {'url': 'https://feeds.arstechnica.com/arstechnica/index', 'name': 'Ars Technica'}
 ]
 
 # Common verbs for detection
@@ -279,22 +279,30 @@ def conjugate_verb(verb, subject_is_plural):
 
 
 def fetch_headlines():
-    """Fetch headlines from RSS feeds."""
+    """Fetch headlines from RSS feeds with source tracking."""
     all_headlines = []
     
-    for feed_url in FEEDS:
+    for feed_info in FEEDS:
+        feed_url = feed_info['url']
+        feed_name = feed_info['name']
+        
         try:
-            print(f"Fetching {feed_url}...")
+            print(f"Fetching {feed_name}...")
             feed = feedparser.parse(feed_url)
             
             for entry in feed.entries:
                 title = entry.get('title', '').strip()
+                link = entry.get('link', '')
+                
                 if title:
                     parsed = find_first_verb(title)
                     if parsed:
+                        parsed['original_headline'] = title
+                        parsed['source'] = feed_name
+                        parsed['link'] = link
                         all_headlines.append(parsed)
         except Exception as e:
-            print(f"Error fetching {feed_url}: {e}")
+            print(f"Error fetching {feed_name}: {e}")
     
     return all_headlines
 
@@ -304,15 +312,17 @@ def remix_headlines(headlines, count=50):
     if len(headlines) < 2:
         return []
     
-    subjects = [h['subject'] for h in headlines]
+    subjects = headlines.copy()
     predicates = headlines.copy()
     random.shuffle(predicates)
     
     remixed = []
     
     for i in range(min(count, len(subjects))):
-        subject = subjects[i]
+        subject_obj = subjects[i]
         predicate_obj = predicates[i]
+        
+        subject = subject_obj['subject']
         predicate = predicate_obj['predicate']
         
         # Extract verb from predicate (first word)
@@ -328,14 +338,26 @@ def remix_headlines(headlines, count=50):
         else:
             remixed_headline = f"{subject} {predicate}"
         
-        remixed.append(remixed_headline)
+        remixed.append({
+            'headline': remixed_headline,
+            'subject_source': {
+                'original': subject_obj['original_headline'],
+                'source': subject_obj['source'],
+                'link': subject_obj['link']
+            },
+            'predicate_source': {
+                'original': predicate_obj['original_headline'],
+                'source': predicate_obj['source'],
+                'link': predicate_obj['link']
+            }
+        })
     
     return remixed
 
 
 def main():
     """Main function to fetch, process, and save headlines."""
-    print("LuckNooz V13 - Simplified First Verb Detection")
+    print("LuckNooz V13.1 - With Source Tracking")
     print("=" * 50)
     
     # Fetch headlines
@@ -354,7 +376,7 @@ def main():
     # Prepare output
     output = {
         'generated_at': datetime.now().isoformat(),
-        'version': '13',
+        'version': '13.1',
         'count': len(remixed),
         'headlines': remixed
     }
@@ -368,8 +390,8 @@ def main():
     
     # Print sample
     print("\nSample headlines:")
-    for i, headline in enumerate(remixed[:10], 1):
-        print(f"{i}. {headline}")
+    for i, item in enumerate(remixed[:10], 1):
+        print(f"{i}. {item['headline']}")
 
 
 if __name__ == '__main__':
