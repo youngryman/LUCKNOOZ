@@ -24,19 +24,27 @@
         <div id="headlines" class="space-y-4"></div>
 
         <footer class="text-center mt-12 text-sm text-gray-500">
-            <p>LuckNooz V13 - Simplified First-Verb Detection</p>
+            <p>LuckNooz V13.1 - With Source Tracking</p>
             <p class="mt-2">Powered by real news headlines, remixed by algorithms</p>
         </footer>
     </div>
 
     <script>
+        function toggleInfo(index) {
+            const infoPanel = document.getElementById(`info-${index}`);
+            if (infoPanel.classList.contains('hidden')) {
+                infoPanel.classList.remove('hidden');
+            } else {
+                infoPanel.classList.add('hidden');
+            }
+        }
+
         async function loadHeadlines() {
             const status = document.getElementById('status');
             const container = document.getElementById('headlines');
             const metadata = document.getElementById('metadata');
             
             try {
-                // Add timestamp to prevent caching
                 const response = await fetch(`lucknooz-headlines.json?t=${Date.now()}`);
                 
                 if (!response.ok) {
@@ -54,11 +62,48 @@
                 
                 // Display headlines
                 if (data.headlines && data.headlines.length > 0) {
-                    container.innerHTML = data.headlines.map((headline, index) => 
-                        `<div class="bg-white p-5 rounded-lg shadow-md border-l-4 border-blue-500 hover:shadow-lg transition-shadow">
-                            <p class="text-lg text-gray-800 leading-relaxed">${headline}</p>
-                        </div>`
-                    ).join('');
+                    container.innerHTML = data.headlines.map((item, index) => {
+                        const headline = item.headline || item; // Support both new and old format
+                        const hasSourceInfo = item.subject_source && item.predicate_source;
+                        
+                        return `
+                            <div class="bg-white p-5 rounded-lg shadow-md border-l-4 border-blue-500 hover:shadow-lg transition-shadow">
+                                <div class="flex justify-between items-start">
+                                    <p class="text-lg text-gray-800 leading-relaxed flex-1">${headline}</p>
+                                    ${hasSourceInfo ? `
+                                        <button 
+                                            onclick="toggleInfo(${index})" 
+                                            class="ml-4 text-blue-600 hover:text-blue-800 text-sm font-semibold flex-shrink-0"
+                                            title="Show sources">
+                                            ℹ️ Info
+                                        </button>
+                                    ` : ''}
+                                </div>
+                                ${hasSourceInfo ? `
+                                    <div id="info-${index}" class="hidden mt-4 pt-4 border-t border-gray-200 text-sm">
+                                        <div class="mb-3">
+                                            <p class="font-semibold text-gray-700 mb-1">Subject from:</p>
+                                            <p class="text-gray-600 italic">"${item.subject_source.original}"</p>
+                                            <p class="text-blue-600 mt-1">
+                                                <a href="${item.subject_source.link}" target="_blank" class="hover:underline">
+                                                    ${item.subject_source.source}
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-gray-700 mb-1">Predicate from:</p>
+                                            <p class="text-gray-600 italic">"${item.predicate_source.original}"</p>
+                                            <p class="text-blue-600 mt-1">
+                                                <a href="${item.predicate_source.link}" target="_blank" class="hover:underline">
+                                                    ${item.predicate_source.source}
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `;
+                    }).join('');
                     
                     status.style.display = 'none';
                 } else {
