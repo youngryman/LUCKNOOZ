@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 
 """
 LuckNooz V13.3 - NLTK-Based Verb Detection
 Fetches news headlines, splits at first verb using NLTK POS tagging, and creates remixed headlines
