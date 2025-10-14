@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """
-LuckNooz V13.1 - With Source Tracking
-Fetches news headlines, splits at first verb, and creates remixed headlines with source info
+LuckNooz V13.3 - NLTK-Based Verb Detection
+Fetches news headlines, splits at first verb using NLTK POS tagging, and creates remixed headlines
 """
 
 import feedparser
 import json
 import random
 from datetime import datetime
+import nltk
+
+# Download required NLTK data (will only download if not present)
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger', quiet=True)
 
 # RSS Feeds to scrape with display names
 FEEDS = [
@@ -20,156 +27,50 @@ FEEDS = [
     {'url': 'https://feeds.arstechnica.com/arstechnica/index', 'name': 'Ars Technica'}
 ]
 
-# Common verbs for detection
-COMMON_VERBS = {
-    'is', 'are', 'was', 'were', 'be', 'been', 'being',
-    'has', 'have', 'had', 'having',
-    'says', 'said', 'say', 'saying',
-    'gets', 'got', 'get', 'getting',
-    'makes', 'made', 'make', 'making',
-    'takes', 'took', 'take', 'taking',
-    'comes', 'came', 'come', 'coming',
-    'goes', 'went', 'go', 'going',
-    'wants', 'wanted', 'want', 'wanting',
-    'gives', 'gave', 'give', 'giving',
-    'finds', 'found', 'find', 'finding',
-    'tells', 'told', 'tell', 'telling',
-    'asks', 'asked', 'ask', 'asking',
-    'works', 'worked', 'work', 'working',
-    'seems', 'seemed', 'seem', 'seeming',
-    'feels', 'felt', 'feel', 'feeling',
-    'tries', 'tried', 'try', 'trying',
-    'leaves', 'left', 'leave', 'leaving',
-    'calls', 'called', 'call', 'calling',
-    'announces', 'announced', 'announce', 'announcing',
-    'wins', 'won', 'win', 'winning',
-    'loses', 'lost', 'lose', 'losing',
-    'reveals', 'revealed', 'reveal', 'revealing',
-    'shows', 'showed', 'shown', 'show', 'showing',
-    'faces', 'faced', 'face', 'facing',
-    'reaches', 'reached', 'reach', 'reaching',
-    'breaks', 'broke', 'broken', 'break', 'breaking',
-    'plans', 'planned', 'plan', 'planning',
-    'launches', 'launched', 'launch', 'launching',
-    'opens', 'opened', 'open', 'opening',
-    'closes', 'closed', 'close', 'closing',
-    'begins', 'began', 'begun', 'begin', 'beginning',
-    'ends', 'ended', 'end', 'ending',
-    'continues', 'continued', 'continue', 'continuing',
-    'becomes', 'became', 'become', 'becoming',
-    'remains', 'remained', 'remain', 'remaining',
-    'appears', 'appeared', 'appear', 'appearing',
-    'leads', 'led', 'lead', 'leading',
-    'follows', 'followed', 'follow', 'following',
-    'brings', 'brought', 'bring', 'bringing',
-    'keeps', 'kept', 'keep', 'keeping',
-    'holds', 'held', 'hold', 'holding',
-    'turns', 'turned', 'turn', 'turning',
-    'starts', 'started', 'start', 'starting',
-    'stops', 'stopped', 'stop', 'stopping',
-    'helps', 'helped', 'help', 'helping',
-    'moves', 'moved', 'move', 'moving',
-    'plays', 'played', 'play', 'playing',
-    'runs', 'ran', 'run', 'running',
-    'stands', 'stood', 'stand', 'standing',
-    'falls', 'fell', 'fallen', 'fall', 'falling',
-    'rises', 'rose', 'risen', 'rise', 'rising',
-    'sets', 'set', 'setting',
-    'meets', 'met', 'meet', 'meeting',
-    'includes', 'included', 'include', 'including',
-    'suggests', 'suggested', 'suggest', 'suggesting',
-    'considers', 'considered', 'consider', 'considering',
-    'reports', 'reported', 'report', 'reporting',
-    'claims', 'claimed', 'claim', 'claiming',
-    'argues', 'argued', 'argue', 'arguing',
-    'believes', 'believed', 'believe', 'believing',
-    'thinks', 'thought', 'think', 'thinking',
-    'knows', 'knew', 'known', 'know', 'knowing',
-    'sees', 'saw', 'seen', 'see', 'seeing',
-    'looks', 'looked', 'look', 'looking',
-    'sounds', 'sounded', 'sound', 'sounding',
-    'means', 'meant', 'mean', 'meaning',
-    'offers', 'offered', 'offer', 'offering',
-    'provides', 'provided', 'provide', 'providing',
-    'serves', 'served', 'serve', 'serving',
-    'uses', 'used', 'use', 'using',
-    'needs', 'needed', 'need', 'needing',
-    'requires', 'required', 'require', 'requiring',
-    'expects', 'expected', 'expect', 'expecting',
-    'hopes', 'hoped', 'hope', 'hoping',
-    'wishes', 'wished', 'wish', 'wishing',
-    'decides', 'decided', 'decide', 'deciding',
-    'chooses', 'chose', 'chosen', 'choose', 'choosing',
-    'picks', 'picked', 'pick', 'picking',
-    'selects', 'selected', 'select', 'selecting',
-    'votes', 'voted', 'vote', 'voting',
-    'elects', 'elected', 'elect', 'electing',
-    'defeats', 'defeated', 'defeat', 'defeating',
-    'beats', 'beat', 'beaten', 'beating',
-    'scores', 'scored', 'score', 'scoring',
-    'ties', 'tied', 'tie', 'tying',
-    'fails', 'failed', 'fail', 'failing',
-    'passes', 'passed', 'pass', 'passing',
-    'joins', 'joined', 'join', 'joining',
-    'quits', 'quit', 'quitting',
-    'resigns', 'resigned', 'resign', 'resigning',
-    'retires', 'retired', 'retire', 'retiring',
-    'dies', 'died', 'die', 'dying',
-    'kills', 'killed', 'kill', 'killing',
-    'saves', 'saved', 'save', 'saving',
-    'protects', 'protected', 'protect', 'protecting',
-    'attacks', 'attacked', 'attack', 'attacking',
-    'defends', 'defended', 'defend', 'defending',
-    'fights', 'fought', 'fight', 'fighting',
-    'struggles', 'struggled', 'struggle', 'struggling',
-    'suffers', 'suffered', 'suffer', 'suffering',
-    'enjoys', 'enjoyed', 'enjoy', 'enjoying',
-    'loves', 'loved', 'love', 'loving',
-    'hates', 'hated', 'hate', 'hating',
-    'fears', 'feared', 'fear', 'fearing',
-    'worries', 'worried', 'worry', 'worrying',
-    'cares', 'cared', 'care', 'caring',
-    'matters', 'mattered', 'matter', 'mattering',
-    'changes', 'changed', 'change', 'changing',
-    'grows', 'grew', 'grown', 'grow', 'growing',
-    'develops', 'developed', 'develop', 'developing',
-    'improves', 'improved', 'improve', 'improving',
-    'increases', 'increased', 'increase', 'increasing',
-    'decreases', 'decreased', 'decrease', 'decreasing',
-    'reduces', 'reduced', 'reduce', 'reducing',
-    'cuts', 'cut', 'cutting',
-    'adds', 'added', 'add', 'adding',
-    'removes', 'removed', 'remove', 'removing',
-    'creates', 'created', 'create', 'creating',
-    'builds', 'built', 'build', 'building',
-    'destroys', 'destroyed', 'destroy', 'destroying',
-    'damages', 'damaged', 'damage', 'damaging',
-    'fixes', 'fixed', 'fix', 'fixing',
-    'repairs', 'repaired', 'repair', 'repairing',
-    'replaces', 'replaced', 'replace', 'replacing'
-}
+# Question words that indicate headlines to skip
+QUESTION_WORDS = {'why', 'what', 'when', 'where', 'who', 'how', 'which'}
 
-# Words to always skip
+# Words to always skip as potential verbs
 SKIP_WORDS = {
     'the', 'a', 'an', 'this', 'that', 'these', 'those',
     'will', 'would', 'should', 'could', 'might', 'may', 'must', 'can',
     'to', 'for', 'of', 'in', 'on', 'at', 'by', 'with', 'from', 'about', 'as'
 }
 
-# Never treat these as verbs
+# Never treat these as verbs (even if NLTK tags them as such)
 NEVER_VERBS = {
     'news', 'report', 'update', 'story', 'article', 'poll', 'data',
     'study', 'research', 'analysis', 'review', 'survey'
 }
 
+# Common nouns that might follow -ing/-ed adjectives
+COMMON_NOUNS = {
+    'palestinians', 'singer', 'officer', 'artist', 'player', 'athletes',
+    'leader', 'minister', 'president', 'official', 'expert', 'officials',
+    'scientist', 'researcher', 'student', 'teacher', 'doctor', 'scientists',
+    'people', 'man', 'woman', 'child', 'person', 'group', 'members',
+    'victims', 'survivors', 'residents', 'citizens', 'voters', 'workers'
+}
+
 
 def find_first_verb(headline):
-    """Find the first verb in a headline and split it there."""
+    """Find the first verb in a headline using NLTK POS tagging."""
     words = headline.split()
     
-    # Start from word 1 to ensure subject has at least 1 word
-    for i in range(1, len(words)):
-        word = words[i]
+    # Skip question headlines
+    if words and words[0].lower().rstrip(',:;?!') in QUESTION_WORDS:
+        return None
+    
+    # Use NLTK to tag parts of speech
+    try:
+        tagged = nltk.pos_tag(words)
+    except Exception as e:
+        print(f"Error tagging headline: {headline[:50]}... - {e}")
+        return None
+    
+    # Look for first verb (start from index 1 to ensure subject has at least 1 word)
+    for i in range(1, len(tagged)):
+        word, pos = tagged[i]
         word_lower = ''.join(c for c in word.lower() if c.isalpha())
         prev_word = words[i - 1].lower() if i > 0 else ''
         
@@ -185,7 +86,7 @@ def find_first_verb(headline):
         if word_lower in NEVER_VERBS:
             continue
         
-        # Skip if previous word is a skip word
+        # Skip if previous word is a skip word (likely not a verb)
         if prev_word in SKIP_WORDS:
             continue
         
@@ -193,18 +94,26 @@ def find_first_verb(headline):
         if word.isupper() and len(word) > 1:
             continue
         
-        # Check if it's a known verb
-        if word_lower in COMMON_VERBS:
-            subject = ' '.join(words[:i])
-            predicate = ' '.join(words[i:])
-            return {
-                'subject': subject,
-                'predicate': predicate,
-                'verb': word
-            }
+        # Skip if word is part of a hyphenated compound
+        if i > 0 and words[i - 1].endswith('-'):
+            continue
         
-        # Check for -ed, -ing endings
-        if (word_lower.endswith('ed') or word_lower.endswith('ing')) and len(word_lower) >= 5:
+        # Check if this is a verb according to NLTK
+        # VB = verb base form, VBD = past tense, VBG = gerund/present participle
+        # VBN = past participle, VBP = present tense, VBZ = 3rd person singular present
+        if pos.startswith('VB'):
+            # Additional check: if it's VBG or VBN (participles), make sure it's not an adjective
+            if pos in ['VBG', 'VBN']:
+                # Check if followed by a noun (which would make this an adjective)
+                if i < len(tagged) - 1:
+                    next_word, next_pos = tagged[i + 1]
+                    next_word_lower = ''.join(c for c in next_word.lower() if c.isalpha())
+                    
+                    # If next word is a noun or in our common nouns list, skip this verb
+                    if next_pos.startswith('NN') or next_word_lower in COMMON_NOUNS:
+                        continue
+            
+            # Found a valid verb!
             subject = ' '.join(words[:i])
             predicate = ' '.join(words[i:])
             return {
@@ -229,14 +138,23 @@ def is_plural(subject):
         if subject_lower.startswith(indicator + ' '):
             return True
     
-    # Get last significant word
+    # Use NLTK to check if last word is plural noun
     words = subject.split()
     if not words:
         return False
     
-    last_word = ''.join(c for c in words[-1].lower() if c.isalpha())
+    try:
+        tagged = nltk.pos_tag(words)
+        last_word, last_pos = tagged[-1]
+        
+        # NNS = plural noun, NNPS = plural proper noun
+        if last_pos in ['NNS', 'NNPS']:
+            return True
+    except:
+        pass
     
-    # Check if last word ends in 's'
+    # Fallback to simple check
+    last_word = ''.join(c for c in words[-1].lower() if c.isalpha())
     if last_word.endswith('s') and not last_word.endswith('ss') and len(last_word) > 3:
         return True
     
@@ -259,6 +177,8 @@ def conjugate_verb(verb, subject_is_plural):
     
     # If plural, remove -s/-es
     if subject_is_plural:
+        if verb_lower.endswith('ies'):
+            return verb[:-3] + 'y'
         if verb_lower.endswith('es'):
             return verb[:-2]
         if verb_lower.endswith('s') and not verb_lower.endswith('ss'):
@@ -316,11 +236,23 @@ def remix_headlines(headlines, count=50):
     predicates = headlines.copy()
     random.shuffle(predicates)
     
+    # Ensure no headline is paired with itself
+    for i in range(len(subjects)):
+        if i < len(predicates) and subjects[i]['original_headline'] == predicates[i]['original_headline']:
+            # Swap with next one (or previous if at end)
+            swap_idx = (i + 1) if i < len(predicates) - 1 else (i - 1)
+            if swap_idx >= 0 and swap_idx < len(predicates):
+                predicates[i], predicates[swap_idx] = predicates[swap_idx], predicates[i]
+    
     remixed = []
     
     for i in range(min(count, len(subjects))):
         subject_obj = subjects[i]
         predicate_obj = predicates[i]
+        
+        # Double-check we didn't pair with self
+        if subject_obj['original_headline'] == predicate_obj['original_headline']:
+            continue
         
         subject = subject_obj['subject']
         predicate = predicate_obj['predicate']
@@ -357,7 +289,7 @@ def remix_headlines(headlines, count=50):
 
 def main():
     """Main function to fetch, process, and save headlines."""
-    print("LuckNooz V13.1 - With Source Tracking")
+    print("LuckNooz V13.3 - NLTK-Based Verb Detection")
     print("=" * 50)
     
     # Fetch headlines
@@ -376,7 +308,7 @@ def main():
     # Prepare output
     output = {
         'generated_at': datetime.now().isoformat(),
-        'version': '13.1',
+        'version': '13.3',
         'count': len(remixed),
         'headlines': remixed
     }
