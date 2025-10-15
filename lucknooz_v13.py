@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
 """
 LuckNooz V13.3 - NLTK-Based Verb Detection
 Fetches news headlines, splits at first verb using NLTK POS tagging, and creates remixed headlines
@@ -11,10 +11,15 @@ from datetime import datetime
 import nltk
 
 # Download required NLTK data (will only download if not present)
+# Try new name first (for NLTK 3.9+), then fall back to old name
 try:
-    nltk.data.find('taggers/averaged_perceptron_tagger')
+    nltk.data.find('taggers/averaged_perceptron_tagger_eng')
 except LookupError:
-    nltk.download('averaged_perceptron_tagger', quiet=True)
+    try:
+        nltk.download('averaged_perceptron_tagger_eng', quiet=True)
+    except:
+        # Fallback to old name for older NLTK versions
+        nltk.download('averaged_perceptron_tagger', quiet=True)
 
 # RSS Feeds to scrape with display names
 FEEDS = [
