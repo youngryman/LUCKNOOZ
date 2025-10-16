@@ -1,7 +1,8 @@
+
 #!/usr/bin/env python3
 """
-LuckNooz V13.5 - spaCy + LemmInflect Hybrid
-Fetches news headlines, splits at first verb using spaCy structure + LemmInflect verb database
+LuckNooz V13.6 - Simplified Feeds (6 Traditional News Sources)
+Fetches news headlines from BBC, NPR, Guardian, Reuters, Al Jazeera, CNN
 """
 
 import feedparser
@@ -29,14 +30,14 @@ except ImportError:
     import lemminflect
 
 # RSS Feeds to scrape with display names
+# 6 feeds with cleanest headline structure
 FEEDS = [
     {'url': 'https://feeds.bbci.co.uk/news/world/rss.xml', 'name': 'BBC News'},
-    {'url': 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml', 'name': 'The New York Times'},
     {'url': 'https://feeds.npr.org/1001/rss.xml', 'name': 'NPR'},
     {'url': 'https://www.theguardian.com/world/rss', 'name': 'The Guardian'},
-    {'url': 'https://www.espn.com/espn/rss/news', 'name': 'ESPN'},
-    {'url': 'https://www.rollingstone.com/feed/', 'name': 'Rolling Stone'},
-    {'url': 'https://feeds.arstechnica.com/arstechnica/index', 'name': 'Ars Technica'}
+    {'url': 'http://feeds.reuters.com/Reuters/worldNews', 'name': 'Reuters'},
+    {'url': 'https://www.aljazeera.com/xml/rss/all.xml', 'name': 'Al Jazeera'},
+    {'url': 'http://rss.cnn.com/rss/edition.rss', 'name': 'CNN'}
 ]
 
 # Question words that indicate headlines to skip
@@ -304,7 +305,7 @@ def remix_headlines(headlines, count=50):
 
 def main():
     """Main function to fetch, process, and save headlines."""
-    print("LuckNooz V13.5 - spaCy + LemmInflect Hybrid")
+    print("LuckNooz V13.6 - Simplified Feeds (6 Traditional Sources)")
     print("=" * 50)
     
     # Fetch headlines
@@ -323,7 +324,7 @@ def main():
     # Prepare output
     output = {
         'generated_at': datetime.now().isoformat(),
-        'version': '13.5',
+        'version': '13.6',
         'count': len(remixed),
         'headlines': remixed
     }
