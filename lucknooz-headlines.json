@@ -1,157 +1,66 @@
 {
-  "generated_at": "2025-10-16T15:00:16.200218",
+  "generated_at": "2025-10-16T16:53:37.097890",
   "version": "13.6",
   "count": 50,
   "headlines": [
     {
-      "headline": "Trump says Badenoch ’s claim PM should have intervened to stop China spy trial collapsing ‘ absurd ’ – UK politics live",
+      "headline": "Netanyahu ' rises over return of hostage bodies",
       "subject_source": {
-        "original": "Trump says he authorised CIA in Venezuela as Maduro says 'no to regime change'",
+        "original": "Netanyahu 'determined' to pressure Hamas to find remaining dead hostages",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c0ex1jq9pdvo?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/c4gkm0243wzo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "No 10 says Badenoch’s claim PM should have intervened to stop China spy trial collapsing ‘absurd’ – UK politics live",
+        "original": "Israel and Hamas trade blame over truce violations as tensions rise over return of hostage bodies",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/politics/live/2025/oct/16/china-spy-case-cps-keir-starmer-uk-politics-latest-news-updates"
+        "link": "https://www.theguardian.com/world/2025/oct/16/hamas-hostage-bodies-recovered-amid-israel-gaza-fighting-ceasefire-deal"
       }
     },
     {
-      "headline": "' I ca n't focuses on Donetsk offensive",
-      "subject_source": {
-        "original": "'I can't afford to save both twins': Sudan's war left one mother with an impossible choice",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cre5rng5808o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Ukraine’s Zelenskyy to meet Trump as Russia focuses on Donetsk offensive",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2025/10/16/ukraines-zelenskyy-to-meet-trump-as-russia-focuses-on-donetsk-offensive?traffic_source=rss"
-      }
-    },
-    {
-      "headline": "French PM detains suspect over St. Petersburg cafe blast",
+      "headline": "French PM shares experience on front line",
       "subject_source": {
         "original": "French PM survives major test but breathing space will not last long",
         "source": "BBC News",
         "link": "https://www.bbc.com/news/articles/clykve1xnn6o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Russian authorities detain suspect over St. Petersburg cafe blast",
+        "original": "'Scary, cold, hungry and lonely': Volunteer soldier shares experience on front line",
         "source": "CNN",
-        "link": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html"
+        "link": "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn"
       }
     },
     {
-      "headline": "Andrew reissued 130 years after being revoked over gay conviction",
+      "headline": "EU makes cells self - destruct . Scientists want to control them",
       "subject_source": {
-        "original": "Andrew believed having sex with me was his birthright, Giuffre claimed in memoir",
+        "original": "EU sets 2027 target for anti-drone system to defend against Russia",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c0kpjyjyrlno?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/c4gz2ppye5zo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Oscar Wilde's library card reissued 130 years after being revoked over gay conviction",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cx2lymkm1jno?at_medium=RSS&at_campaign=rss"
+        "original": "'Death fold' proteins can make cells self-destruct. Scientists want to control them",
+        "source": "NPR",
+        "link": "https://www.npr.org/sections/shots-health-news/2025/10/16/nx-s1-5575582/death-fold-proteins-apoptosis-alzheimers-cancer"
       }
     },
     {
-      "headline": "Titan submersible is n't good for America",
+      "headline": "Titan submersible shows moment man throws yogurt on two women in Iran",
       "subject_source": {
         "original": "Titan submersible imploded due to poor engineering, say US officials",
         "source": "BBC News",
         "link": "https://www.bbc.com/news/articles/cdeg7y4171xo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Giving Marjorie Taylor Greene a platform isn't good for America",
+        "original": "Video shows moment man throws yogurt on two women in Iran",
         "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/03/opinions/60-minutes-marjorie-taylor-greene-interview-obeidallah/index.html"
+        "link": "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn"
       }
     },
     {
-      "headline": "India is good for business",
+      "headline": "Kenya police fire shots at crowds search for new manager as Premier League breaks record for most sackings in a single season",
       "subject_source": {
-        "original": "India casts doubt on Trump's claim Modi will stop buying Russian oil",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c8eykdy0567o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "For private flood insurance companies, the government shutdown is good for business",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/nx-s1-5574322/government-shutdown-helps-private-flood-insurance-companies"
-      }
-    },
-    {
-      "headline": "Oscar Wilde 's library card promised to ' fight back ' over Taiwan leader 's US visit . But this time it has more to lose",
-      "subject_source": {
-        "original": "Oscar Wilde's library card reissued 130 years after being revoked over gay conviction",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cx2lymkm1jno?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose",
-        "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html"
-      }
-    },
-    {
-      "headline": "Clashes between police and Gen Z protesters in Peru drove reconciliation with Māori , dies at 90",
-      "subject_source": {
-        "original": "Clashes between police and Gen Z protesters in Peru leave one dead",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/czjp79j2emro?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Jim Bolger, former New Zealand prime minister who drove reconciliation with Māori, dies at 90",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/16/jim-bolger-former-new-zealand-prime-minister-dies-aged-90"
-      }
-    },
-    {
-      "headline": "Kenya police fire shots and tear gas at crowds demand investigation into Google ’s AI Overviews",
-      "subject_source": {
-        "original": "Kenya police fire shots and tear gas at crowds gathered to see body of ex-PM Odinga",
+        "original": "Kenya police fire shots at crowds gathered to see body of ex-PM Odinga",
         "source": "BBC News",
         "link": "https://www.bbc.com/news/articles/cwyk1l65nqvo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Italian news publishers demand investigation into Google’s AI Overviews",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/technology/2025/oct/16/google-ai-overviews-italian-news-publishers-demand-investigation"
-      }
-    },
-    {
-      "headline": "' Worse than imploded due to poor engineering , say US officials",
-      "subject_source": {
-        "original": "'Worse than starting from scratch': How big is the task of rebuilding Gaza?",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cr5e4ee9r13o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Titan submersible imploded due to poor engineering, say US officials",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cdeg7y4171xo?at_medium=RSS&at_campaign=rss"
-      }
-    },
-    {
-      "headline": "Months after fall of Assad , families of Syria 's killed in fresh clashes along Afghanistan - Pakistan border",
-      "subject_source": {
-        "original": "Months after fall of Assad, families of Syria's missing still seeking justice",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cj07p5zm229o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Dozens killed in fresh clashes along Afghanistan-Pakistan border",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/dozens-killed-afghanistan-pakistan-border-taliban-kurram-chaman-spin-boldak-kandahar-kabul"
-      }
-    },
-    {
-      "headline": "China searches for new manager as Premier League breaks record for most sackings in a single season",
-      "subject_source": {
-        "original": "China arrested 30 Christians. Some fear it's the start of a bigger crackdown",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cx2pez2vg8wo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
         "original": "Chelsea searches for new manager as Premier League breaks record for most sackings in a single season",
@@ -160,37 +69,63 @@
       }
     },
     {
-      "headline": "Bowen : Trump 's role in Gaza ceasefire related to hush money payment",
+      "headline": "Andrew accused of killing Georgina Ward in 2020 appears in Dudley court",
       "subject_source": {
-        "original": "Bowen: Trump's role in Gaza ceasefire was decisive, but not a roadmap to peace",
+        "original": "Andrew believed having sex with me was his birthright, Giuffre claimed in memoir",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/ce86118q6ego?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/c0kpjyjyrlno?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "READ: Trump indictment related to hush money payment",
-        "source": "CNN",
-        "link": "https://cnn.it/411KYN7"
+        "original": "Man accused of killing Georgina Ward in 2020 appears in Dudley court",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/uk-news/2025/oct/16/man-accused-of-killing-georgina-ward-in-2020-appears-in-dudley-court"
       }
     },
     {
-      "headline": "Indian cinema tickets surviving attack by right - wing protesters",
+      "headline": "India promised to ' fight back ' over Taiwan leader 's US visit . But this time it has more to lose",
       "subject_source": {
-        "original": "Indian cinema tickets are getting pricier - but not everyone's complaining",
+        "original": "India casts doubt on Trump's claim Modi will stop buying Russian oil",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cewnrqydny0o?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/c8eykdy0567o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Palestinian taxi driver recounts surviving attack by right-wing protesters",
+        "original": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose",
         "source": "CNN",
-        "link": "https://www.cnn.com/videos/world/2023/03/31/israel-protests-rise-taxi-driver-attacked-robertson-pkg-intl-vpx.cnn"
+        "link": "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html"
       }
     },
     {
-      "headline": "War crimes alert as food breaches US airport PA system with pro - Palestine message",
+      "headline": "Oscar Wilde 's library card spying case : dream job turns into nightmare for DPP Stephen Parkinson",
       "subject_source": {
-        "original": "War crimes alert as food runs out in besieged Sudan city",
+        "original": "Oscar Wilde's library card reissued 130 years after being revoked over gay conviction",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c5yd8rv02ydo?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/cx2lymkm1jno?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "China spying case: dream job turns into nightmare for DPP Stephen Parkinson",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/politics/2025/oct/16/china-spying-case-dream-job-turns-into-nightmare-for-dpp-stephen-parkinson"
+      }
+    },
+    {
+      "headline": "Greece films deepest ever fish on seabed off Japan",
+      "subject_source": {
+        "original": "Greece passes labour law allowing 13-hour workdays in some cases",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cgjd76pw79do?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Scientists film deepest ever fish on seabed off Japan",
+        "source": "CNN",
+        "link": "https://www.cnn.com/2023/04/03/asia/deepest-fish-filmed-off-japan-scn-intl-hnk/index.html"
+      }
+    },
+    {
+      "headline": "Clashes between police and Gen Z protesters in Peru breach US airport PA system with pro - Palestine message",
+      "subject_source": {
+        "original": "Clashes between police and Gen Z protesters in Peru leave one dead",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/czjp79j2emro?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
         "original": "Hackers breach US airport PA system with pro-Palestine message",
@@ -199,76 +134,37 @@
       }
     },
     {
-      "headline": "Watch : Freed detainee starting from scratch ' : How big is the task of rebuilding Gaza ?",
+      "headline": "' I ca n't says they are facing state intimidation",
       "subject_source": {
-        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
+        "original": "'I can't afford to save both twins': Sudan's war left one mother with an impossible choice",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/cre5rng5808o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "'Worse than starting from scratch': How big is the task of rebuilding Gaza?",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cr5e4ee9r13o?at_medium=RSS&at_campaign=rss"
-      }
-    },
-    {
-      "headline": "Watch : Moment house warns on Trump tariff uncertainty after profits slip",
-      "subject_source": {
-        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Shein warns on Trump tariff uncertainty after profits slip",
+        "original": "Indigenous and environmental leaders in Ecuador say they are facing state intimidation",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/business/2025/oct/15/shein-warns-on-trump-tariff-uncertainty-after-profits-slip"
+        "link": "https://www.theguardian.com/world/2025/oct/16/indigenous-and-environmental-leaders-in-ecuador-say-they-are-facing-state-intimidation"
       }
     },
     {
-      "headline": "Crowds in Madagascar cheer as military unit drifts away from land as typhoon hits Alaska",
+      "headline": "Months after fall of Assad , families of Syria 's affords to save both twins ' : Sudan 's war left one mother with an impossible choice",
       "subject_source": {
-        "original": "Crowds in Madagascar cheer as military unit seizes power",
+        "original": "Months after fall of Assad, families of Syria's missing still seeking justice",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c797ndpd97lo?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/cj07p5zm229o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
+        "original": "'I can't afford to save both twins': Sudan's war left one mother with an impossible choice",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/cre5rng5808o?at_medium=RSS&at_campaign=rss"
       }
     },
     {
-      "headline": "Some of the things Gaza continue to restrict aid into Gaza",
+      "headline": "China approves CIA operations in Venezuela : What we know , and what ’s next",
       "subject_source": {
-        "original": "Some of the things Gaza needs: A government, security and tools to rebuild",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/g-s1-93590/gaza-reconstruction-government"
-      },
-      "predicate_source": {
-        "original": "On World Food Day, Israel continues to restrict aid into Gaza",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2025/10/16/on-world-food-day-israel-continues-to-restrict-aid-into-gaza?traffic_source=rss"
-      }
-    },
-    {
-      "headline": "Trump towering Kenyan opposition figure , dies aged 80",
-      "subject_source": {
-        "original": "Trump escalates pressure on Venezuelan drug trade. And, judge pauses shutdown layoffs",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/g-s1-93685/up-first-newsletter-venezuelan-boat-strikes-shutdown-layoffs-paused-military-pay"
-      },
-      "predicate_source": {
-        "original": "Raila Odinga, towering Kenyan opposition figure, dies aged 80",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/raila-odinga-former-kenya-pm-dies"
-      }
-    },
-    {
-      "headline": "Targets of Trump 's Justice Department must approves CIA operations in Venezuela : What we know , and what ’s next",
-      "subject_source": {
-        "original": "Targets of Trump's Justice Department must pay up, even if they win",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/g-s1-93593/trump-justice-targets-prosecution-costs"
+        "original": "China arrested 30 Christians. Some fear it's the start of a bigger crackdown",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cx2pez2vg8wo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
         "original": "Trump approves CIA operations in Venezuela: What we know, and what’s next",
@@ -277,63 +173,128 @@
       }
     },
     {
-      "headline": "80 - year - old grandmother discusses ‘ drone wall ’ to protect airspace from Russian violations",
+      "headline": "' Worse than flies to US for Trump meeting",
+      "subject_source": {
+        "original": "'Worse than starting from scratch': How big is the task of rebuilding Gaza?",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cr5e4ee9r13o?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Russia bombards Ukraine’s gas sites as Zelenskyy flies to US for Trump meeting",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/russia-strikes-ukraine-gas-sites-zelenskyy-us-trump-meeting-cruise-missiles"
+      }
+    },
+    {
+      "headline": "Watch : Freed detainee is the animals people most want to see photographed",
+      "subject_source": {
+        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "These are the animals people most want to see photographed",
+        "source": "CNN",
+        "link": "https://www.cnn.com/travel/article/new-big-5-wildlife-photography-book-c2e-scn-spc-intl/index.html"
+      }
+    },
+    {
+      "headline": "Watch : Moment house is among the children still desperate for aid in Gaza",
+      "subject_source": {
+        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "This one-year-old is among the children still desperate for aid in Gaza",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/video/newsfeed/2025/10/16/this-one-year-old-is-among-the-children-still-desperate-for-aid-in-gaza?traffic_source=rss"
+      }
+    },
+    {
+      "headline": "Crowds in Madagascar cheer as military unit remains for aid distribution in Gaza City despite ceasefire with Israel",
+      "subject_source": {
+        "original": "Crowds in Madagascar cheer as military unit seizes power",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c797ndpd97lo?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Challenges remain for aid distribution in Gaza City despite ceasefire with Israel",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/15/challenges-remain-for-aid-distribution-in-gaza-city-despite-ceasefire-with-israel"
+      }
+    },
+    {
+      "headline": "Some of the things Gaza got buried upside down in snow . See skier 's quick reaction .",
+      "subject_source": {
+        "original": "Some of the things Gaza needs: A government, security and tools to rebuild",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93590/gaza-reconstruction-government"
+      },
+      "predicate_source": {
+        "original": "A snowboarder got buried upside down in snow. See skier's quick reaction.",
+        "source": "CNN",
+        "link": "https://www.cnn.com/videos/us/2023/03/31/snowboarder-rescue-mt-baker-washington-cprog-lon-orig-na.cnn"
+      }
+    },
+    {
+      "headline": "Trump trapped in El Fasher siege on ‘ edge of survival ’ , says report",
+      "subject_source": {
+        "original": "Trump escalates pressure on Venezuelan drug trade. And, judge pauses shutdown layoffs",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93685/up-first-newsletter-venezuelan-boat-strikes-shutdown-layoffs-paused-military-pay"
+      },
+      "predicate_source": {
+        "original": "Thousands trapped in El Fasher siege on ‘edge of survival’, says report",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/global-development/2025/oct/15/thousands-trapped-in-el-fasher-sudan-siege-on-edge-of-survival-says-report-rsf"
+      }
+    },
+    {
+      "headline": "Targets of Trump 's Justice Department must determined ' to pressure Hamas to find remaining dead hostages",
+      "subject_source": {
+        "original": "Targets of Trump's Justice Department must pay up, even if they win",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93593/trump-justice-targets-prosecution-costs"
+      },
+      "predicate_source": {
+        "original": "Netanyahu 'determined' to pressure Hamas to find remaining dead hostages",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/c4gkm0243wzo?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "80 - year - old grandmother pays up , even if they win",
       "subject_source": {
         "original": "80-year-old grandmother becomes oldest woman to finish the Ironman World Championship",
         "source": "NPR",
         "link": "https://www.npr.org/2025/10/16/nx-s1-5575128/ironman-oldest-female-finisher-natalie-grabow"
       },
       "predicate_source": {
-        "original": "EU discusses ‘drone wall’ to protect airspace from Russian violations",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2025/10/16/eu-discusses-drone-wall-to-protect-airspace-from-russian-violations?traffic_source=rss"
+        "original": "Targets of Trump's Justice Department must pay up, even if they win",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93593/trump-justice-targets-prosecution-costs"
       }
     },
     {
-      "headline": "Health insurance premiums sworn in as Rajoelina confirms departure",
+      "headline": "Health insurance premiums Trump force India to give up buying Russian oil ?",
       "subject_source": {
         "original": "Health insurance premiums are going up next year — unless you work at these companies",
         "source": "NPR",
         "link": "https://www.npr.org/2025/10/16/nx-s1-5561051/health-care-costs-premiums-companies-cost-of-living"
       },
       "predicate_source": {
-        "original": "Madagascar’s new army ruler to be sworn in as Rajoelina confirms departure",
+        "original": "Can Trump force India to give up buying Russian oil?",
         "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2025/10/16/madagascars-new-army-ruler-to-be-sworn-in-as-rajoelina-confirms-departure?traffic_source=rss"
+        "link": "https://www.aljazeera.com/economy/2025/10/16/can-trump-force-india-to-give-up-buying-russian-oil?traffic_source=rss"
       }
     },
     {
-      "headline": "The two wildcards whistle as Lionel Messi 's name is announced as Paris Saint - Germain 's season hits new low",
+      "headline": "The two wildcards demonstrating",
       "subject_source": {
         "original": "The two wildcards shaping the tail end of the Virginia race for governor",
         "source": "NPR",
         "link": "https://www.npr.org/2025/10/16/nx-s1-5575760/virginia-election-governor-2025-shutdown"
-      },
-      "predicate_source": {
-        "original": "Some fans whistle as Lionel Messi's name is announced as Paris Saint-Germain's season hits new low",
-        "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/03/football/lionel-messi-psg-whistles-fans-spt-intl/index.html"
-      }
-    },
-    {
-      "headline": "For private flood insurance companies , the government shutdown was a child , everyone used it ’ : woman blames Johnson & Johnson talc for her cancer",
-      "subject_source": {
-        "original": "For private flood insurance companies, the government shutdown is good for business",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/nx-s1-5574322/government-shutdown-helps-private-flood-insurance-companies"
-      },
-      "predicate_source": {
-        "original": "‘When I was a child, everyone used it’: woman blames Johnson & Johnson talc for her cancer",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/business/2025/oct/16/woman-blames-johnson-johnson-talc-cancer"
-      }
-    },
-    {
-      "headline": "' Death fold ' proteins can demonstrating",
-      "subject_source": {
-        "original": "'Death fold' proteins can make cells self-destruct. Scientists want to control them",
-        "source": "NPR",
-        "link": "https://www.npr.org/sections/shots-health-news/2025/10/16/nx-s1-5575582/death-fold-proteins-apoptosis-alzheimers-cancer"
       },
       "predicate_source": {
         "original": "Israeli military veterans, a backbone of protest movement, vow to keep demonstrating",
@@ -342,29 +303,55 @@
       }
     },
     {
-      "headline": "Should the bus is a tactical measure ’",
+      "headline": "For private flood insurance companies , the government shutdown speaks out about his struggle with depression",
+      "subject_source": {
+        "original": "For private flood insurance companies, the government shutdown is good for business",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/nx-s1-5574322/government-shutdown-helps-private-flood-insurance-companies"
+      },
+      "predicate_source": {
+        "original": "Lawmaker speaks out about his struggle with depression",
+        "source": "CNN",
+        "link": "https://www.cnn.com/videos/politics/2023/04/02/john-fetterman-depression-downward-spiral-acostanr-sot-vpx.cnn"
+      }
+    },
+    {
+      "headline": "' Death fold ' proteins can picked for the first crewed moon mission in 50 years",
+      "subject_source": {
+        "original": "'Death fold' proteins can make cells self-destruct. Scientists want to control them",
+        "source": "NPR",
+        "link": "https://www.npr.org/sections/shots-health-news/2025/10/16/nx-s1-5575582/death-fold-proteins-apoptosis-alzheimers-cancer"
+      },
+      "predicate_source": {
+        "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years",
+        "source": "CNN",
+        "link": "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html"
+      }
+    },
+    {
+      "headline": "Should the bus reveals why Trump attacked judge and his family in speech",
       "subject_source": {
         "original": "Should the bus be free? Transit advocates are divided",
         "source": "NPR",
         "link": "https://www.npr.org/2025/10/16/nx-s1-5535831/new-york-free-buses-advocates-divided"
       },
       "predicate_source": {
-        "original": "Californians wary yet supportive of proposal to redraw voting maps: ‘This is a tactical measure’",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/us-news/2025/oct/16/california-prop-50-voting-maps"
+        "original": "Haberman reveals why Trump attacked judge and his family in speech",
+        "source": "CNN",
+        "link": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn"
       }
     },
     {
-      "headline": "Trump seizes power",
+      "headline": "Trump sets 2027 target for anti - drone system to defend against Russia",
       "subject_source": {
         "original": "Trump confirms the CIA is conducting covert operations inside Venezuela",
         "source": "NPR",
         "link": "https://www.npr.org/2025/10/16/g-s1-93677/trump-confirms-cia-operations-venezuela"
       },
       "predicate_source": {
-        "original": "Crowds in Madagascar cheer as military unit seizes power",
+        "original": "EU sets 2027 target for anti-drone system to defend against Russia",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c797ndpd97lo?at_medium=RSS&at_campaign=rss"
+        "link": "https://www.bbc.com/news/articles/c4gz2ppye5zo?at_medium=RSS&at_campaign=rss"
       }
     },
     {
@@ -381,276 +368,289 @@
       }
     },
     {
-      "headline": "African Union is classed as baggage , top EU court rules",
+      "headline": "African Union survives major test but breathing space will not last long",
       "subject_source": {
         "original": "African Union suspends Madagascar as military leader set to be sworn in as president",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/15/madagascar-to-swear-in-military-leader-as-president-on-friday"
       },
       "predicate_source": {
-        "original": "Pets on flights can be classed as baggage, top EU court rules",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/law/2025/oct/16/pets-on-flights-can-be-classed-as-baggage-iberia"
+        "original": "French PM survives major test but breathing space will not last long",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/clykve1xnn6o?at_medium=RSS&at_campaign=rss"
       }
     },
     {
-      "headline": "Raila Odinga , shaping the tail end of the Virginia race for governor",
+      "headline": "Raila Odinga , killed in fresh clashes along Afghanistan - Pakistan border",
       "subject_source": {
         "original": "Raila Odinga, towering Kenyan opposition figure, dies aged 80",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/15/raila-odinga-former-kenya-pm-dies"
       },
       "predicate_source": {
-        "original": "The two wildcards shaping the tail end of the Virginia race for governor",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/nx-s1-5575760/virginia-election-governor-2025-shutdown"
+        "original": "Dozens killed in fresh clashes along Afghanistan-Pakistan border",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/15/dozens-killed-afghanistan-pakistan-border-taliban-kurram-chaman-spin-boldak-kandahar-kabul"
       }
     },
     {
-      "headline": "Thousands say he authorised CIA in Venezuela as Maduro says ' no to regime change '",
+      "headline": "Thousands ’s been a shock ’ : Taylor Swift fans flock to see German museum ’s Ophelia",
       "subject_source": {
         "original": "Thousands trapped in El Fasher siege on ‘edge of survival’, says report",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/global-development/2025/oct/15/thousands-trapped-in-el-fasher-sudan-siege-on-edge-of-survival-says-report-rsf"
       },
       "predicate_source": {
-        "original": "Trump says he authorised CIA in Venezuela as Maduro says 'no to regime change'",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c0ex1jq9pdvo?at_medium=RSS&at_campaign=rss"
+        "original": "‘It’s been a shock’: Taylor Swift fans flock to see German museum’s Ophelia",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/music/2025/oct/16/taylor-swift-fans-german-museum-fate-of-ophelia-painting"
       }
     },
     {
-      "headline": "Elite military unit probes US chip maker for cybersecurity risks as tech tension escalates",
+      "headline": "Elite military unit arrested over perfume bottle police mistook for ‘ opium ’ , seeks to restore visa",
       "subject_source": {
         "original": "Elite military unit says it has seized power in Madagascar",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/14/elite-military-unit-says-it-has-seized-power-in-madagascar"
       },
       "predicate_source": {
-        "original": "Micron Technology: China probes US chip maker for cybersecurity risks as tech tension escalates",
-        "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html"
+        "original": "Arkansas man, arrested over perfume bottle police mistook for ‘opium’, seeks to restore visa",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/us-news/2025/oct/03/arkansas-arrest-ysl-opium-perfume-immigration-visa"
       }
     },
     {
-      "headline": "‘ Inherently cruel ’ : Canadian parents confirm covert CIA operations against Venezuela",
+      "headline": "Brazil to ask countries to quadruple biofuel use , leak is good for business",
+      "subject_source": {
+        "original": "Brazil to ask countries to quadruple biofuel use, leak suggests",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/environment/2025/oct/16/brazil-ask-countries-quadruple-biofuel-use-leak-suggests"
+      },
+      "predicate_source": {
+        "original": "For private flood insurance companies, the government shutdown is good for business",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/nx-s1-5574322/government-shutdown-helps-private-flood-insurance-companies"
+      }
+    },
+    {
+      "headline": "Indigenous and environmental leaders in Ecuador suspend trading , delays results after founder 's disappearance",
+      "subject_source": {
+        "original": "Indigenous and environmental leaders in Ecuador say they are facing state intimidation",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/indigenous-and-environmental-leaders-in-ecuador-say-they-are-facing-state-intimidation"
+      },
+      "predicate_source": {
+        "original": "China Renaissance suspends trading, delays results after founder's disappearance",
+        "source": "CNN",
+        "link": "https://www.cnn.com/2023/04/03/investing/china-renaissance-delays-results-missing-ceo-intl-hnk/index.html"
+      }
+    },
+    {
+      "headline": "‘ Inherently cruel ’ : Canadian parents become oldest woman to finish the Ironman World Championship",
       "subject_source": {
         "original": "‘Inherently cruel’: Canadian parents say citizenship bill erodes rights of children adopted abroad",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/16/canada-citizenship-bill-children-adopted-abroad"
       },
       "predicate_source": {
-        "original": "Trump confirms covert CIA operations against Venezuela",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/video/newsfeed/2025/10/16/trump-confirms-covert-cia-operations-against-venezuela?traffic_source=rss"
+        "original": "80-year-old grandmother becomes oldest woman to finish the Ironman World Championship",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/nx-s1-5575128/ironman-oldest-female-finisher-natalie-grabow"
       }
     },
     {
-      "headline": "Trump charged with amassing top secret files",
+      "headline": "Trump says bodies of hostages received as Trump reportedly says fighting could resume if Hamas fails to uphold agreement – as it happened",
       "subject_source": {
         "original": "Trump says he authorized covert CIA operations in Venezuela as Maduro decries the move as ‘coups d’etat’",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/us-news/2025/oct/15/trump-venezuela-cia-maduro"
       },
       "predicate_source": {
-        "original": "Former Bush adviser charged with amassing top secret files",
+        "original": "Netanyahu says bodies of hostages received as Trump reportedly says fighting could resume if Hamas fails to uphold agreement – as it happened",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/us-news/2025/oct/16/indian-born-former-george-w-bush-adviser-ashley-tellis-accused-of-amassing-top-secret-files"
+        "link": "https://www.theguardian.com/world/live/2025/oct/15/gaza-ceasefire-israel-hamas-palestine-aid-hostages-detainees-prisoners-live-news-updates"
       }
     },
     {
-      "headline": "Canadian man is about to start . Here ’s how to take part – and why you should",
-      "subject_source": {
-        "original": "Canadian man fined for submitting AI hallucinations as part of legal defense",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/canada-ai-hallucinations-legal-defense"
-      },
-      "predicate_source": {
-        "original": "The 2025 Aussie Bird Count is about to start. Here’s how to take part – and why you should",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/environment/2025/oct/17/aussie-bird-count-2025-how-to-take-part-and-why-you-should"
-      }
-    },
-    {
-      "headline": "Canadian jobs ‘ fined for submitting AI hallucinations as part of legal defense",
-      "subject_source": {
-        "original": "Canadian jobs ‘sacrificed on Trump’s altar’ as Stellantis announces US investment",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/canada-auto-stellantis-us-investment"
-      },
-      "predicate_source": {
-        "original": "Canadian man fined for submitting AI hallucinations as part of legal defense",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/canada-ai-hallucinations-legal-defense"
-      }
-    },
-    {
-      "headline": "Three Australians survive no - confidence vote – as it happened",
+      "headline": "Three Australians be checked at each and every step ’ : India ’s ID system divides opinion",
       "subject_source": {
         "original": "Three Australians accused of premeditated murder in Bali villa could face the death penalty",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/16/three-australians-accused-of-premeditated-in-bali-villa-could-face-the-death-penalty-ntwnfb"
       },
       "predicate_source": {
-        "original": "French PM survives no-confidence vote – as it happened",
+        "original": "‘Your basis to live is checked at each and every step’: India’s ID system divides opinion",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/live/2025/oct/16/france-no-confidence-debate-lecornu-macron-europe-live-news-updates"
+        "link": "https://www.theguardian.com/world/2025/oct/14/india-id-system-divide-opinion"
       }
     },
     {
-      "headline": "Jim Bolger , former New Zealand prime minister who got buried upside down in snow . See skier 's quick reaction .",
+      "headline": "Jim Bolger , former New Zealand prime minister who travelled with husband to assisted dying clinic will not face charges",
       "subject_source": {
         "original": "Jim Bolger, former New Zealand prime minister who drove reconciliation with Māori, dies at 90",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/16/jim-bolger-former-new-zealand-prime-minister-dies-aged-90"
       },
       "predicate_source": {
-        "original": "A snowboarder got buried upside down in snow. See skier's quick reaction.",
-        "source": "CNN",
-        "link": "https://www.cnn.com/videos/us/2023/03/31/snowboarder-rescue-mt-baker-washington-cprog-lon-orig-na.cnn"
+        "original": "UK woman who travelled with husband to assisted dying clinic will not face charges",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/society/2025/oct/16/woman-who-travelled-with-husband-to-assisted-dying-clinic-will-not-face-charges"
       }
     },
     {
-      "headline": "US may shows early promise",
+      "headline": "US may finds",
       "subject_source": {
         "original": "US may take strategic stakes in rare earths companies to tackle China ‘power grab’",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/16/us-stakes-rare-earths-companies-tackle-china-power"
       },
       "predicate_source": {
-        "original": "A new approach to a Covid-19 nasal vaccine shows early promise",
-        "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html"
+        "original": "‘Conflicts of interest’ behind Australian parliamentary official’s $315k retirement payment, report finds",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2025/oct/16/conflicts-of-interest-behind-australian-parliamentary-officials-315k-retirement-payment-report-finds-ntwnfb"
       }
     },
     {
-      "headline": "South Korea shows moment man throws yogurt on two women in Iran",
+      "headline": "South Korea dies aged 92",
       "subject_source": {
         "original": "South Korea bans travel to parts of Cambodia amid deepening scam crisis that has left 80 missing",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/world/2025/oct/16/south-korea-bans-travel-to-parts-of-cambodia-amid-deepening-scam-crisis-that-has-left-80-missing"
       },
       "predicate_source": {
-        "original": "Video shows moment man throws yogurt on two women in Iran",
-        "source": "CNN",
-        "link": "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn"
+        "original": "Last surviving member of first team to conquer Everest dies aged 92",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/kanchha-sherpa-last-surviving-member-of-first-team-to-reach-mount-everest-summit-dies"
       }
     },
     {
-      "headline": "Shein shares family photos as daughter Mabel turns 11",
+      "headline": "Shein needs : A government , security and tools to rebuild",
       "subject_source": {
         "original": "Shein warns on Trump tariff uncertainty after profits slip",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/business/2025/oct/15/shein-warns-on-trump-tariff-uncertainty-after-profits-slip"
       },
       "predicate_source": {
-        "original": "Emma Heming Willis shares family photos as daughter Mabel turns 11",
-        "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/03/entertainment/emma-willis-mabel-birthday-photos-intl-scli/index.html"
+        "original": "Some of the things Gaza needs: A government, security and tools to rebuild",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93590/gaza-reconstruction-government"
       }
     },
     {
-      "headline": "The 2025 Aussie Bird Count rejects Republicans ’ healthcare promises",
+      "headline": "The 2025 Aussie Bird Count arrested 30 Christians . Some fear it 's the start of a bigger crackdown",
       "subject_source": {
         "original": "The 2025 Aussie Bird Count is about to start. Here’s how to take part – and why you should",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/environment/2025/oct/17/aussie-bird-count-2025-how-to-take-part-and-why-you-should"
       },
       "predicate_source": {
-        "original": "US government shutdown stretches as progressives reject Republicans’ healthcare promises",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/us-news/2025/oct/16/government-shutdown-aoc-bernie-sanders-republicans"
+        "original": "China arrested 30 Christians. Some fear it's the start of a bigger crackdown",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cx2pez2vg8wo?at_medium=RSS&at_campaign=rss"
       }
     },
     {
-      "headline": "With climate trigger axed Labor makes cells self - destruct . Scientists want to control them",
+      "headline": "With climate trigger axed Labor bans travel to parts of Cambodia amid deepening scam crisis that has left 80 missing",
       "subject_source": {
         "original": "With climate trigger axed Labor wants to rush new environmental laws through after ‘positive’ talks with Coalition",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/australia-news/2025/oct/17/with-climate-trigger-axed-labor-wants-to-rush-new-environmental-laws-through-after-positive-talks-with-coalition"
       },
       "predicate_source": {
-        "original": "'Death fold' proteins can make cells self-destruct. Scientists want to control them",
-        "source": "NPR",
-        "link": "https://www.npr.org/sections/shots-health-news/2025/10/16/nx-s1-5575582/death-fold-proteins-apoptosis-alzheimers-cancer"
+        "original": "South Korea bans travel to parts of Cambodia amid deepening scam crisis that has left 80 missing",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/south-korea-bans-travel-to-parts-of-cambodia-amid-deepening-scam-crisis-that-has-left-80-missing"
       }
     },
     {
-      "headline": "‘ We leaves one dead",
+      "headline": "‘ We killed , injured in bus explosion near Syria ’s Deir Az Zor : State TV",
       "subject_source": {
         "original": "‘We want our stories to be told’: NSW Labor pledges $3.2m to support writing and literature amid AI onslaught",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/australia-news/2025/oct/16/nsw-government-funding-writing-literature-combat-ai-stories-matter"
       },
       "predicate_source": {
-        "original": "Clashes between police and Gen Z protesters in Peru leave one dead",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/czjp79j2emro?at_medium=RSS&at_campaign=rss"
+        "original": "Several killed, injured in bus explosion near Syria’s Deir Az Zor: State TV",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2025/10/16/several-killed-injured-in-bus-explosion-near-syrias-deir-az-zor-state-tv?traffic_source=rss"
       }
     },
     {
-      "headline": "Controversial FoI changes loneliness the new global pandemic ?",
+      "headline": "Controversial FoI changes investigate as Picasso painting vanishes on way to exhibition",
       "subject_source": {
         "original": "Controversial FoI changes sparked after eSafety staff worried deluge of requests might ‘jam something’",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/australia-news/2025/oct/16/foi-changes-sparked-by-deluge-automated-requests"
       },
       "predicate_source": {
-        "original": "Is loneliness the new global pandemic?",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/video/the-stream/2025/10/16/is-loneliness-the-new-global-pandemic?traffic_source=rss"
+        "original": "Spanish police investigate as Picasso painting vanishes on way to exhibition",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/artanddesign/2025/oct/16/spanish-police-investigate-as-picasso-painting-vanishes-on-way-to-exhibition"
       }
     },
     {
-      "headline": "‘ Conflicts of interest ’ behind Australian parliamentary official ’s $ 315k retirement payment , report is banned in the US . In Scotland it 's a fine - dining treat",
+      "headline": "‘ Conflicts of interest ’ behind Australian parliamentary official ’s $ 315k retirement payment , report changed Rory McIlroy 's career",
       "subject_source": {
         "original": "‘Conflicts of interest’ behind Australian parliamentary official’s $315k retirement payment, report finds",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/australia-news/2025/oct/16/conflicts-of-interest-behind-australian-parliamentary-officials-315k-retirement-payment-report-finds-ntwnfb"
       },
       "predicate_source": {
-        "original": "This boiled bag of offal is banned in the US. In Scotland it's a fine-dining treat",
+        "original": "The haunting Masters meltdown that changed Rory McIlroy's career",
         "source": "CNN",
-        "link": "https://www.cnn.com/travel/article/haggis-scotland-secrets/index.html"
+        "link": "https://www.cnn.com/2023/04/03/golf/rory-mcilroy-masters-meltdown-2011-spt-spc-intl/index.html"
       }
     },
     {
-      "headline": "Russian cyber - attacks against Nato states up by 25 % in a year , analysis urged to open more Gaza border crossings to allow surge of aid",
+      "headline": "Catalonia ’s Socialist president : is free ? Transit advocates are divided",
       "subject_source": {
-        "original": "Russian cyber-attacks against Nato states up by 25% in a year, analysis finds",
+        "original": "Catalonia’s Socialist president: tackling inequality can blunt separatist and far-right voices",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/16/russian-cyber-attacks-against-nato-states-up-by-25-in-a-year-analysis-finds"
+        "link": "https://www.theguardian.com/world/2025/oct/16/catalonia-socialist-president-salvador-illa-tackling-inequality-separatist-far-right-coexistence-madrid"
       },
       "predicate_source": {
-        "original": "Israel urged to open more Gaza border crossings to allow surge of aid",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/israel-pulls-back-threat-humanitarian-aid-gaza-hostages-remains-hamas"
+        "original": "Should the bus be free? Transit advocates are divided",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/nx-s1-5535831/new-york-free-buses-advocates-divided"
       }
     },
     {
-      "headline": "Pets on flights can expand as GDP rises by 0.1 % in August ahead of crucial budget",
+      "headline": "Russia bombards Ukraine ’s gas sites as Zelenskyy passes labour law allowing 13 - hour workdays in some cases",
+      "subject_source": {
+        "original": "Russia bombards Ukraine’s gas sites as Zelenskyy flies to US for Trump meeting",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/russia-strikes-ukraine-gas-sites-zelenskyy-us-trump-meeting-cruise-missiles"
+      },
+      "predicate_source": {
+        "original": "Greece passes labour law allowing 13-hour workdays in some cases",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cgjd76pw79do?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "‘ It is n't good for America",
+      "subject_source": {
+        "original": "‘It’s been a shock’: Taylor Swift fans flock to see German museum’s Ophelia",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/music/2025/oct/16/taylor-swift-fans-german-museum-fate-of-ophelia-painting"
+      },
+      "predicate_source": {
+        "original": "Giving Marjorie Taylor Greene a platform isn't good for America",
+        "source": "CNN",
+        "link": "https://www.cnn.com/2023/04/03/opinions/60-minutes-marjorie-taylor-greene-interview-obeidallah/index.html"
+      }
+    },
+    {
+      "headline": "Pets on flights can find family alive after thinking they had been killed",
       "subject_source": {
         "original": "Pets on flights can be classed as baggage, top EU court rules",
         "source": "The Guardian",
         "link": "https://www.theguardian.com/law/2025/oct/16/pets-on-flights-can-be-classed-as-baggage-iberia"
       },
       "predicate_source": {
-        "original": "UK economy expands as GDP rises by 0.1% in August ahead of crucial budget",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/business/2025/oct/16/uk-economy-expands-as-gdp-rises-by-01-in-august-ahead-of-crucial-budget"
-      }
-    },
-    {
-      "headline": "Italian news publishers picked for the first crewed moon mission in 50 years",
-      "subject_source": {
-        "original": "Italian news publishers demand investigation into Google’s AI Overviews",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/technology/2025/oct/16/google-ai-overviews-italian-news-publishers-demand-investigation"
-      },
-      "predicate_source": {
-        "original": "The four astronauts NASA picked for the first crewed moon mission in 50 years",
-        "source": "CNN",
-        "link": "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html"
+        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
       }
     }
   ]
