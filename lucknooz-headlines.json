@@ -1,339 +1,40 @@
 {
-  "generated_at": "2025-10-16T08:52:25.787443",
+  "generated_at": "2025-10-16T13:43:16.194417",
   "version": "13.4",
   "count": 50,
   "headlines": [
     {
-      "headline": "' Worse than imperiled after nation - state ransacks F5 ’s network",
-      "subject_source": {
-        "original": "'Worse than starting from scratch': How big is the task of rebuilding Gaza?",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cr5e4ee9r13o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Thousands of customers imperiled after nation-state ransacks F5’s network",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/"
-      }
-    },
-    {
-      "headline": "Trump seizes $ 15 billion from alleged forced labor scam built on “ human suffering ”",
+      "headline": "Trump Survives in the Sea",
       "subject_source": {
         "original": "Trump says he authorised CIA in Venezuela as Maduro says 'no to regime change'",
         "source": "BBC News",
         "link": "https://www.bbc.com/news/articles/c0ex1jq9pdvo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Feds seize $15 billion from alleged forced labor scam built on “human suffering”",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/"
+        "original": "Armed With Anemones: How Some Young Fish Survive in the Sea",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/science/marine-biology-blackwater-anemones-fishes.html"
       }
     },
     {
-      "headline": "Titan submersible took more than $ 1.4bn from their super last year for everything from weight loss to dental work",
-      "subject_source": {
-        "original": "Titan submersible imploded due to poor engineering, say US officials",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cdeg7y4171xo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Australians took more than $1.4bn from their super last year for everything from weight loss to dental work",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/australia-news/2025/oct/16/australians-extracted-superannuation-compassionate-access-weight-loss-dental-work"
-      }
-    },
-    {
-      "headline": "' I ca n't lets Gemini schedule meetings for you in Gmail",
+      "headline": "' I ca n't unlocking their best selves when it matters most",
       "subject_source": {
         "original": "'I can't afford to save both twins': Sudan's war left one mother with an impossible choice",
         "source": "BBC News",
         "link": "https://www.bbc.com/news/articles/cre5rng5808o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Google will let Gemini schedule meetings for you in Gmail",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/google/2025/10/gemini-can-now-help-schedule-meetings-in-gmail/"
-      }
-    },
-    {
-      "headline": "China causes of hitting slump",
-      "subject_source": {
-        "original": "China sacks officials over viral Arc'teryx fireworks show in Tibet",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c1lq4305336o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Ohtani: Two-way role not cause of hitting slump",
+        "original": "Are the Dodgers unbeatable? Here's how they're unlocking their best selves when it matters most",
         "source": "ESPN",
-        "link": "https://www.espn.com/mlb/story/_/id/46610898/dodgers-shohei-ohtani-pitching-not-cause-hitting-slump"
+        "link": "https://www.espn.com/mlb/story/_/id/46604427/mlb-2025-playoffs-los-angeles-dodgers-repeat-dynasty-milwaukee-brewers-nlcs"
       }
     },
     {
-      "headline": "S Korea tycoon says he ’s using AI to improve “ decision - making ”",
+      "headline": "Andrew towering Kenyan opposition figure , dies aged 80",
       "subject_source": {
-        "original": "S Korea tycoon escapes paying $1bn in 'divorce of the century'",
+        "original": "Andrew believed having sex with me was his birthright, Giuffre claimed in memoir",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c2drpd1pwrno?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Army general says he’s using AI to improve “decision-making”",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/ai/2025/10/army-general-says-hes-using-ai-to-improve-decision-making/"
-      }
-    },
-    {
-      "headline": "Trump investigating Musk - owned Starlink over Myanmar scam centres",
-      "subject_source": {
-        "original": "Trump says Modi has agreed to stop buying Russian oil",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/ce8gdl54n1go?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "US Congress committee investigating Musk-owned Starlink over Myanmar scam centres",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/14/us-congress-committee-investigating-musk-owned-starlink-over-myanmar-scam-centres"
-      }
-    },
-    {
-      "headline": "ChatGPT will soon drifts away from land as typhoon hits Alaska",
-      "subject_source": {
-        "original": "ChatGPT will soon allow erotica for verified adults, says OpenAI boss",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cpd2qv58yl5o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
-      }
-    },
-    {
-      "headline": "India 's exports to US plunge as Trump 's 50 % tariffs brush off racist texts by adults in Republican group chat as ‘ what kids do ’",
-      "subject_source": {
-        "original": "India's exports to US plunge as Trump's 50% tariffs kick in",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c70jw0nylrgo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "JD Vance brushes off racist texts by adults in Republican group chat as ‘what kids do’",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/us-news/2025/oct/15/jd-vance-racist-messages-young-republicans-chat-leak"
-      }
-    },
-    {
-      "headline": "Months after fall of Assad , families of Syria 's proven false",
-      "subject_source": {
-        "original": "Months after fall of Assad, families of Syria's missing still seeking justice",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cj07p5zm229o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Believing misinformation is a “win” for some people, even when proven false",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/science/2025/10/believing-misinformation-is-a-win-for-some-people-even-when-proven-false/"
-      }
-    },
-    {
-      "headline": "China drove reconciliation with Māori , dies at 90",
-      "subject_source": {
-        "original": "China arrested 30 Christians. Some fear it's the start of a bigger crackdown",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cx2pez2vg8wo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Jim Bolger, former New Zealand prime minister who drove reconciliation with Māori, dies at 90",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/16/jim-bolger-former-new-zealand-prime-minister-dies-aged-90"
-      }
-    },
-    {
-      "headline": "Indian cinema tickets are Had Enough ’",
-      "subject_source": {
-        "original": "Indian cinema tickets are getting pricier - but not everyone's complaining",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cewnrqydny0o?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Britney Spears Fires Back at Kevin Federline’s Memoir Accusations: ‘I Have Had Enough’",
-        "source": "Rolling Stone",
-        "link": "https://www.rollingstone.com/music/music-news/britney-spears-kevin-federline-memoir-response-1235448283/"
-      }
-    },
-    {
-      "headline": "War crimes alert as food set for no - confidence votes – Europe live",
-      "subject_source": {
-        "original": "War crimes alert as food runs out in besieged Sudan city",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/c5yd8rv02ydo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "French parliament set for no-confidence votes – Europe live",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/live/2025/oct/16/france-no-confidence-debate-lecornu-macron-europe-live-news-updates"
-      }
-    },
-    {
-      "headline": "Watch : Freed detainee pressured Facebook into removing ICE - tracking group",
-      "subject_source": {
-        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Trump admin pressured Facebook into removing ICE-tracking group",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/tech-policy/2025/10/trump-admin-pressured-facebook-into-removing-ice-tracking-group/"
-      }
-    },
-    {
-      "headline": "Watch : Moment house stashing these players today",
-      "subject_source": {
-        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "Get ahead of Week 8 bye-mageddon by stashing these players today",
-        "source": "ESPN",
-        "link": "https://www.espn.com/fantasy/football/story/_/id/46607981/fantasy-football-waiver-wire-adds-bye-week-fills"
-      }
-    },
-    {
-      "headline": "Crowds in Madagascar cheer as military unit checked at each and every step ’ : India ’s ID system divides opinion",
-      "subject_source": {
-        "original": "Crowds in Madagascar cheer as military unit seizes power",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c797ndpd97lo?at_medium=RSS&at_campaign=rss"
-      },
-      "predicate_source": {
-        "original": "‘Your basis to live is checked at each and every step’: India’s ID system divides opinion",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/14/india-id-system-divide-opinion"
-      }
-    },
-    {
-      "headline": "‘ Promises Have Not Been show AI - generated ads with your face in 2026",
-      "subject_source": {
-        "original": "‘Promises Have Not Been Kept’: What’s Behind Africa’s Youth Protests",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/africa/africa-gen-z-protests-kenya.html"
-      },
-      "predicate_source": {
-        "original": "DirecTV screensavers will show AI-generated ads with your face in 2026",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/gadgets/2025/10/directv-screensavers-will-show-ai-generated-ads-with-your-face-in-2026/"
-      }
-    },
-    {
-      "headline": "Syria ’s New Leaders Are Make Brazen Escape in Guatemala",
-      "subject_source": {
-        "original": "Syria’s New Leaders Are Talking to Russia, a Former Enemy",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/syria-russia-ahmed-al-shara-putin.html"
-      },
-      "predicate_source": {
-        "original": "Inmates Make Brazen Escape in Guatemala",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/americas/guatemala-prison-escape.html"
-      }
-    },
-    {
-      "headline": "Israel aged 24 to 35 , who wrote racist texts ‘ kids ’ – as it happened",
-      "subject_source": {
-        "original": "Israel Begins Burying Its Dead Hostages",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/israel-hostages-funerals.html"
-      },
-      "predicate_source": {
-        "original": "JD Vance calls Republican operatives, aged 24 to 35, who wrote racist texts ‘kids’ – as it happened",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/us-news/live/2025/oct/15/donald-trump-federal-government-shutdown-redistricting-voting-rights-act-kash-patel-us-politics-live-news-updates"
-      }
-    },
-    {
-      "headline": "London declares victory in presidential election",
-      "subject_source": {
-        "original": "London Became a Global Hub for Phone Theft. Now We Know Why.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/europe/london-police-phone-theft-china-gang.html"
-      },
-      "predicate_source": {
-        "original": "Cameroon opposition leader declares victory in presidential election",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/14/cameroon-opposition-leader-declares-victory-presidential-election"
-      }
-    },
-    {
-      "headline": "Raila Odinga , Champion of Kenyan Democracy and Former Prime Minister , get a big upgrade with Veo 3.1",
-      "subject_source": {
-        "original": "Raila Odinga, Champion of Kenyan Democracy and Former Prime Minister, Dies at 80",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/africa/raila-odinga-kenya-dead.html"
-      },
-      "predicate_source": {
-        "original": "Google’s AI videos get a big upgrade with Veo 3.1",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/google/2025/10/googles-ai-videos-get-a-big-upgrade-with-veo-3-1/"
-      }
-    },
-    {
-      "headline": "A Repressive Russian Ally retiring after nine NBA seasons",
-      "subject_source": {
-        "original": "A Repressive Russian Ally Feels a Mysterious Thaw From the U.S.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/europe/belarus-us-trump-russia.html"
-      },
-      "predicate_source": {
-        "original": "Knicks' Brogdon retiring after nine NBA seasons",
-        "source": "ESPN",
-        "link": "https://www.espn.com/nba/story/_/id/46607116/knicks-malcolm-brogdon-retires-nine-nba-seasons"
-      }
-    },
-    {
-      "headline": "Iran Sentences 2 French Citizens to Prison on bans travel to parts of Cambodia amid deepening scam crisis that has left 80 missing",
-      "subject_source": {
-        "original": "Iran Sentences 2 French Citizens to Prison on Spying Charges",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/europe/iran-france-spying-charges.html"
-      },
-      "predicate_source": {
-        "original": "South Korea bans travel to parts of Cambodia amid deepening scam crisis that has left 80 missing",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/16/south-korea-bans-travel-to-parts-of-cambodia-amid-deepening-scam-crisis-that-has-left-80-missing"
-      }
-    },
-    {
-      "headline": "Hamas Feels a Mysterious Thaw From the U.S.",
-      "subject_source": {
-        "original": "Hamas Says It Has Returned All Hostage Remains It Can Recover",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/hamas-gaza-hostages-remains-israel.html"
-      },
-      "predicate_source": {
-        "original": "A Repressive Russian Ally Feels a Mysterious Thaw From the U.S.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/europe/belarus-us-trump-russia.html"
-      }
-    },
-    {
-      "headline": "Judge finds family alive after thinking they had been killed",
-      "subject_source": {
-        "original": "Judge Throws Out Children’s Lawsuit Against Trump’s Energy Policies",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/climate/montana-youth-trump-climate-lawsuit-dismissed.html"
-      },
-      "predicate_source": {
-        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
-        "source": "BBC News",
-        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
-      }
-    },
-    {
-      "headline": "Trump towering Kenyan opposition figure , dies aged 80",
-      "subject_source": {
-        "original": "Trump Helped Argentina Face an Economic Meltdown. It Came At a Cost.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/americas/argentina-trump-javier-milei.html"
+        "link": "https://www.bbc.com/news/articles/c0kpjyjyrlno?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
         "original": "Raila Odinga, towering Kenyan opposition figure, dies aged 80",
@@ -342,232 +43,128 @@
       }
     },
     {
-      "headline": "Trump Considers Overhaul of Refugee System That Would imploded due to poor engineering , say US officials",
+      "headline": "Titan submersible finds family alive after thinking they had been killed",
       "subject_source": {
-        "original": "Trump Considers Overhaul of Refugee System That Would Favor White People",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-refugee-white-people.html"
-      },
-      "predicate_source": {
         "original": "Titan submersible imploded due to poor engineering, say US officials",
         "source": "BBC News",
         "link": "https://www.bbc.com/news/articles/cdeg7y4171xo?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
       }
     },
     {
-      "headline": "Trump Administration sacrificed on Trump ’s altar ’ as Stellantis announces US investment",
+      "headline": "Prominent Palestinian prisoner Marwan Barghouti seizes $ 15 billion from alleged forced labor scam built on “ human suffering ”",
       "subject_source": {
-        "original": "Trump Administration Authorizes Covert C.I.A. Action in Venezuela",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-covert-cia-action-venezuela.html"
+        "original": "Prominent Palestinian prisoner Marwan Barghouti attacked by guards, family says",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cpwvr2xpkz0o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Canadian jobs ‘sacrificed on Trump’s altar’ as Stellantis announces US investment",
+        "original": "Feds seize $15 billion from alleged forced labor scam built on “human suffering”",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/"
+      }
+    },
+    {
+      "headline": "Oscar Wilde 's library card says he authorised CIA in Venezuela as Maduro says ' no to regime change '",
+      "subject_source": {
+        "original": "Oscar Wilde's library card reissued 130 years after being revoked over gay conviction",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cx2lymkm1jno?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Trump says he authorised CIA in Venezuela as Maduro says 'no to regime change'",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/c0ex1jq9pdvo?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "Kenya police fire shots and tear gas at crowds killed in fresh clashes along Afghanistan - Pakistan border",
+      "subject_source": {
+        "original": "Kenya police fire shots and tear gas at crowds gathered to see body of ex-PM Odinga",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cwyk1l65nqvo?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Dozens killed in fresh clashes along Afghanistan-Pakistan border",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/canada-auto-stellantis-us-investment"
+        "link": "https://www.theguardian.com/world/2025/oct/15/dozens-killed-afghanistan-pakistan-border-taliban-kurram-chaman-spin-boldak-kandahar-kabul"
       }
     },
     {
-      "headline": "Trump Allies dreading World Cup",
+      "headline": "Clashes between police and Gen Z protesters in Peru Grow",
       "subject_source": {
-        "original": "Trump Allies Push to Bolster Putin-Backed Balkans Leader",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-dodik-srpska-lobbying.html"
+        "original": "Clashes between police and Gen Z protesters in Peru leave one dead",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/czjp79j2emro?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Pochettino's turnaround has USMNT no longer dreading World Cup",
-        "source": "ESPN",
-        "link": "https://www.espn.com/soccer/story/_/id/46606737/mauricio-pochettino-turnaround-usmnt-no-longer-dreading-world-cup"
-      }
-    },
-    {
-      "headline": "U.S. to Take Control of More Companies as China ’s Rare Earth Dominance keeping Flagg at PG",
-      "subject_source": {
         "original": "U.S. to Take Control of More Companies as China’s Rare Earth Dominance Grows",
         "source": "The New York Times",
         "link": "https://www.nytimes.com/2025/10/15/us/politics/us-government-companies-china.html"
-      },
-      "predicate_source": {
-        "original": "Kidd noncommittal about keeping Flagg at PG",
-        "source": "ESPN",
-        "link": "https://www.espn.com/nba/story/_/id/46611956/mavs-kidd-noncommittal-keeping-cooper-flagg-pg"
       }
     },
     {
-      "headline": "South Korea Damning ’ review of anti - Black racism within Met police ‘ buried ’ by force",
+      "headline": "Trump mocks Russian navy , which is on the hunt for Red October “ the nearest mechanic ”",
       "subject_source": {
-        "original": "South Korea Targets Cambodia’s Scam Industry After Kidnappings, Torture and a Death",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/asia/cambodia-south-korea-scams.html"
-      },
-      "predicate_source": {
-        "original": "‘Damning’ review of anti-Black racism within Met police ‘buried’ by force",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/uk-news/2025/oct/16/review-anti-black-racism-metropolitan-police-force-london"
-      }
-    },
-    {
-      "headline": "Trump ’s Tariff Fight With China Throws a Vampire Beach Music Fest in Los Angeles",
-      "subject_source": {
-        "original": "Trump’s Tariff Fight With China Means Trouble for a Vast Wilderness in Brazil",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/climate/china-brazil-soybeans-trade-midwest-amazon.html"
-      },
-      "predicate_source": {
-        "original": "Janelle Monáe’s Wondaween 2025 Will Throw a Vampire Beach Music Fest in Los Angeles",
-        "source": "Rolling Stone",
-        "link": "https://www.rollingstone.com/music/music-news/janelle-monae-wondaween-2025-los-angeles-1235448241/"
-      }
-    },
-    {
-      "headline": "Inmates Kept ’ : What ’s Behind Africa ’s Youth Protests",
-      "subject_source": {
-        "original": "Inmates Make Brazen Escape in Guatemala",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/americas/guatemala-prison-escape.html"
-      },
-      "predicate_source": {
-        "original": "‘Promises Have Not Been Kept’: What’s Behind Africa’s Youth Protests",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/africa/africa-gen-z-protests-kenya.html"
-      }
-    },
-    {
-      "headline": "Bangladesh Garment Factory Fire Kills at Least 16 , Official Accuses Antiwar Exiles of Terrorism",
-      "subject_source": {
-        "original": "Bangladesh Garment Factory Fire Kills at Least 16, Official Says",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/asia/bangladesh-garment-factory-fire.html"
-      },
-      "predicate_source": {
-        "original": "Russia Accuses Antiwar Exiles of Terrorism",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/europe/russia-antiwar-ukraine-terrorism.html"
-      }
-    },
-    {
-      "headline": "French Premier tormented : HR workers summoned from furlough to lay off themselves , others",
-      "subject_source": {
-        "original": "French Premier Offers to Delay Pension Overhaul, in a Bid to Calm Turmoil",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/europe/france-political-crisis-pension.html"
-      },
-      "predicate_source": {
-        "original": "CDC tormented: HR workers summoned from furlough to lay off themselves, others",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/health/2025/10/cdc-tormented-hr-workers-summoned-from-furlough-to-lay-off-themselves-others/"
-      }
-    },
-    {
-      "headline": "China Helped Argentina Face an Economic Meltdown . It Came At a Cost .",
-      "subject_source": {
-        "original": "China Wants Foreign Scientists. The Public Says No, Thanks.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/asia/china-stem-visa-racist-backlash.html"
-      },
-      "predicate_source": {
-        "original": "Trump Helped Argentina Face an Economic Meltdown. It Came At a Cost.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/15/world/americas/argentina-trump-javier-milei.html"
-      }
-    },
-    {
-      "headline": "Russia needs to do everything now ’ : the Ukrainian combat medic - turned playwright",
-      "subject_source": {
-        "original": "Russia Accuses Antiwar Exiles of Terrorism",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/europe/russia-antiwar-ukraine-terrorism.html"
-      },
-      "predicate_source": {
-        "original": "‘I need to do everything now’: the Ukrainian combat medic-turned playwright",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/stage/2025/oct/16/alina-sarnatska-ukrainian-combat-medic-playwright"
-      }
-    },
-    {
-      "headline": "To Meet Pledges to Save Forests Spending Must Triple , U.N. Report Wants Foreign Scientists . The Public Says No , Thanks .",
-      "subject_source": {
-        "original": "To Meet Pledges to Save Forests Spending Must Triple, U.N. Report Says",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/climate/deforestation-united-nations-report.html"
-      },
-      "predicate_source": {
-        "original": "China Wants Foreign Scientists. The Public Says No, Thanks.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/world/asia/china-stem-visa-racist-backlash.html"
-      }
-    },
-    {
-      "headline": "Trump Dangles $ 20 Billion Lifeline for Argentina , With Strings secur 5 - year , $ 140 M extension",
-      "subject_source": {
-        "original": "Trump Dangles $20 Billion Lifeline for Argentina, With Strings Attached",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/14/us/politics/trump-argentina-leader-bailout.html"
-      },
-      "predicate_source": {
-        "original": "Kings' Murray secures 5-year, $140M extension",
-        "source": "ESPN",
-        "link": "https://www.espn.com/nba/story/_/id/46608979/kings-keegan-murray-agrees-5-year-140m-rookie-extension"
-      }
-    },
-    {
-      "headline": "Cuban Dissident Leader forms a public health alliance in a rebuke of Trump",
-      "subject_source": {
-        "original": "Cuban Dissident Leader Leaves Prison for Exile in the U.S.",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/13/world/americas/jose-daniel-ferrer-cuba.html"
-      },
-      "predicate_source": {
-        "original": "Democratic governors form a public health alliance in a rebuke of Trump",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/g-s1-93582/governors-public-health-alliance-democrats-rfk-trump-hhs-cdc"
-      }
-    },
-    {
-      "headline": "Madagascar ’s President erupts along Pakistan - Afghanistan border",
-      "subject_source": {
-        "original": "Madagascar’s President Goes Into Hiding",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2025/10/13/world/africa/madagascar-president-rajoelina.html"
-      },
-      "predicate_source": {
-        "original": "Heavy clashes erupt along Pakistan-Afghanistan border",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/11/heavy-clashes-erupt-along-pakistan-afghanistan-border"
-      }
-    },
-    {
-      "headline": "Trump allows erotica for verified adults , says OpenAI boss",
-      "subject_source": {
-        "original": "Trump confirms the CIA is conducting covert operations inside Venezuela",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/g-s1-93677/trump-confirms-cia-operations-venezuela"
-      },
-      "predicate_source": {
-        "original": "ChatGPT will soon allow erotica for verified adults, says OpenAI boss",
+        "original": "Trump says Modi has agreed to stop buying Russian oil",
         "source": "BBC News",
-        "link": "https://www.bbc.com/news/articles/cpd2qv58yl5o?at_medium=RSS&at_campaign=rss"
-      }
-    },
-    {
-      "headline": "Doctors Without Borders permanently predicted the entire first round of the 2026 NFL draft",
-      "subject_source": {
-        "original": "Doctors Without Borders permanently closes its emergency center in Haiti's capital",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/16/g-s1-93672/doctors-without-borders-closes-haiti"
+        "link": "https://www.bbc.com/news/articles/ce8gdl54n1go?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "QB at No. 1 -- but not No. 2? We predicted the entire first round of the 2026 NFL draft",
-        "source": "ESPN",
-        "link": "https://www.espn.com/nfl/draft2026/story/_/id/46583887/2026-nfl-mock-draft-first-round-predictions-32-picks-jordan-reid"
+        "original": "NATO boss mocks Russian navy, which is on the hunt for Red October “the nearest mechanic”",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/security/2025/10/nato-boss-mocks-russian-navy-which-is-on-the-hunt-for-red-october-the-nearest-mechanic/"
       }
     },
     {
-      "headline": "Supreme Court accused of premeditated murder in Bali villa could face the death penalty",
+      "headline": "' Worse than says citizenship bill erodes rights of children adopted abroad",
       "subject_source": {
-        "original": "Supreme Court seems poised to further undercut the Voting Rights Act",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5575101/scotus-voting-rights-arguments"
+        "original": "'Worse than starting from scratch': How big is the task of rebuilding Gaza?",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cr5e4ee9r13o?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "‘Inherently cruel’: Canadian parents say citizenship bill erodes rights of children adopted abroad",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/canada-citizenship-bill-children-adopted-abroad"
+      }
+    },
+    {
+      "headline": "Months after fall of Assad , families of Syria 's Favors White People",
+      "subject_source": {
+        "original": "Months after fall of Assad, families of Syria's missing still seeking justice",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cj07p5zm229o?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Trump Considers Overhaul of Refugee System That Would Favor White People",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-refugee-white-people.html"
+      }
+    },
+    {
+      "headline": "China fined for submitting AI hallucinations as part of legal defense",
+      "subject_source": {
+        "original": "China arrested 30 Christians. Some fear it's the start of a bigger crackdown",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cx2pez2vg8wo?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "Canadian man fined for submitting AI hallucinations as part of legal defense",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/15/canada-ai-hallucinations-legal-defense"
+      }
+    },
+    {
+      "headline": "Indian cinema tickets are accused of premeditated murder in Bali villa could face the death penalty",
+      "subject_source": {
+        "original": "Indian cinema tickets are getting pricier - but not everyone's complaining",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cewnrqydny0o?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
         "original": "Three Australians accused of premeditated murder in Bali villa could face the death penalty",
@@ -576,81 +173,484 @@
       }
     },
     {
-      "headline": "Hegseth orders troops to watch his speech exits in tears , set for scans",
+      "headline": "War crimes alert as food moves",
       "subject_source": {
-        "original": "Hegseth orders troops to watch his speech decrying a 'woke' military",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5575528/hegseth-order-troops-quantico-speech"
+        "original": "War crimes alert as food runs out in besieged Sudan city",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/c5yd8rv02ydo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Spirit star Rodman exits in tears, set for scans",
+        "original": "Best (and worst) offseason moves",
         "source": "ESPN",
-        "link": "https://www.espn.com/soccer/story/_/id/46608929/trinity-rodman-usa-washington-spirit-injury"
+        "link": "https://www.espn.com/mens-college-basketball/story/_/id/46587135/mens-college-basketball-offseason-moves-transfers-recruits-coaches-2025-26"
       }
     },
     {
-      "headline": "Video : How cumbia seems poised to further undercut the Voting Rights Act",
+      "headline": "Watch : Freed detainee Wants Foreign Scientists . The Public Says No , Thanks .",
       "subject_source": {
-        "original": "Video: How cumbia arrived in Monterrey, Mexico",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5575616/video-on-cumbia-in-monterrey-mexico"
+        "original": "Watch: Freed detainee finds family alive after thinking they had been killed",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c7516x2zy6ko?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "Supreme Court seems poised to further undercut the Voting Rights Act",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5575101/scotus-voting-rights-arguments"
+        "original": "China Wants Foreign Scientists. The Public Says No, Thanks.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/asia/china-stem-visa-racist-backlash.html"
       }
     },
     {
-      "headline": "The federal government is still opposes ‘ authoritarian crackdown ’ as Trump threatens to send troops",
+      "headline": "Watch : Moment house runs out in besieged Sudan city",
       "subject_source": {
-        "original": "The federal government is still shut down. Here's what that means across the country",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5575134/government-shutdown"
+        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
       },
       "predicate_source": {
-        "original": "San Francisco opposes ‘authoritarian crackdown’ as Trump threatens to send troops",
+        "original": "War crimes alert as food runs out in besieged Sudan city",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/c5yd8rv02ydo?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "Crowds in Madagascar cheer as military unit Feels a Mysterious Thaw From the U.S.",
+      "subject_source": {
+        "original": "Crowds in Madagascar cheer as military unit seizes power",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c797ndpd97lo?at_medium=RSS&at_campaign=rss"
+      },
+      "predicate_source": {
+        "original": "A Repressive Russian Ally Feels a Mysterious Thaw From the U.S.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/europe/belarus-us-trump-russia.html"
+      }
+    },
+    {
+      "headline": "China Fans Patriotic Sentiment as Trade War With U.S. starting from scratch ' : How big is the task of rebuilding Gaza ?",
+      "subject_source": {
+        "original": "China Fans Patriotic Sentiment as Trade War With U.S. Heats Up",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/world/asia/china-nationalism-trade-war.html"
+      },
+      "predicate_source": {
+        "original": "'Worse than starting from scratch': How big is the task of rebuilding Gaza?",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cr5e4ee9r13o?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "France ’s Government Narrowly Says Church Is Still Too Slow in Addressing Sexual Abuse",
+      "subject_source": {
+        "original": "France’s Government Narrowly Survives No-Confidence Vote",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/world/europe/france-lecornu-no-confidence-vote.html"
+      },
+      "predicate_source": {
+        "original": "Vatican Panel Says Church Is Still Too Slow in Addressing Sexual Abuse",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/world/europe/vatican-sexual-abuse-report.html"
+      }
+    },
+    {
+      "headline": "‘ Promises Have Not Been let renters opt out of forced payments",
+      "subject_source": {
+        "original": "‘Promises Have Not Been Kept’: What’s Behind Africa’s Youth Protests",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/africa/africa-gen-z-protests-kenya.html"
+      },
+      "predicate_source": {
+        "original": "ISPs angry about California law that lets renters opt out of forced payments",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/tech-policy/2025/10/california-says-landlords-cant-make-tenants-pay-for-an-isp-they-dont-want/"
+      }
+    },
+    {
+      "headline": "Syria ’s New Leaders Are drift away from land as typhoon hits Alaska",
+      "subject_source": {
+        "original": "Syria’s New Leaders Are Talking to Russia, a Former Enemy",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/syria-russia-ahmed-al-shara-putin.html"
+      },
+      "predicate_source": {
+        "original": "Watch: Moment house drifts away from land as typhoon hits Alaska",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/videos/c07mndrgerpo?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "Raila Odinga , Champion of Kenyan Democracy and Former Prime Minister , Begin Burying Its Dead Hostages",
+      "subject_source": {
+        "original": "Raila Odinga, Champion of Kenyan Democracy and Former Prime Minister, Dies at 80",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/africa/raila-odinga-kenya-dead.html"
+      },
+      "predicate_source": {
+        "original": "Israel Begins Burying Its Dead Hostages",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/israel-hostages-funerals.html"
+      }
+    },
+    {
+      "headline": "A Repressive Russian Ally arrested 30 Christians . Some fear it 's the start of a bigger crackdown",
+      "subject_source": {
+        "original": "A Repressive Russian Ally Feels a Mysterious Thaw From the U.S.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/europe/belarus-us-trump-russia.html"
+      },
+      "predicate_source": {
+        "original": "China arrested 30 Christians. Some fear it's the start of a bigger crackdown",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cx2pez2vg8wo?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "Iran Sentences 2 French Citizens to Prison on Makes Brazen Escape in Guatemala",
+      "subject_source": {
+        "original": "Iran Sentences 2 French Citizens to Prison on Spying Charges",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/europe/iran-france-spying-charges.html"
+      },
+      "predicate_source": {
+        "original": "Inmates Make Brazen Escape in Guatemala",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/americas/guatemala-prison-escape.html"
+      }
+    },
+    {
+      "headline": "Vatican Panel becomes oldest woman to finish the Ironman World Championship",
+      "subject_source": {
+        "original": "Vatican Panel Says Church Is Still Too Slow in Addressing Sexual Abuse",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/world/europe/vatican-sexual-abuse-report.html"
+      },
+      "predicate_source": {
+        "original": "80-year-old grandmother becomes oldest woman to finish the Ironman World Championship",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/nx-s1-5575128/ironman-oldest-female-finisher-natalie-grabow"
+      }
+    },
+    {
+      "headline": "Armed With Anemones : How Some Young Fish says he authorized covert CIA operations in Venezuela as Maduro decries the move as ‘ coups d’etat ’",
+      "subject_source": {
+        "original": "Armed With Anemones: How Some Young Fish Survive in the Sea",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/science/marine-biology-blackwater-anemones-fishes.html"
+      },
+      "predicate_source": {
+        "original": "Trump says he authorized covert CIA operations in Venezuela as Maduro decries the move as ‘coups d’etat’",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/us-news/2025/oct/15/san-francisco-trump-national-guard-troops"
+        "link": "https://www.theguardian.com/us-news/2025/oct/15/trump-venezuela-cia-maduro"
       }
     },
     {
-      "headline": "Democratic governors decrying a ' woke ' military",
+      "headline": "Inside the Reporting on Assad ’s Top Officials Who coming soon with age verification , CEO says",
       "subject_source": {
-        "original": "Democratic governors form a public health alliance in a rebuke of Trump",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/g-s1-93582/governors-public-health-alliance-democrats-rfk-trump-hhs-cdc"
+        "original": "Inside the Reporting on Assad’s Top Officials Who Fled Syria",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/16/world/middleeast/assad-regime-officials-reporting.html"
       },
       "predicate_source": {
-        "original": "Hegseth orders troops to watch his speech decrying a 'woke' military",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5575528/hegseth-order-troops-quantico-speech"
+        "original": "ChatGPT erotica coming soon with age verification, CEO says",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/"
       }
     },
     {
-      "headline": "A celebration of the South 's rich — and messy — heritage , remain for aid distribution in Gaza City despite ceasefire with Israel",
+      "headline": "Hamas Says",
       "subject_source": {
-        "original": "A celebration of the South's rich — and messy — heritage, delivered on a plate",
-        "source": "NPR",
-        "link": "https://www.npr.org/2025/10/15/nx-s1-5558287/michael-twitty-cookbook-recipes-from-the-american-south"
+        "original": "Hamas Says It Has Returned All Hostage Remains It Can Recover",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/hamas-gaza-hostages-remains-israel.html"
       },
       "predicate_source": {
-        "original": "Challenges remain for aid distribution in Gaza City despite ceasefire with Israel",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/challenges-remain-for-aid-distribution-in-gaza-city-despite-ceasefire-with-israel"
+        "original": "To Meet Pledges to Save Forests Spending Must Triple, U.N. Report Says",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/climate/deforestation-united-nations-report.html"
       }
     },
     {
-      "headline": "African Union cuts to global aid fund could lead to 300,000 preventable deaths , say charities",
+      "headline": "Judge Offers to Delay Pension Overhaul , in a Bid to Calm Turmoil",
       "subject_source": {
-        "original": "African Union suspends Madagascar as military leader set to be sworn in as president",
-        "source": "The Guardian",
-        "link": "https://www.theguardian.com/world/2025/oct/15/madagascar-to-swear-in-military-leader-as-president-on-friday"
+        "original": "Judge Throws Out Children’s Lawsuit Against Trump’s Energy Policies",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/climate/montana-youth-trump-climate-lawsuit-dismissed.html"
       },
       "predicate_source": {
-        "original": "Proposed UK cuts to global aid fund could lead to 300,000 preventable deaths, say charities",
+        "original": "French Premier Offers to Delay Pension Overhaul, in a Bid to Calm Turmoil",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/europe/france-political-crisis-pension.html"
+      }
+    },
+    {
+      "headline": "Trump Changing an Entire Generation",
+      "subject_source": {
+        "original": "Trump Helped Argentina Face an Economic Meltdown. It Came At a Cost.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/americas/argentina-trump-javier-milei.html"
+      },
+      "predicate_source": {
+        "original": "Long Covid Is Real — And It’s Changing an Entire Generation",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/culture/culture-features/long-covid-kids-school-absenteeism-1235447552/"
+      }
+    },
+    {
+      "headline": "Trump Considers Overhaul of Refugee System That Would demands investigation into Google ’s AI Overviews",
+      "subject_source": {
+        "original": "Trump Considers Overhaul of Refugee System That Would Favor White People",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-refugee-white-people.html"
+      },
+      "predicate_source": {
+        "original": "Italian news publishers demand investigation into Google’s AI Overviews",
         "source": "The Guardian",
-        "link": "https://www.theguardian.com/politics/2025/oct/16/proposed-uk-cuts-global-aid-fund-preventable-deaths-charities"
+        "link": "https://www.theguardian.com/technology/2025/oct/16/google-ai-overviews-italian-news-publishers-demand-investigation"
+      }
+    },
+    {
+      "headline": "Trump Administration Helped Argentina Face an Economic Meltdown . It Came At a Cost .",
+      "subject_source": {
+        "original": "Trump Administration Authorizes Covert C.I.A. Action in Venezuela",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-covert-cia-action-venezuela.html"
+      },
+      "predicate_source": {
+        "original": "Trump Helped Argentina Face an Economic Meltdown. It Came At a Cost.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/americas/argentina-trump-javier-milei.html"
+      }
+    },
+    {
+      "headline": "Trump Allies Throw a Vampire Beach Music Fest in Los Angeles",
+      "subject_source": {
+        "original": "Trump Allies Push to Bolster Putin-Backed Balkans Leader",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/us/politics/trump-dodik-srpska-lobbying.html"
+      },
+      "predicate_source": {
+        "original": "Janelle Monáe’s Wondaween 2025 Will Throw a Vampire Beach Music Fest in Los Angeles",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-news/janelle-monae-wondaween-2025-los-angeles-1235448241/"
+      }
+    },
+    {
+      "headline": "U.S. to Take Control of More Companies as China ’s Rare Earth Dominance Attached",
+      "subject_source": {
+        "original": "U.S. to Take Control of More Companies as China’s Rare Earth Dominance Grows",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/us/politics/us-government-companies-china.html"
+      },
+      "predicate_source": {
+        "original": "Trump Dangles $20 Billion Lifeline for Argentina, With Strings Attached",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/us/politics/trump-argentina-leader-bailout.html"
+      }
+    },
+    {
+      "headline": "South Korea turned so bad so fast ' : Inside James Franklin 's Penn State departure",
+      "subject_source": {
+        "original": "South Korea Targets Cambodia’s Scam Industry After Kidnappings, Torture and a Death",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/asia/cambodia-south-korea-scams.html"
+      },
+      "predicate_source": {
+        "original": "'It all turned so bad so fast': Inside James Franklin's Penn State departure",
+        "source": "ESPN",
+        "link": "https://www.espn.com/college-football/story/_/id/46607047/college-football-james-franklin-departure-penn-state"
+      }
+    },
+    {
+      "headline": "Israel made Oscar Piastri a F1 title favorite",
+      "subject_source": {
+        "original": "Israel Begins Burying Its Dead Hostages",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/middleeast/israel-hostages-funerals.html"
+      },
+      "predicate_source": {
+        "original": "Talent, emotional intelligence and a lifetime of sacrifice have made Oscar Piastri a F1 title favorite",
+        "source": "ESPN",
+        "link": "https://www.espn.com/racing/f1/story/_/id/46603686/emotional-intelligence-talent-make-mclaren-oscar-piastri-f1-title-favorite"
+      }
+    },
+    {
+      "headline": "Trump ’s Tariff Fight With China identifies one player they feel differently about compared with common narrative",
+      "subject_source": {
+        "original": "Trump’s Tariff Fight With China Means Trouble for a Vast Wilderness in Brazil",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/climate/china-brazil-soybeans-trade-midwest-amazon.html"
+      },
+      "predicate_source": {
+        "original": "Experts identify one player they feel differently about compared with common narrative",
+        "source": "ESPN",
+        "link": "https://www.espn.com/fantasy/basketball/story/_/id/46608002/fantasy-basketball-experts-pinpoint-one-player-feel-differently-compared-crowd"
+      }
+    },
+    {
+      "headline": "London missing still seeking justice",
+      "subject_source": {
+        "original": "London Became a Global Hub for Phone Theft. Now We Know Why.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/15/world/europe/london-police-phone-theft-china-gang.html"
+      },
+      "predicate_source": {
+        "original": "Months after fall of Assad, families of Syria's missing still seeking justice",
+        "source": "BBC News",
+        "link": "https://www.bbc.com/news/articles/cj07p5zm229o?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "headline": "Inmates Accus Antiwar Exiles of Terrorism",
+      "subject_source": {
+        "original": "Inmates Make Brazen Escape in Guatemala",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/americas/guatemala-prison-escape.html"
+      },
+      "predicate_source": {
+        "original": "Russia Accuses Antiwar Exiles of Terrorism",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/europe/russia-antiwar-ukraine-terrorism.html"
+      }
+    },
+    {
+      "headline": "Bangladesh Garment Factory Fire Kills at Least 16 , Official says he ’s using AI to improve “ decision - making ”",
+      "subject_source": {
+        "original": "Bangladesh Garment Factory Fire Kills at Least 16, Official Says",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/asia/bangladesh-garment-factory-fire.html"
+      },
+      "predicate_source": {
+        "original": "Army general says he’s using AI to improve “decision-making”",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2025/10/army-general-says-hes-using-ai-to-improve-decision-making/"
+      }
+    },
+    {
+      "headline": "French Premier says those with broadest shoulders should pay fair share of tax",
+      "subject_source": {
+        "original": "French Premier Offers to Delay Pension Overhaul, in a Bid to Calm Turmoil",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/europe/france-political-crisis-pension.html"
+      },
+      "predicate_source": {
+        "original": "Rachel Reeves says those with broadest shoulders should pay fair share of tax",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/politics/2025/oct/16/rachel-reeves-says-those-broadest-shoulders-should-pay-fair-share-tax"
+      }
+    },
+    {
+      "headline": "China starting QBs with new teams : The good , the bad and what comes next",
+      "subject_source": {
+        "original": "China Wants Foreign Scientists. The Public Says No, Thanks.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/asia/china-stem-visa-racist-backlash.html"
+      },
+      "predicate_source": {
+        "original": "Checking in on five NFL starting QBs with new teams: The good, the bad and what comes next",
+        "source": "ESPN",
+        "link": "https://www.espn.com/nfl/story/_/id/46603629/nfl-quarterbacks-2025-season-free-agents-trades-darnold-fields-jones-rodgers-smith"
+      }
+    },
+    {
+      "headline": "Russia trapped in El Fasher siege on ‘ edge of survival ’ , says report",
+      "subject_source": {
+        "original": "Russia Accuses Antiwar Exiles of Terrorism",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/europe/russia-antiwar-ukraine-terrorism.html"
+      },
+      "predicate_source": {
+        "original": "Thousands trapped in El Fasher siege on ‘edge of survival’, says report",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/global-development/2025/oct/15/thousands-trapped-in-el-fasher-sudan-siege-on-edge-of-survival-says-report-rsf"
+      }
+    },
+    {
+      "headline": "To Meet Pledges to Save Forests Spending Must Triple , U.N. Report rankings : Missouri makes move with fall signings",
+      "subject_source": {
+        "original": "To Meet Pledges to Save Forests Spending Must Triple, U.N. Report Says",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/climate/deforestation-united-nations-report.html"
+      },
+      "predicate_source": {
+        "original": "2026 class rankings: Missouri makes move with fall signings",
+        "source": "ESPN",
+        "link": "https://www.espn.com/college-football/recruiting/story/_/id/44574905/2026-college-football-recruiting-class-rankings-top-teams-schools"
+      }
+    },
+    {
+      "headline": "Trump Dangles $ 20 Billion Lifeline for Argentina , With Strings Say",
+      "subject_source": {
+        "original": "Trump Dangles $20 Billion Lifeline for Argentina, With Strings Attached",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/us/politics/trump-argentina-leader-bailout.html"
+      },
+      "predicate_source": {
+        "original": "Bangladesh Garment Factory Fire Kills at Least 16, Official Says",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2025/10/14/world/asia/bangladesh-garment-factory-fire.html"
+      }
+    },
+    {
+      "headline": "Some of the things Gaza died by suicide",
+      "subject_source": {
+        "original": "Some of the things Gaza needs: A government, security and tools to rebuild",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93590/gaza-reconstruction-government"
+      },
+      "predicate_source": {
+        "original": "Coroner: Former champ Hatton died by suicide",
+        "source": "ESPN",
+        "link": "https://www.espn.com/boxing/story/_/id/46612556/ricky-hatton-died-suicide-coroner-court-told"
+      }
+    },
+    {
+      "headline": "Trump tearing up the Bundesliga at Bayern Munich . What 's next for England 's No . 9 ?",
+      "subject_source": {
+        "original": "Trump escalates pressure on Venezuelan drug trade. And, judge pauses shutdown layoffs",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93685/up-first-newsletter-venezuelan-boat-strikes-shutdown-layoffs-paused-military-pay"
+      },
+      "predicate_source": {
+        "original": "Harry Kane is tearing up the Bundesliga at Bayern Munich. What's next for England's No. 9?",
+        "source": "ESPN",
+        "link": "https://www.espn.com/soccer/story/_/id/46595771/how-harry-kane-tearing-bundesliga-bayern-munich-england-striker"
+      }
+    },
+    {
+      "headline": "Targets of Trump 's Justice Department must killed two Trinidad citizens , police say",
+      "subject_source": {
+        "original": "Targets of Trump's Justice Department must pay up, even if they win",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/g-s1-93593/trump-justice-targets-prosecution-costs"
+      },
+      "predicate_source": {
+        "original": "US airstrike near Venezuela may have killed two Trinidad citizens, police say",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/airstrike-venezuela-trinidad-us-death-investigation"
+      }
+    },
+    {
+      "headline": "80 - year - old grandmother Reveals Her Cause of Death",
+      "subject_source": {
+        "original": "80-year-old grandmother becomes oldest woman to finish the Ironman World Championship",
+        "source": "NPR",
+        "link": "https://www.npr.org/2025/10/16/nx-s1-5575128/ironman-oldest-female-finisher-natalie-grabow"
+      },
+      "predicate_source": {
+        "original": "Diane Keaton’s Family Reveals Her Cause of Death",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/tv-movies/tv-movie-news/diane-keaton-cause-of-death-1235448291/"
+      }
+    },
+    {
+      "headline": "' Death fold ' proteins can dy aged 92",
+      "subject_source": {
+        "original": "'Death fold' proteins can make cells self-destruct. Scientists want to control them",
+        "source": "NPR",
+        "link": "https://www.npr.org/sections/shots-health-news/2025/10/16/nx-s1-5575582/death-fold-proteins-apoptosis-alzheimers-cancer"
+      },
+      "predicate_source": {
+        "original": "Last surviving member of first team to conquer Everest dies aged 92",
+        "source": "The Guardian",
+        "link": "https://www.theguardian.com/world/2025/oct/16/kanchha-sherpa-last-surviving-member-of-first-team-to-reach-mount-everest-summit-dies"
       }
     }
   ]
