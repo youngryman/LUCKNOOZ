@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-LuckNooz V13.4 - spaCy-Based Verb Detection
-Fetches news headlines, splits at first verb using spaCy NLP, and creates remixed headlines
+LuckNooz V13.5 - spaCy + LemmInflect Hybrid
+Fetches news headlines, splits at first verb using spaCy structure + LemmInflect verb database
 """
 
 import feedparser
@@ -20,6 +20,14 @@ except OSError:
     subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
     nlp = spacy.load("en_core_web_sm")
 
+# Import LemmInflect and add to spaCy pipeline
+try:
+    import lemminflect
+except ImportError:
+    print("Installing lemminflect...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "lemminflect"])
+    import lemminflect
+
 # RSS Feeds to scrape with display names
 FEEDS = [
     {'url': 'https://feeds.bbci.co.uk/news/world/rss.xml', 'name': 'BBC News'},
@@ -34,21 +42,30 @@ FEEDS = [
 # Question words that indicate headlines to skip
 QUESTION_WORDS = {'why', 'what', 'when', 'where', 'who', 'how', 'which', 'whose'}
 
-# Never treat these as verbs (even if spaCy tags them as such)
+# Never treat these as verbs
 NEVER_VERBS = {
     'news', 'report', 'update', 'story', 'article', 'poll', 'data',
     'study', 'research', 'analysis', 'review', 'survey', 'alert',
-    'wins', 'calls', 'wounded', 'targeted'
+    'wins', 'calls', 'wounded', 'targeted', 'attached'
 }
 
 
 def find_first_verb(headline):
-    """Find the first verb in a headline using spaCy NLP."""
+    """Find the first verb using spaCy structure + LemmInflect verification."""
     
     # Skip question headlines
     first_word = headline.split()[0] if headline.split() else ''
     if first_word.lower().rstrip(',:;?!') in QUESTION_WORDS:
         return None
+    
+    words = headline.split()
+    
+    # Skip if headline ends with common verb (creates nonsense)
+    if len(words) > 0:
+        last_word_lower = words[-1].lower().rstrip(',.!?;:')
+        common_ending_verbs = {'say', 'says', 'said', 'attached', 'included', 'reported'}
+        if last_word_lower in common_ending_verbs:
+            return None
     
     # Process with spaCy
     try:
@@ -60,55 +77,48 @@ def find_first_verb(headline):
     # Look for first verb (start from token 1 to ensure subject has at least 1 word)
     for i in range(1, len(doc)):
         token = doc[i]
-        
-        # Skip if not a verb according to spaCy
-        if token.pos_ != "VERB":
-            continue
-        
         word = token.text
-        word_lower = token.lemma_.lower()
+        word_lower = word.lower().rstrip(',.!?;:')
         
         # Skip never-verbs
-        if word_lower in NEVER_VERBS or word.lower() in NEVER_VERBS:
+        if word_lower in NEVER_VERBS:
             continue
         
-        # Skip auxiliary/modal verbs that are just helping main verbs
-        if token.dep_ in ["aux", "auxpass"]:
-            continue
-        
-        # Skip if this is part of an infinitive phrase ("to verb")
+        # Skip if this is "to" + infinitive
         if i > 0 and doc[i-1].text.lower() == "to":
             continue
         
-        # Check if this is an adjective disguised as a verb (participle modifying a noun)
-        # Example: "winning singer" - "winning" modifies "singer"
-        if token.tag_ in ["VBG", "VBN"]:  # Gerund or past participle
-            # Check if it's modifying the next noun
-            if i < len(doc) - 1:
-                next_token = doc[i + 1]
-                if next_token.pos_ in ["NOUN", "PROPN"]:
-                    # Check dependency - if it's amod (adjectival modifier), skip it
-                    if token.dep_ == "amod":
+        # Check if this is actually a verb using LemmInflect
+        # LemmInflect can tell us if a word has verb forms
+        from lemminflect import getLemma
+        
+        # Try to get lemma as a VERB
+        lemmas = getLemma(word, upos='VERB')
+        
+        # If LemmInflect recognizes it as a verb, it's likely a verb
+        if lemmas and len(lemmas) > 0:
+            # Additional check: skip if it's clearly an adjective modifying a noun
+            if token.pos_ in ["VERB"] or token.tag_.startswith('VB'):
+                # Check if it's a participle modifying the next noun
+                if token.tag_ in ["VBG", "VBN"] and i < len(doc) - 1:
+                    next_token = doc[i + 1]
+                    if next_token.pos_ in ["NOUN", "PROPN"] and token.dep_ == "amod":
                         continue
-        
-        # Found a valid verb!
-        # Split headline at this verb
-        subject_tokens = doc[:i]
-        predicate_tokens = doc[i:]
-        
-        subject = " ".join([t.text for t in subject_tokens])
-        predicate = " ".join([t.text for t in predicate_tokens])
-        
-        # Get verb tense for later conjugation
-        verb_tense = token.tag_  # VBZ, VBD, VBP, VB, etc.
-        
-        return {
-            'subject': subject,
-            'predicate': predicate,
-            'verb': word,
-            'verb_tense': verb_tense,
-            'verb_lemma': token.lemma_
-        }
+                
+                # Found a valid verb!
+                subject_tokens = doc[:i]
+                predicate_tokens = doc[i:]
+                
+                subject = " ".join([t.text for t in subject_tokens])
+                predicate = " ".join([t.text for t in predicate_tokens])
+                
+                return {
+                    'subject': subject,
+                    'predicate': predicate,
+                    'verb': word,
+                    'verb_lemma': lemmas[0],
+                    'verb_tag': token.tag_
+                }
     
     return None
 
@@ -137,7 +147,7 @@ def is_plural(subject):
     
     # Fallback: check for plural indicators
     subject_lower = subject.lower().strip()
-    plural_indicators = ['several', 'many', 'both', 'all', 'some', 'most', 'few']
+    plural_indicators = ['several', 'many', 'both', 'all', 'some', 'most', 'few', 'these', 'those']
     for indicator in plural_indicators:
         if subject_lower.startswith(indicator + ' '):
             return True
@@ -145,46 +155,60 @@ def is_plural(subject):
     return False
 
 
-def conjugate_verb(verb, verb_tense, verb_lemma, subject_is_plural):
-    """Conjugate a verb to match subject number, preserving tense."""
-    verb_lower = verb.lower()
+def conjugate_verb(verb, verb_lemma, verb_tag, subject_is_plural):
+    """Conjugate a verb using LemmInflect to match subject number and preserve tense."""
+    from lemminflect import getInflection
     
-    # Handle "to be" specially - match both number and tense
-    if verb_lemma in ['be', 'are', 'is', 'was', 'were']:
-        if verb_tense in ['VBD', 'VBN']:  # Past tense
-            return 'were' if subject_is_plural else 'was'
-        else:  # Present tense
-            return 'are' if subject_is_plural else 'is'
+    # Determine target tag based on original verb tense and subject number
+    target_tag = None
     
-    # If verb is past tense (VBD) or past participle (VBN), keep it unchanged
-    if verb_tense in ['VBD', 'VBN']:
+    # Past tense verbs (VBD, VBN)
+    if verb_tag in ['VBD']:
+        # Past tense stays past tense
         return verb
     
-    # If verb is gerund (VBG), keep it unchanged
-    if verb_tense == 'VBG':
+    # Past participle (VBN) - used in perfect/passive constructions
+    if verb_tag == 'VBN':
         return verb
     
-    # Present tense conjugation
-    if subject_is_plural:
-        # Plural subjects use base form
-        # If verb ends in -s/-es, remove it
-        if verb_lower.endswith('ies'):
-            return verb[:-3] + 'y'
-        if verb_lower.endswith('es'):
-            return verb[:-2]
-        if verb_lower.endswith('s') and not verb_lower.endswith('ss'):
-            return verb[:-1]
+    # Gerund/Present participle (VBG)
+    if verb_tag == 'VBG':
         return verb
-    else:
-        # Singular subjects need -s/-es
-        if not verb_lower.endswith('s'):
-            if verb_lower.endswith(('ch', 'sh', 'x', 'z', 'o')):
-                return verb + 'es'
-            if verb_lower.endswith('y') and len(verb_lower) > 1:
-                if verb_lower[-2] not in 'aeiou':
-                    return verb[:-1] + 'ies'
-            return verb + 's'
-        return verb
+    
+    # Base form (VB)
+    if verb_tag == 'VB':
+        # Use base form for plural, add -s/-es for singular
+        if subject_is_plural:
+            return verb
+        else:
+            target_tag = 'VBZ'
+    
+    # Present tense, 3rd person singular (VBZ)
+    if verb_tag == 'VBZ':
+        if subject_is_plural:
+            # Convert to base form (VB)
+            target_tag = 'VB'
+        else:
+            # Keep as VBZ
+            return verb
+    
+    # Present tense, non-3rd person (VBP)
+    if verb_tag == 'VBP':
+        if subject_is_plural:
+            # Keep as base/plural form
+            return verb
+        else:
+            # Convert to 3rd person singular
+            target_tag = 'VBZ'
+    
+    # Use LemmInflect to get the correct conjugation
+    if target_tag:
+        inflections = getInflection(verb_lemma, tag=target_tag)
+        if inflections and len(inflections) > 0:
+            return inflections[0]
+    
+    # Fallback: return original verb
+    return verb
 
 
 def fetch_headlines():
@@ -246,12 +270,12 @@ def remix_headlines(headlines, count=50):
         subject = subject_obj['subject']
         predicate = predicate_obj['predicate']
         verb = predicate_obj['verb']
-        verb_tense = predicate_obj['verb_tense']
         verb_lemma = predicate_obj['verb_lemma']
+        verb_tag = predicate_obj['verb_tag']
         
         # Conjugate verb to match new subject
         subject_is_plural = is_plural(subject)
-        conjugated_verb = conjugate_verb(verb, verb_tense, verb_lemma, subject_is_plural)
+        conjugated_verb = conjugate_verb(verb, verb_lemma, verb_tag, subject_is_plural)
         
         # Replace first word of predicate (the verb) with conjugated version
         pred_words = predicate.split()
@@ -280,7 +304,7 @@ def remix_headlines(headlines, count=50):
 
 def main():
     """Main function to fetch, process, and save headlines."""
-    print("LuckNooz V13.4 - spaCy-Based Verb Detection")
+    print("LuckNooz V13.5 - spaCy + LemmInflect Hybrid")
     print("=" * 50)
     
     # Fetch headlines
@@ -299,7 +323,7 @@ def main():
     # Prepare output
     output = {
         'generated_at': datetime.now().isoformat(),
-        'version': '13.4',
+        'version': '13.5',
         'count': len(remixed),
         'headlines': remixed
     }
