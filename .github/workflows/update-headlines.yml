@@ -21,7 +21,8 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install feedparser nltk
+        pip install feedparser spacy
+        python -m spacy download en_core_web_sm
     
     - name: Run headline generator
       run: |
