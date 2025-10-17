@@ -1,8 +1,7 @@
-
 #!/usr/bin/env python3
 """
-LuckNooz V13.6 - Simplified Feeds (6 Traditional News Sources)
-Fetches news headlines from BBC, NPR, Guardian, Reuters, Al Jazeera, CNN
+LuckNooz V13.7 - Tense Matching Improvement
+Matches predicate verb tense to subject verb tense for grammatical consistency
 """
 
 import feedparser
@@ -90,7 +89,6 @@ def find_first_verb(headline):
             continue
         
         # Check if this is actually a verb using LemmInflect
-        # LemmInflect can tell us if a word has verb forms
         from lemminflect import getLemma
         
         # Try to get lemma as a VERB
@@ -156,60 +154,74 @@ def is_plural(subject):
     return False
 
 
-def conjugate_verb(verb, verb_lemma, verb_tag, subject_is_plural):
-    """Conjugate a verb using LemmInflect to match subject number and preserve tense."""
+def conjugate_verb(predicate_verb, predicate_verb_lemma, predicate_verb_tag, 
+                   subject_verb_tag, new_subject_is_plural):
+    """
+    Conjugate predicate verb to match subject verb's tense and new subject's number.
+    
+    Args:
+        predicate_verb: The original predicate verb word
+        predicate_verb_lemma: Lemma of predicate verb
+        predicate_verb_tag: Original tag of predicate verb
+        subject_verb_tag: Tag of the subject verb (to match tense)
+        new_subject_is_plural: Whether the new subject is plural
+    
+    Returns:
+        Conjugated verb matching subject tense and new subject number
+    """
     from lemminflect import getInflection
     
-    # Determine target tag based on original verb tense and subject number
+    # Map verb tags to tense categories
+    # VB = base form, VBD = past, VBG = gerund, VBN = past participle
+    # VBP = present non-3rd, VBZ = present 3rd singular
+    
+    # Determine target tense from SUBJECT verb
+    target_tense = None
+    
+    if subject_verb_tag in ['VBD', 'VBN']:
+        # Subject is past tense → predicate should be past tense
+        target_tense = 'past'
+    elif subject_verb_tag in ['VBZ', 'VBP', 'VB']:
+        # Subject is present tense → predicate should be present tense
+        target_tense = 'present'
+    elif subject_verb_tag == 'VBG':
+        # Subject is gerund → keep predicate as gerund
+        target_tense = 'gerund'
+    else:
+        # Default to present
+        target_tense = 'present'
+    
+    # Special handling for "to be"
+    if predicate_verb_lemma in ['be', 'is', 'are', 'was', 'were', 'am']:
+        if target_tense == 'past':
+            return 'were' if new_subject_is_plural else 'was'
+        elif target_tense == 'present':
+            return 'are' if new_subject_is_plural else 'is'
+    
+    # Determine target tag based on tense and number
     target_tag = None
     
-    # Past tense verbs (VBD, VBN)
-    if verb_tag in ['VBD']:
-        # Past tense stays past tense
-        return verb
-    
-    # Past participle (VBN) - used in perfect/passive constructions
-    if verb_tag == 'VBN':
-        return verb
-    
-    # Gerund/Present participle (VBG)
-    if verb_tag == 'VBG':
-        return verb
-    
-    # Base form (VB)
-    if verb_tag == 'VB':
-        # Use base form for plural, add -s/-es for singular
-        if subject_is_plural:
-            return verb
+    if target_tense == 'past':
+        # Past tense (same for singular and plural)
+        target_tag = 'VBD'
+    elif target_tense == 'gerund':
+        # Keep as gerund
+        return predicate_verb
+    elif target_tense == 'present':
+        # Present tense - adjust for number
+        if new_subject_is_plural:
+            target_tag = 'VBP'  # Present non-3rd person (base form for plural)
         else:
-            target_tag = 'VBZ'
-    
-    # Present tense, 3rd person singular (VBZ)
-    if verb_tag == 'VBZ':
-        if subject_is_plural:
-            # Convert to base form (VB)
-            target_tag = 'VB'
-        else:
-            # Keep as VBZ
-            return verb
-    
-    # Present tense, non-3rd person (VBP)
-    if verb_tag == 'VBP':
-        if subject_is_plural:
-            # Keep as base/plural form
-            return verb
-        else:
-            # Convert to 3rd person singular
-            target_tag = 'VBZ'
+            target_tag = 'VBZ'  # Present 3rd person singular
     
     # Use LemmInflect to get the correct conjugation
     if target_tag:
-        inflections = getInflection(verb_lemma, tag=target_tag)
+        inflections = getInflection(predicate_verb_lemma, tag=target_tag)
         if inflections and len(inflections) > 0:
             return inflections[0]
     
     # Fallback: return original verb
-    return verb
+    return predicate_verb
 
 
 def fetch_headlines():
@@ -270,13 +282,26 @@ def remix_headlines(headlines, count=50):
         
         subject = subject_obj['subject']
         predicate = predicate_obj['predicate']
-        verb = predicate_obj['verb']
-        verb_lemma = predicate_obj['verb_lemma']
-        verb_tag = predicate_obj['verb_tag']
         
-        # Conjugate verb to match new subject
-        subject_is_plural = is_plural(subject)
-        conjugated_verb = conjugate_verb(verb, verb_lemma, verb_tag, subject_is_plural)
+        # Get subject verb info (for tense matching)
+        subject_verb_tag = subject_obj['verb_tag']
+        
+        # Get predicate verb info
+        predicate_verb = predicate_obj['verb']
+        predicate_verb_lemma = predicate_obj['verb_lemma']
+        predicate_verb_tag = predicate_obj['verb_tag']
+        
+        # Determine if new subject is plural
+        new_subject_is_plural = is_plural(subject)
+        
+        # Conjugate predicate verb to match SUBJECT VERB TENSE and NEW SUBJECT NUMBER
+        conjugated_verb = conjugate_verb(
+            predicate_verb, 
+            predicate_verb_lemma, 
+            predicate_verb_tag,
+            subject_verb_tag,  # NEW: Pass subject verb tag for tense matching
+            new_subject_is_plural
+        )
         
         # Replace first word of predicate (the verb) with conjugated version
         pred_words = predicate.split()
@@ -305,7 +330,7 @@ def remix_headlines(headlines, count=50):
 
 def main():
     """Main function to fetch, process, and save headlines."""
-    print("LuckNooz V13.6 - Simplified Feeds (6 Traditional Sources)")
+    print("LuckNooz V13.7 - Tense Matching Improvement")
     print("=" * 50)
     
     # Fetch headlines
@@ -324,7 +349,7 @@ def main():
     # Prepare output
     output = {
         'generated_at': datetime.now().isoformat(),
-        'version': '13.6',
+        'version': '13.7',
         'count': len(remixed),
         'headlines': remixed
     }
