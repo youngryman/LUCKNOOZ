@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-LuckNooz V13.7 - Tense Matching Improvement
-Matches predicate verb tense to subject verb tense for grammatical consistency
+LuckNooz V13.8 - Improved Past Participle Filtering
+Better distinguishes adjectival participles from verbs in past tense
 """
 
 import feedparser
@@ -74,6 +74,9 @@ def find_first_verb(headline):
         print(f"Error processing headline: {headline[:50]}... - {e}")
         return None
     
+    # Prepositions that often follow adjectival participles
+    prep_indicators = {'with', 'by', 'in', 'for', 'of', 'from', 'to', 'at', 'on', 'over', 'after'}
+    
     # Look for first verb (start from token 1 to ensure subject has at least 1 word)
     for i in range(1, len(doc)):
         token = doc[i]
@@ -98,7 +101,42 @@ def find_first_verb(headline):
         if lemmas and len(lemmas) > 0:
             # Additional check: skip if it's clearly an adjective modifying a noun
             if token.pos_ in ["VERB"] or token.tag_.startswith('VB'):
-                # Check if it's a participle modifying the next noun
+                
+                # ENHANCED CHECK FOR PAST PARTICIPLES (VBN) USED AS ADJECTIVES
+                if token.tag_ == 'VBN':
+                    # Check 1: Dependency is adjectival modifier
+                    if token.dep_ in ['amod', 'acl', 'acomp']:
+                        continue
+                    
+                    # Check 2: Followed by a preposition (common pattern for adjectival use)
+                    if i < len(doc) - 1:
+                        next_token = doc[i + 1]
+                        if next_token.text.lower() in prep_indicators:
+                            # This is likely "charged with", "banned from", etc. - adjectival
+                            continue
+                    
+                    # Check 3: Previous token is a noun (pattern: "Noun + VBN + preposition")
+                    if i > 0:
+                        prev_token = doc[i - 1]
+                        if prev_token.pos_ in ['NOUN', 'PROPN']:
+                            # Check if next token is preposition
+                            if i < len(doc) - 1:
+                                next_token = doc[i + 1]
+                                if next_token.text.lower() in prep_indicators:
+                                    # Pattern like "adviser charged with" - skip
+                                    continue
+                    
+                    # Check 4: Part of reduced relative clause
+                    # Pattern: "Adjective/Determiner + Noun + VBN"
+                    if i > 1:
+                        prev_prev_token = doc[i - 2]
+                        prev_token = doc[i - 1]
+                        if (prev_prev_token.pos_ in ['ADJ', 'DET'] and 
+                            prev_token.pos_ in ['NOUN', 'PROPN']):
+                            # Pattern like "Former adviser charged" - likely adjectival
+                            continue
+                
+                # Check for VBG/VBN participles modifying next noun
                 if token.tag_ in ["VBG", "VBN"] and i < len(doc) - 1:
                     next_token = doc[i + 1]
                     if next_token.pos_ in ["NOUN", "PROPN"] and token.dep_ == "amod":
@@ -330,7 +368,7 @@ def remix_headlines(headlines, count=50):
 
 def main():
     """Main function to fetch, process, and save headlines."""
-    print("LuckNooz V13.7 - Tense Matching Improvement")
+    print("LuckNooz V13.8 - Improved Past Participle Filtering")
     print("=" * 50)
     
     # Fetch headlines
@@ -349,7 +387,7 @@ def main():
     # Prepare output
     output = {
         'generated_at': datetime.now().isoformat(),
-        'version': '13.7',
+        'version': '13.8',
         'count': len(remixed),
         'headlines': remixed
     }
