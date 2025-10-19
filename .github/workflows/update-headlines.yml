@@ -21,7 +21,12 @@ jobs:
     
     - name: Install dependencies
       run: |
+<<<<<<< HEAD
         pip install feedparser
+=======
+        pip install feedparser spacy
+        python -m spacy download en_core_web_sm
+>>>>>>> 6ecb2b2192f59895e0c0a1e5d530bd07eb7f4da1
     
     - name: Run headline generator
       run: |
